@@ -1,0 +1,930 @@
+{
+  "questions": [
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/26883866",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37794186"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26883866",
+          "text": "Blood group antigen loci demonstrate multivariate genetic associations with circulating cellular adhesion protein levels in the Multi-Ethnic Study of Atherosclerosis.. The cellular adhesion pathway is critical in the pathophysiology of atheroscler...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": -0.7217893162882258,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37794186",
+          "text": "Plasma proteomic associations with genetics and health in the UK Biobank.. The Pharma Proteomics Project is a precompetitive biopharmaceutical consortium characterizing the plasma proteomic profiles of 54,219 UK Biobank participants. Here we provi...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": -0.8877129294649323,
+          "rerank_position": 2
+        }
+      ],
+      "id": "67e6ce6e18b1e36f2e0000cf",
+      "type": "factoid",
+      "body": "How many primary genetic associations were identified through pQTL mapping within the Pharma Proteomics Project?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39241211",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39442371",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39652577",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39377773",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38402929",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39660834",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39869433"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39241211",
+          "text": "Imlunestrant, an Oral Selective Estrogen Receptor Degrader, as Monotherapy and in Combination With Targeted Therapy in Estrogen Receptor-Positive, Human Epidermal Growth Factor Receptor 2-Negative Advanced Breast Cancer: Phase Ia/Ib EMBER Study.. ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 4.01668651228412,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39442371",
+          "text": "Imlunestrant, an oral selective estrogen receptor degrader, as monotherapy and combined with abemaciclib, in recurrent/advanced ER-positive endometrioid endometrial cancer: Results from the phase 1a/1b EMBER study.. OBJECTIVE: Imlunestrant is a ne...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 3.952993069586042,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39652577",
+          "text": "Imlunestrant Is an Oral, Brain-Penetrant Selective Estrogen Receptor Degrader with Potent Antitumor Activity in ESR1 Wild-Type and Mutant Breast Cancer.. Targeting of the estrogen receptor (ER) by antiestrogens is the standard of care for patients...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 3.889710825488556,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39377773",
+          "text": "A Preoperative Window-of-Opportunity Study of Oral SERD, Imlunestrant, in Newly Diagnosed ER-Positive, HER2-Negative Early Breast Cancer: Results from the EMBER-2 Study.. PURPOSE: Imlunestrant is an oral selective estrogen receptor degrader with f...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 3.707905989779204,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38402929",
+          "text": "Pharmacological insights on novel oral selective estrogen receptor degraders in breast cancer.. The therapeutic landscape of estrogen receptor (ER)-positive breast cancer includes endocrine treatments with aromatase inhibitors (AIs), selective est...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 3.538444272072151,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39660834",
+          "text": "Imlunestrant with or without Abemaciclib in Advanced Breast Cancer.. BACKGROUND: Imlunestrant is a next-generation, brain-penetrant, oral selective estrogen-receptor (ER) degrader that delivers continuous ER inhibition, even in cancers with mutati...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 3.0963248113983743,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39869433",
+          "text": "New Oral Selective Estrogen Receptor Degraders Redefine Management of Estrogen Receptor-Positive Breast Cancer.. Oral selective estrogen receptor degraders (SERDs) are pure estrogen receptor antagonists that have the potential to overcome common r...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 2.644619046922537,
+          "rerank_position": 7
+        }
+      ],
+      "id": "67e6a05c18b1e36f2e0000b8",
+      "type": "summary",
+      "body": "What is the mechanism of action of Imlunestrant?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/8286292",
+        "http://www.ncbi.nlm.nih.gov/pubmed/22885491",
+        "http://www.ncbi.nlm.nih.gov/pubmed/6576283",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32149979",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29077682",
+        "http://www.ncbi.nlm.nih.gov/pubmed/20822842",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33739661",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25662429",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25483443",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25483447"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/8286292",
+          "text": "The compressible silicone rubber prosthesis in temporomandibular joint disease.. An alternative technique for temporomandibular joint arthroplasty is described, in which the mandibular condyle is replaced by a soft compressible silicone rubber pro...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 21.796419490208706,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/22885491",
+          "text": "[A primary application and evaluation of temporomandibular joint replacement with stock prosthesis].. PURPOSE: To evaluate the effect of total joint replacement in treatment of temporomandibular joint(TMJ) osteoarthropathy with stock prostheses. M...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 21.272162231883424,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/6576283",
+          "text": "Interpositional arthroplasty for ankylosis of the temporomandibular joint.. The relevant literature relating to the etiology and treatment of intra-articular ankylosis of the temporomandibular joint is reviewed, and three cases of ankylosis (one u...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 21.160128664802652,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32149979",
+          "text": "Total Joint Replacement After Condylar Destruction Secondary to Long-Standing Dislocation of the Temporomandibular Joint.. BACKGROUND: To describe the treatment of 2 long-standing chronic dislocation of the temporomandibular joints (TMJs) and 1 ch...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 20.31245538851805,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/29077682",
+          "text": "One-Stage Treatment of Giant Condylar Osteoma: Alloplastic Total Temporomandibular Joint Replacement Aided by Digital Templates.. OBJECTIVES: To introduce the surgical techniques and evaluate the effect of alloplastic total temporomandibular joint...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 19.677341443156468,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/20822842",
+          "text": "Management of the infected temporomandibular joint total joint prosthesis.. PURPOSE: Patients with specific temporomandibular joint (TMJ) conditions and pathology may benefit from TMJ reconstruction by use of total joint prostheses. A potential ri...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 19.462783870383255,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33739661",
+          "text": "[Temporomandibular joint prostheses].. Temporomandibular joint prosthesis. The temporomandibular joint can be affected by end-stage pathology such as arthritic disease, trauma, ankylosis. The main debilitating symptoms results in limited mouth ope...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 19.398652112033233,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25662429",
+          "text": "Condylar hyperplasia following unilateral temporomandibular joint replacement.. Total joint replacement of the temporomandibular joint (TJR) can be associated with intraoperative and postoperative complications. We report herein the occurrence of ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 19.13813822602297,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25483443",
+          "text": "Protocol for concomitant temporomandibular joint custom-fitted total joint reconstruction and orthognathic surgery using computer-assisted surgical simulation.. Combined orthognathic and total joint reconstruction cases can be predictably performe...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 19.017280083447456,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25483447",
+          "text": "Complications of TMJ surgery.. Temporomandibular joint (TMJ) surgery can be divided into 3 types of surgery: Arthroscopy, arthroplasty, and total joint replacement. The complications associated with these procedures increase with complexity. They ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 18.961420147964734,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67e12bc718b1e36f2e00006e",
+      "type": "yesno",
+      "body": "Can the temporomandibular joint be successfully replaced?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/30118945",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35598819",
+        "http://www.ncbi.nlm.nih.gov/pubmed/10229783",
+        "http://www.ncbi.nlm.nih.gov/pubmed/23328446",
+        "http://www.ncbi.nlm.nih.gov/pubmed/21511342",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30711867",
+        "http://www.ncbi.nlm.nih.gov/pubmed/24157392",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35567906",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27273376",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25684692"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30118945",
+          "text": "Prenatal maternal anxiety and children's brain structure and function: A systematic review of neuroimaging studies.. BACKGROUND: Maternal anxiety disorders are common during pregnancy and postpartum, and are associated with increased behaviour pro...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 34.08191098764647,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35598819",
+          "text": "Resting-state functional connectivity correlates of anxiety co-morbidity in major depressive disorder.. Major depressive disorder (MDD) is frequently co-morbid with anxiety disorders. The co-morbid state has poorer functional outcomes and greater ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 30.58730852750189,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/10229783",
+          "text": "Neuroimaging Findings in Anxiety Disorders.. Individuals with severe anxiety have long sought a physical basis for their symptoms. There is increasing evidence to suggest brain abnormalities as the primary mechanism responsible for pathological an...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 30.109766611187545,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/23328446",
+          "text": "Cortical thickness alterations in social anxiety disorder.. Social anxiety disorder (SAD) has been associated with aberrant processing of socio-emotional stimuli and failure to adaptively regulate emotion, corroborated by functional neuroimaging s...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 29.746462613717426,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/21511342",
+          "text": "Gray matter abnormalities in Major Depressive Disorder: a meta-analysis of voxel based morphometry studies.. BACKGROUND: Voxel-based morphometry (VBM) has been widely used to quantify structural brain changes associated with Major Depressive Disor...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 27.139499440553557,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30711867",
+          "text": "On a continuum to anxiety disorders: Adolescents at parental risk for anxiety show smaller rostral anterior cingulate cortex and insula thickness.. BACKGROUND: Having a parent with an anxiety disorder increases the risk of anxiety symptoms and anx...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 27.0310376326997,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/24157392",
+          "text": "Reduced error-related activation of dorsolateral prefrontal cortex across pediatric anxiety disorders.. OBJECTIVE: Abnormalities of cognitive control functions, such as conflict and error monitoring, have been theorized to underlie obsessive-compu...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 27.025088197203512,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35567906",
+          "text": "Comparing the Effectiveness of Brain Structural Imaging, Resting-state fMRI, and Naturalistic fMRI in Recognizing Social Anxiety Disorder in Children and Adolescents.. Social anxiety disorder (SAD) is a common anxiety disorder in childhood and ado...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 26.98952679638608,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27273376",
+          "text": "Abnormalities in gray and white matter volumes associated with explicit memory dysfunction in patients with generalized anxiety disorder.. Background The neuroanatomical abnormalities associated with behavioral dysfunction on explicit memory in pa...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 26.47626880646362,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25684692",
+          "text": "Emotion processing in joint hypermobility: A potential link to the neural bases of anxiety and related somatic symptoms in collagen anomalies.. BACKGROUND: Joint hypermobility syndrome (JHS) has repeatedly been associated with anxiety and anxiety ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 26.454366664149997,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67fbe85d18b1e36f2e000122",
+      "type": "summary",
+      "body": "Have brain abnormalities been found in people with anxiety?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/31703593",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39859381",
+        "http://www.ncbi.nlm.nih.gov/pubmed/20822910",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30928438",
+        "http://www.ncbi.nlm.nih.gov/pubmed/17159987",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30742119",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36791582",
+        "http://www.ncbi.nlm.nih.gov/pubmed/22891331",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36916430",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35305088"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31703593",
+          "text": "Secondary resistance to immunotherapy associated with β-catenin pathway activation or PTEN loss in metastatic melanoma.. BACKGROUND: While cancer immunotherapies including checkpoint blockade antibodies, adoptive T cell therapy, and even some vacc...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 37.41390900404773,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39859381",
+          "text": "The Impact of Metabolic Rewiring in Glioblastoma: The Immune Landscape and Therapeutic Strategies.. Glioblastoma (GBM) is an aggressive brain tumor characterized by extensive metabolic reprogramming that drives tumor growth and therapeutic resista...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 36.20545808116138,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/20822910",
+          "text": "Implications for immunotherapy of tumor-mediated T-cell apoptosis associated with loss of the tumor suppressor PTEN in glioblastoma.. The ability of glioma cells to escape the immune system remains a significant barrier to successful immunotherapy...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 36.062949523605766,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30928438",
+          "text": "PTEN Mutations Trigger Resistance to Immunotherapy.. Immune checkpoint-blocking antibodies are actively used to treat multiple cancer types; however, the underlying resistance mechanism remains unclear. In a recent study, Zhao et al. (Nat. Med. 20...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 35.618537042683315,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/17159987",
+          "text": "Loss of tumor suppressor PTEN function increases B7-H1 expression and immunoresistance in glioma.. Cancer immunoresistance and immune escape may play important roles in tumor progression and pose obstacles for immunotherapy. Expression of the immu...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 32.44610674286652,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30742119",
+          "text": "Immune and genomic correlates of response to anti-PD-1 immunotherapy in glioblastoma.. Immune checkpoint inhibitors have been successful across several tumor types; however, their efficacy has been uncommon and unpredictable in glioblastomas (GBM)...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 32.09793847635847,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36791582",
+          "text": "The PTEN-associated immune prognostic signature reveals the landscape of the tumor microenvironment in glioblastoma.. Glioblastoma (GBM) is a common brain tumor with a complex and diverse tumor microenvironment (TME). As PTEN mutation is the most ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 31.15891240509756,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/22891331",
+          "text": "Resistance to EGF receptor inhibitors in glioblastoma mediated by phosphorylation of the PTEN tumor suppressor at tyrosine 240.. Glioblastoma multiforme (GBM) is the most aggressive of the astrocytic malignancies and the most common intracranial t...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 30.485222701528695,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36916430",
+          "text": "Progress in targeting PTEN/PI3K/Akt axis in glioblastoma therapy: Revisiting molecular interactions.. Glioblastoma (GBM) is one of the most malignant cancers of central nervous system and due to its sensitive location, surgical resection has high ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 27.583984295268746,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35305088",
+          "text": "PTEN loss drives resistance to the neddylation inhibitor MLN4924 in glioblastoma and can be overcome with TOP2A inhibitors.. BACKGROUND: Neddylation inhibition, affecting posttranslational protein function and turnover, is a promising therapeutic ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 26.935018151909894,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67fc2f7818b1e36f2e00012c",
+      "type": "yesno",
+      "body": "Does PTEN loss in GBM contribute to resistance against immunotherapy?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39449040"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39449040",
+          "text": "A multidimensional recommendation framework for identifying biological targets to aid the diagnosis and treatment of liver metastasis in patients with colorectal cancer.. The quest to understand the molecular mechanisms of tumour metastasis and id...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": -8.588510403544676,
+          "rerank_position": 1
+        }
+      ],
+      "id": "67d49e0c18b1e36f2e00001d",
+      "type": "list",
+      "body": "List highlighted genes by RJH-Metastasis 1.0 for colorectal cancer with liver metastasis (CRCLM)"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/36091016",
+        "http://www.ncbi.nlm.nih.gov/pubmed/22448291",
+        "http://www.ncbi.nlm.nih.gov/pubmed/23319647",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35069564",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31909070",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39693543"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36091016",
+          "text": "Multimerization of Ebola GPΔmucin on protein nanoparticle vaccines has minimal effect on elicitation of neutralizing antibodies.. Ebola virus (EBOV), a member of the Filoviridae family of viruses and a causative agent of Ebola Virus Disease (EVD),...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 4.1255416364303015,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/22448291",
+          "text": "Recombinant vesicular stomatitis virus vaccine vectors expressing filovirus glycoproteins lack neurovirulence in nonhuman primates.. The filoviruses, Marburg virus and Ebola virus, cause severe hemorrhagic fever with high mortality in humans and n...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 4.00908723590682,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/23319647",
+          "text": "Antibodies are necessary for rVSV/ZEBOV-GP-mediated protection against lethal Ebola virus challenge in nonhuman primates.. Ebola viruses cause hemorrhagic disease in humans and nonhuman primates with high fatality rates. These viruses pose a signi...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 3.030535533805829,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35069564",
+          "text": "Optimization of Single-Dose VSV-Based COVID-19 Vaccination in Hamsters.. The ongoing COVID-19 pandemic has resulted in global effects on human health, economic stability, and social norms. The emergence of viral variants raises concerns about the ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 2.896696701578866,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31909070",
+          "text": "Recurrent Ebolavirus disease in the Democratic Republic of Congo: update and challenges.. The current Ebolavirus disease (EVD) outbreak in the provinces of North Kivu and Ituri is the tenth outbreak affecting the Democratic Republic of Congo (DRC)...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 2.741553135271971,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39693543",
+          "text": "Ebola Outbreak Response in the DRC with rVSV-ZEBOV-GP Ring Vaccination.. BACKGROUND: At the beginning of the 2018-2020 outbreak of Ebola virus disease (EVD) in eastern Democratic Republic of Congo (DRC), no vaccine had been licensed. However, clus...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 2.112775845385711,
+          "rerank_position": 6
+        }
+      ],
+      "id": "67e6b34318b1e36f2e0000b9",
+      "type": "factoid",
+      "body": "rVSV-ZEBOV-GP is used for which disease?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/16333536",
+        "http://www.ncbi.nlm.nih.gov/pubmed/23346164",
+        "http://www.ncbi.nlm.nih.gov/pubmed/23846021",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33525299",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25811581",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39516894",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27348657",
+        "http://www.ncbi.nlm.nih.gov/pubmed/21853405",
+        "http://www.ncbi.nlm.nih.gov/pubmed/24258224",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31249219"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/16333536",
+          "text": "Fade or fate. Seroma in laparoscopic inguinal hernia repair.. BACKGROUND: Postoperative fluid collection in the space left behind the dissected hernia sac in laparoscopic herniorraphy puts the surgeon in a dilemma as to whether it is a recurrence ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 16.660676540312934,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/23346164",
+          "text": "Seroma formation after breast cancer surgery: what we have learned in the last two decades.. Formation of a seroma most frequently occurs after mastectomy and axillary surgery. Prolonged drainage is troublesome as it increases the risk for infecti...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 14.823881817812989,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/23846021",
+          "text": "Late massive breast implant seroma in postpartum.. BACKGROUND: Late seroma is a rare complication that may occur after a prosthetic breast augmentation. \"Seroma\" is a generic term used to indicate a serous clear fluid collection, which can develop...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 13.465621926971624,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33525299",
+          "text": "Management of abdominal wall recurrent subfascial seroma after pelvic surgery.. Seroma is a serous fluid collection that accumulates in dead spaces, where tissue was attached to something before surgery. Abdominal seroma formation is a quite commo...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 13.128375214496124,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25811581",
+          "text": "Natural evolution of seroma in abdominoplasty.. BACKGROUND: Abdominoplasty is one of the most performed aesthetic surgical procedures, and seroma is a common local complication. The aim of this study was to investigate the beginning of seroma form...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 11.989256802008335,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39516894",
+          "text": "Subcutaneous extension of perigraft seroma after thoracic aortic surgery - report of three cases.. BACKGROUND: Subcutaneous extension of a perigraft seroma following thoracic aortic surgery is an infrequently encountered complication. For treatmen...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 11.756581076130873,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27348657",
+          "text": "Strategies for Postoperative Seroma Prevention: A Systematic Review.. BACKGROUND: There is conflicting evidence on the effectiveness of the various strategies to prevent postoperative seroma. Many high-quality studies have been performed to evalua...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 11.628610372009362,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/21853405",
+          "text": "Scarpa fascia or rectus fascia in abdominoplasty flap elevation: a prospective clinical trial.. BACKGROUND: Postoperative seroma formation remains the most frequent complication after full abdominoplasty. This study aimed to evaluate postoperative...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 11.557394049789654,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/24258224",
+          "text": "Is late seroma a phenomenon related to textured implants? A report of rare complications and a literature review.. BACKGROUND: Late seroma is an infrequent complication that manifests as fluid collection in the periprosthetic space at least 1 year...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 11.538441292494582,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31249219",
+          "text": "Perinephric transplant fluid collection approach and management.. Renal transplant is the treatment of choice for end-stage renal disease. Perirenal fluid collections are a common surgical complication postrenal transplant that may lead to early g...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 11.411574143965057,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67e0906c18b1e36f2e00006b",
+      "type": "factoid",
+      "body": "What is a seroma?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38200959",
+        "http://www.ncbi.nlm.nih.gov/pubmed/40211942",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30636192",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35052289",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31453547",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35856344",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30394194",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28917361",
+        "http://www.ncbi.nlm.nih.gov/pubmed/19468897",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37671372"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38200959",
+          "text": "The Immediate Effects of Muscle Energy Technique in Chronic Low Back Pain Patients with Functional Leg Length Discrepancy: A Randomized and Placebo-Controlled Trial.. This study was conducted to determine the effect of muscle energy technique (MET...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 30.630723866413952,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/40211942",
+          "text": "Influence of the Practice of the Pilates Method on Pain Perception During Pregnancy: A Quasiexperimental Study.. INTRODUCTION: The physiologic changes associated with pregnancy often result in pain, impacting the quality of life. Therefore, it is ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 26.966756148728102,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30636192",
+          "text": "Application of Pilates-based exercises in the treatment of chronic non-specific low back pain: state of the art.. According to the current recommendations on the management of chronic non-specific low back pain (CNLBP), the intervention in this gr...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 26.75822213445965,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35052289",
+          "text": "Effect of Home-Based Tele-Pilates Intervention on Pregnant Women: A Pilot Study.. Pilates is effective for training the core muscles and stabilizing the hip joints, which provides relief from pelvic pain and low back pain during pregnancy. However...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 25.32354773675838,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31453547",
+          "text": "A rare and late presentation of pudendal neuralgia in a patient with fibromyalgia after pilates exercises.. A 32-year-old female patient was admitted to our clinic about two years ago with complaints of widespread pain, tiredness, fatigue, and ins...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 25.221717015548315,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35856344",
+          "text": "Pilates-based exercise in the reduction of the low back pain: an overview of reviews.. OBJECTIVE: Pilates is a popular system of exercise that is recommended for healthy individuals and patients with low back pain (LBP). The restoration of muscle ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 25.043376198731494,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30394194",
+          "text": "Does the use of interferential current prior to pilates exercises accelerate improvement of chronic nonspecific low back pain?. AIM: To evaluate whether active interferential current (AIC) before pilates exercises improves pain faster than placebo...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 24.638890059360488,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28917361",
+          "text": "Immediate effects of Pilates based therapeutic exercise on postural control of young individuals with non-specific low back pain: A randomized controlled trial.. OBJECTIVES: Low back pain affects the person's ability to keep balance, especially in...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 24.565333659538492,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/19468897",
+          "text": "Yoga and pilates in the management of low back pain.. Many interventions for the management of low back pain exist, however most have modest efficacy at best, and there are few with clearly demonstrated benefits once pain becomes chronic. Therapeu...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 22.419218791404987,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37671372",
+          "text": "Pilates-based therapeutic exercise for pregnancy-related low back and pelvic pain: A prospective, randomized, controlled trial.. OBJECTIVES: In this study, we aimed to clarify the impact of a Pilates-based therapeutic exercise on disability, pain,...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 21.573201187563363,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67fbe2f318b1e36f2e000117",
+      "type": "yesno",
+      "body": "Does pilates reduce pelvic pain?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/35138000",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28418928",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36124643",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26292362",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38052296",
+        "http://www.ncbi.nlm.nih.gov/pubmed/24196835",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25327441",
+        "http://www.ncbi.nlm.nih.gov/pubmed/22562247",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25284588",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33207810"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35138000",
+          "text": "ZEB1 recruits BRG1 to regulate airway remodelling epithelial-to-mesenchymal transition in asthma.. NEW FINDINGS: What is the central question of this study? The aim was to investigate the function of brahma-related gene-1 (BRG1) in airway remodell...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 26.177688003070216,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28418928",
+          "text": "ERK signalling modulates epigenome to drive epithelial to mesenchymal transition.. The series of events that allow the conversion from adherent epithelial cells into migratory cells is collectively known as epithelial-mesenchymal transition (EMT)....",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 24.97020732839392,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36124643",
+          "text": "The oncogenic transcription factor FOXQ1 is a differential regulator of Wnt target genes.. The forkhead box transcription factor FOXQ1 contributes to the pathogenesis of carcinomas. In colorectal cancers, FOXQ1 promotes tumour metastasis by induci...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 23.921042802734632,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26292362",
+          "text": "ΔNp63α Promotes Breast Cancer Cell Motility through the Selective Activation of Components of the Epithelial-to-Mesenchymal Transition Program.. Cell identity signals influence the invasive capability of tumor cells, as demonstrated by the selecti...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 23.35365745140243,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38052296",
+          "text": "SMPD3 expression is spatially regulated in the developing embryo by SOXE factors.. During epithelial-to-mesenchymal transition (EMT), significant rearrangements occur in plasma membrane protein and lipid content that are important for membrane fun...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 22.888232380333164,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/24196835",
+          "text": "PDLIM2 regulates transcription factor activity in epithelial-to-mesenchymal transition via the COP9 signalosome.. Epithelial cell differentiation and polarized migration associated with epithelial-to-mesenchymal transition (EMT) in cancer requires...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 22.50677604219015,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25327441",
+          "text": "Involvement of retrotransposon L1 in stemness and cellular plasticity.. Epithelial-to-mesenchymal transition (EMT) as well as the reverse process, mesenchymal-to-epithelial transition (MET) is important during embryogenesis. EMT is also involved i...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 22.282494688160302,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/22562247",
+          "text": "Unbalanced expression of CK2 kinase subunits is sufficient to drive epithelial-to-mesenchymal transition by Snail1 induction.. Epithelial-to-mesenchymal transition (EMT) is closely linked to conversion of early-stage tumours into invasive malignan...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 21.721907182810234,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25284588",
+          "text": "Metabolic reprogramming during TGFβ1-induced epithelial-to-mesenchymal transition.. Metastatic progression, including extravasation and micrometastatic outgrowth, is the main cause of cancer patient death. Recent studies suggest that cancer cells ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 21.367954247947257,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33207810",
+          "text": "Emerging Concepts of Hybrid Epithelial-to-Mesenchymal Transition in Cancer Progression.. Epithelial mesenchymal transition (EMT) is a complex process through which epithelial (E) cells lose their adherens junctions, transform into mesenchymal (M) ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 20.803603746741388,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67f6f13618b1e36f2e0000ff",
+      "type": "list",
+      "body": "What transcription factors drive epithelial-to-mesenchymal transition (EMT)?"
+    }
+  ]
+}

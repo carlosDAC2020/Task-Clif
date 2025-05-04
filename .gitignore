@@ -6,14 +6,5 @@ __pycache__/
 *.pyc
 
 # Ignorar resultados y métricas generadas
-data/result_data/metrics/*.json
-data/result_data/metrics/*.png
-data/result_data/reports/*.png
-data/result_data/train/*.json
-data/result_data/test/*.json
 
 # Ignorar otros archivos temporales
-*.log
-*.tmp
-*.swp
-.DS_Store
