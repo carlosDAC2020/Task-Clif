@@ -1,0 +1,3541 @@
+{
+  "questions": [
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39555889"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "RankMHC: Learning to Rank Class-I Peptide-MHC Structural Models.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39555889",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 64
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "We present RankMHC, an LTR-based pMHC binding mode identification predictor, which is specifically trained to predict the most accurate ranking of an ensemble of pMHC conformations. RankMHC outperforms classical peptide-ligand scoring functions, as well as previous Machine Learning (ML)-based binding pose predictors. We further demonstrate that RankMHC can be used with many pMHC structural modeling tools that use different structural modeling protocols.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39555889",
+          "offsetInBeginSection": 1314,
+          "offsetInEndSection": 1771
+        }
+      ],
+      "id": "67d74cde18b1e36f2e00003c",
+      "type": "summary",
+      "body": "Describe RankMHC"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/26457759"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Samples with mixed features (13%) possibly represent a transition phenotype or intratumoral heterogeneity.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26457759",
+          "offsetInBeginSection": 884,
+          "offsetInEndSection": 990
+        }
+      ],
+      "id": "65f7741fc4010b4d78000027",
+      "type": "factoid",
+      "body": "What proportion of colorectal cancer cases are not assignable to any of the consensus molecular subtype (CMS) groups?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/29723110",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30292750",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29679708",
+        "http://www.ncbi.nlm.nih.gov/pubmed/17183346"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Although nonarteritic anterior ischaemic neuropathy has been reported in some users of the PDE5 inhibitors, there is no conclusive evidence that PDE5 inhibitors cause this rare effect. Tadalafil has a longer half-life than sildenafil or vardenafil, and a longer duration of action than sildenafil and vardenafil. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/17183346",
+          "offsetInBeginSection": 659,
+          "offsetInEndSection": 972
+        }
+      ],
+      "id": "67cc973e81b1027333000011",
+      "type": "list",
+      "body": "Please list the short half life Phosphodiesterase 5 inhibitors."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39378890",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39004156",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38505711",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38804299",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38496157",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38467533"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "dysregulated interaction between autonomic and central nervous systems in women with IBS",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39378890",
+          "offsetInBeginSection": 1353,
+          "offsetInEndSection": 1441
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "pathophysiology of irritable bowel syndrome (IBS) is multifactorial and includes epithelial barrier dysfunction, a key element at the interface between the gut lumen and the deeper intestinal layers",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39004156",
+          "offsetInBeginSection": 23,
+          "offsetInEndSection": 221
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "correlate morpho-functional aspects of epithelial and vascular barriers with symptom perception in IBS",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39004156",
+          "offsetInBeginSection": 380,
+          "offsetInEndSection": 482
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The intestinal epithelial barrier was compromised in patients with IBS throughout the gastrointestinal tract. IBS-soluble mediators increased Caco-2 permeability via a downregulation of tight junction gene expression",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39004156",
+          "offsetInBeginSection": 1232,
+          "offsetInEndSection": 1448
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Blood vessel density and vascular permeability were increased in the IBS colonic mucosa",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39004156",
+          "offsetInBeginSection": 1450,
+          "offsetInEndSection": 1537
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Permeability changes correlated with intestinal and behavioral symptoms and health-related quality of life of patients with IBS",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39004156",
+          "offsetInBeginSection": 1779,
+          "offsetInEndSection": 1906
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Epithelial and vascular barriers are compromised in patients with IBS and contribute to clinical manifestations",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39004156",
+          "offsetInBeginSection": 1920,
+          "offsetInEndSection": 2031
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "immune activation plays an important role in the development of IBS",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38505711",
+          "offsetInBeginSection": 308,
+          "offsetInEndSection": 375
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "visceral hypersensitivity and gastrointestinal dysmotility",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38505711",
+          "offsetInBeginSection": 436,
+          "offsetInEndSection": 494
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "inflammatory degenerative neuropathy, including neuronal degeneration",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38505711",
+          "offsetInBeginSection": 565,
+          "offsetInEndSection": 634
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "gut microbiota, neurotrophic factors, and proinflammatory cytokines",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38804299",
+          "offsetInBeginSection": 585,
+          "offsetInEndSection": 652
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": " underlying dietary triggers in IBS, including gut microbiota dysbiosis, visceral hypersensitivity, and immune activation",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38496157",
+          "offsetInBeginSection": 1049,
+          "offsetInEndSection": 1170
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "dysregulation of the brain-gut axis, leading to disturbed intestinal motility, local inflammation, altered intestinal permeability, visceral sensitivity, and gut microbiota composition",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38467533",
+          "offsetInBeginSection": 574,
+          "offsetInEndSection": 758
+        }
+      ],
+      "id": "67d722e818b1e36f2e000036",
+      "type": "summary",
+      "body": "Pathophysiology of irritable bowel syndrome (IBS)."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/28072762",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33806258"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The receptor tyrosine kinase AXL, activated by a complex interaction between its ligand growth arrest-specific protein 6 and phosphatidylserine, regulates various vital cellular processes, including proliferation, survival, motility, and immunologic response.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28072762",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 259
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "In the context of malignancy, evidence suggests that AXL overexpression drives wide-ranging processes, including epithelial to mesenchymal transition, tumour angiogenesis, resistance to chemotherapeutic and targeted agents, and decreased antitumor immune response. As a result, AXL is an attractive candidate not only as a prognostic biomarker in malignancy but also as a target for anticancer therapies.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28072762",
+          "offsetInBeginSection": 596,
+          "offsetInEndSection": 1000
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "is overexpressed in several haematologic and solid malignancies, including acute myeloid leukaemia, non-small cell lung cancer, gastric and colorectal adenocarcinomas, and breast and prostate cancers.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28072762",
+          "offsetInBeginSection": 395,
+          "offsetInEndSection": 595
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The receptor tyrosine kinase Axl, a member of the TAM family (which includes TYRO3 and MER), plays an important role in the regulation of cellular processes such as proliferation, motility, survival, and immunologic response. The overexpression of Axl is reported in several solid and hematological malignancies, including non-small cell lung, prostate, breast, liver and gastric cancers, and acute myeloid leukaemia.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33806258",
+          "offsetInBeginSection": 321,
+          "offsetInEndSection": 738
+        }
+      ],
+      "id": "67da17c918b1e36f2e000055",
+      "type": "summary",
+      "body": "What is the role of the receptor tyrosine kinase AXL in malignancy?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/36596294"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Forced vital capacity, total lung capacity and transcutaneous carbon dioxide correlated with the clinical severity of disease in children with DMD. These measures may be useful in follow-up and clinical trials. A comparable correlation was not found for peak cough flow.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36596294",
+          "offsetInBeginSection": 1148,
+          "offsetInEndSection": 1418
+        }
+      ],
+      "id": "66301d1d187cba990d000026",
+      "type": "yesno",
+      "body": "Are respiratory measurements correlated with disease severity in Duchenne Muscular Dystrophy?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/35986737"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Heterozygous UCHL1 loss-of-function variants cause a neurodegenerative disorder with spasticity, ataxia, neuropathy, and optic atrophy.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35986737",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 135
+        }
+      ],
+      "id": "67d3518718b1e36f2e000008",
+      "type": "factoid",
+      "body": "Which disease is caused by heterozygous UCHL1 loss-of-function variants?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/28542671",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35280386",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25538173"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "For patients with surgically unresectable metastatic colorectal cancer, FOLFOXIRI-Bev is associated with a significant overall response rate. Such an effective regimen leads to a probability of surgical conversion of distant metastases approaching 40%, with more than one-fourth of patients having an R0 resection",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28542671",
+          "offsetInBeginSection": 2485,
+          "offsetInEndSection": 2798
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "We observed that the combination of mFOLFOXIRI and bevacizumab increased the rate of clinical NED and showed a trend toward improved survival compared with mFOLFOXIRI alone",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35280386",
+          "offsetInBeginSection": 1822,
+          "offsetInEndSection": 1994
+        }
+      ],
+      "id": "662154f0b9f8b89d7e000009",
+      "type": "factoid",
+      "body": "What is the most appropriate systemic treatment for conversion therapy in colorectal cancer with potentially resectable liver metastasis?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39025435",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38725183",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39547643",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39446815"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": ": To determine whether oral micronutrient supplementation slows geographic atrophy (GA) progression in age-related macular degeneration (AMD).",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39025435",
+          "offsetInBeginSection": 7,
+          "offsetInEndSection": 149
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "To quantify and compare the different prevalence rates of specific retinal imaging biomarkers in patients with intermediate AMD (iAMD) and advanced non-neovascular AMD (nnAMD).",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38725183",
+          "offsetInBeginSection": 9,
+          "offsetInEndSection": 185
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Age-related macular degeneration (AMD) remains a leading cause of vision loss in the geriatric population. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39547643",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 107
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The age-related macular degeneration (AMD) field is witnessing promising advancements in therapeutic options. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39446815",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 110
+        }
+      ],
+      "id": "67c847f581b1027333000003",
+      "type": "yesno",
+      "body": "Is age an underlying factor in the eye disease AMD?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/37018738",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38412550",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39107395",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38748732",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38729373"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "mosquito borne viruses",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37018738",
+          "offsetInBeginSection": 199,
+          "offsetInEndSection": 221
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Zika",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37018738",
+          "offsetInBeginSection": 514,
+          "offsetInEndSection": 518
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Zika (ZIKV) viruses have added complexity to Aedes-borne disease prevention and control efforts",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38412550",
+          "offsetInBeginSection": 101,
+          "offsetInEndSection": 196
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Aedes aegypti is the primary vector of these pathogens and Culex quinquefasciatus may be a potential ZIKV vector",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38748732",
+          "offsetInBeginSection": 170,
+          "offsetInEndSection": 282
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Invasive Aedes aegypti and Aedes albopictus mosquitoes transmit viruses such as dengue, chikungunya and Zika",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38729373",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 108
+        }
+      ],
+      "id": "67d7fe2618b1e36f2e000044",
+      "type": "factoid",
+      "body": "Vector of zika virus."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38826227",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34087162",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39707474",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34399888"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "For example, the transcription factor TFAP2A can be seen to promote a transition from the NPC-like to the MES-like state.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38826227",
+          "offsetInBeginSection": 1571,
+          "offsetInEndSection": 1692
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The mesenchymal subtype of glioblastoma is thought to be determined by both cancer cell-intrinsic alterations and extrinsic cellular interactions, but remains poorly understood.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34087162",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 177
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "This effect is mediated, both in vitro and in vivo, by macrophage-derived oncostatin M (OSM) that interacts with its receptors (OSMR or LIFR) in complex with GP130 on glioblastoma cells and activates STAT3.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34087162",
+          "offsetInBeginSection": 468,
+          "offsetInEndSection": 674
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Furthermore, by incorporating snATAC-seq data, we delineated a crucial regulatory network and pinpointed the key transcription factor CEBPG.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39707474",
+          "offsetInBeginSection": 1077,
+          "offsetInEndSection": 1217
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Using transcriptomic data of human patient-derived brain tumor stem cell lines (BTSCs), classified based on GBM-intrinsic signatures, we identify the AP-1 transcription factor FOSL1 as a key regulator of the mesenchymal (MES) subtype.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34399888",
+          "offsetInBeginSection": 104,
+          "offsetInEndSection": 338
+        }
+      ],
+      "id": "67d7503018b1e36f2e00003e",
+      "type": "list",
+      "body": "What are the main transcription factors driving the mesenchymal-like (MES-like) state of glioblastoma multiforme?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/37450567"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "While AAAAG, AAAGGG and AAGAG expansions appear to be benign, we revealed a pathogenic role for large AAAGG repeat configuration expansions (n \u003d 5). Long-read sequencing was used to characterize the entire repeat sequence, and six patients exhibited a pure AGGGC expansion, while the other patients presented complex motifs with AAGGG or AAAGG interruptions. All pathogenic motifs appeared to have arisen from a common haplotype and were predicted to form highly stable G quadruplexes, which have previously been demonstrated to affect gene transcription in other conditions. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37450567",
+          "offsetInBeginSection": 643,
+          "offsetInEndSection": 1219
+        }
+      ],
+      "id": "67d34fb318b1e36f2e000007",
+      "type": "factoid",
+      "body": "Which role does AAAGG have in RFC1 repeat expansions?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/34909395",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36202996"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Understanding CMS is a crucial step in personalized medicine, although prospective clinical trials selecting patients by CMS are required to pass proof-of-concept before becoming a routine clinical tool in oncology routine care.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34909395",
+          "offsetInBeginSection": 1122,
+          "offsetInEndSection": 1350
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": ". A promising consensus molecular (CMS) classification with prognostic relevance has been developed, but it is not used in daily practice.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36202996",
+          "offsetInBeginSection": 264,
+          "offsetInEndSection": 402
+        }
+      ],
+      "id": "662fc277187cba990d000013",
+      "type": "yesno",
+      "body": "Does the consensus molecular subtype (CMS) classification for colorectal cancer any use in routine clinical practice?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38335423",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38410289",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38483783",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38653643",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39422325",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39176325"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": " Inflammatory bowel disease (IBD), including Crohn disease (CD) and ulcerative colitis (UC), is a chronic immune-mediated disorder characterized by inflammation of the gastrointestinal tract. Patients with IBD are susceptible to various complications, including the coexistence of Clostridioides difficile infection (CDI). ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38335423",
+          "offsetInBeginSection": 10,
+          "offsetInEndSection": 333
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "lexible sigmoidoscopy confirmed pseudomembranous colitis secondary to Clostridium difficile. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38483783",
+          "offsetInBeginSection": 240,
+          "offsetInEndSection": 333
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Toxic Megacolon: A Sequelae of Clostridioides difficile Infection in a Case of Necrotizing Fasciitis.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38410289",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 101
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "growth of commensal bacteria including Staphylococcus aureus and Clostridioides difficile (previously known as Clostridium difficile) resulting in complications such as toxic megacolon.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38410289",
+          "offsetInBeginSection": 436,
+          "offsetInEndSection": 621
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Up to 25% of patients recovering from antibiotic-treated Clostridioides difficile infection (CDI) develop functional symptoms reminiscent of Post-Infectious Irritable Bowel Syndrome (PI-IBS). ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38653643",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 192
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Post-infectious ibs following Clostridioides difficile infection;",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38653643",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 65
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The incidence of Clostridioides difficile infection (CDI) in inflammatory bowel disease (IBD) is rising and associated with adverse outcomes",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39422325",
+          "offsetInBeginSection": 12,
+          "offsetInEndSection": 152
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Pseudomembranous colitis (PC) is an inflammation of the colon primarily caused by the bacterium Clostridium difficile (C. difficile), often following antibiotic use. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39176325",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 166
+        }
+      ],
+      "id": "67cddce881b102733300001c",
+      "type": "list",
+      "body": "Please list major complications of Clostridum Difficile infection."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39569644",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38389707",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38485896",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38907183",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38595887"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "overweight/obese",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39569644",
+          "offsetInBeginSection": 122,
+          "offsetInEndSection": 138
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "irregular menstrual cycle/chronic anovulation",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39569644",
+          "offsetInBeginSection": 586,
+          "offsetInEndSection": 631
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "hyperandrogenism",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39569644",
+          "offsetInBeginSection": 729,
+          "offsetInEndSection": 745
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "infertility, irregular menstrual cycles, acne, and hirsutism",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38389707",
+          "offsetInBeginSection": 180,
+          "offsetInEndSection": 240
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "obesity, insulin resistance, acne, menstrual abnormalities, and hirsutism",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38595887",
+          "offsetInBeginSection": 288,
+          "offsetInEndSection": 361
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "linked polycystic ovary syndrome to negative mental health outcomes and an increased severity of premenstrual syndrome ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38907183",
+          "offsetInBeginSection": 1892,
+          "offsetInEndSection": 2011
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "androgen excess, ovulatory dysfunction, and polycystic ovarian morphology",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38485896",
+          "offsetInBeginSection": 110,
+          "offsetInEndSection": 183
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Sexual satisfaction and desire were affected by PCOS",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38485896",
+          "offsetInBeginSection": 813,
+          "offsetInEndSection": 865
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "impairments of visuospatial working memory, episodic and verbal memory, attention, and executive function",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38485896",
+          "offsetInBeginSection": 944,
+          "offsetInEndSection": 1049
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "obesity, hirsutism, acne, and the fear of infertility",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38485896",
+          "offsetInBeginSection": 1235,
+          "offsetInEndSection": 1288
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "hyperandrogenism and the risk of infertility",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38485896",
+          "offsetInBeginSection": 1174,
+          "offsetInEndSection": 1218
+        }
+      ],
+      "id": "67d43cd218b1e36f2e000011",
+      "type": "list",
+      "body": "Symptoms of polycystic ovarian syndrome."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/24982138",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26254831",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26134954"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Oligodendrocyte lineage transcription factor 2 (OLIG2) plays an important role in the oligodendrogenic pathway.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26254831",
+          "offsetInBeginSection": 125,
+          "offsetInEndSection": 236
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Among these, lentiviral overexpression of transcription factors ASCL1, SOX10, and NKX2.2 in NPCs was sufficient to induce Sox10 enhancer activity, OPC mRNA, and protein expression consistent with OPC fate;",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/24982138",
+          "offsetInBeginSection": 394,
+          "offsetInEndSection": 599
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Within 8 d, PSCs differentiate into paired box 6-positive (PAX6(+)) neural stem cells, which give rise to OLIG2(+) progenitors by day 12. Oligodendrocyte lineage transcription factor 2-positive (OLIG2(+)) cells begin to express the transcription factor NKX2.2 around day 18, followed by SRY-box 10 (SOX10) around day 40.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26134954",
+          "offsetInBeginSection": 361,
+          "offsetInEndSection": 681
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Generation and isolation of oligodendrocyte progenitor cells from human pluripotent stem cells.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26134954",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 95
+        }
+      ],
+      "id": "67d9f6a418b1e36f2e000051",
+      "type": "list",
+      "body": "What are the lineage transcription factors of oligodendrocyte progenitor cells (OPCs)?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39103897"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "We introduce a methodology for incorporating prior knowledge into machine learning-based models for prediction of patient survival through Knowledge Graphs, demonstrating the advantage of such an approach for NSCLC patients. Using data from patients treated with immuno-oncologic therapies in the POPLAR (NCT01903993) and OAK (NCT02008227) clinical trials, we found that the use of knowledge graphs yielded significantly improved hazard ratios, including in the POPLAR cohort, for models based on biomarker tumor mutation burden compared with those based on knowledge graphs. Use of a model-defined mutational 10-gene signature led to significant overall survival differentiation for both trials. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39103897",
+          "offsetInBeginSection": 716,
+          "offsetInEndSection": 1413
+        }
+      ],
+      "id": "67d7531018b1e36f2e000041",
+      "type": "list",
+      "body": "Data from which clinical trials have been used to demonstrate use of knowledge graphs for NSCLC survival prediction?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/25469031",
+        "http://www.ncbi.nlm.nih.gov/pubmed/8607012"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Preferably, the decision-making process should not be limited to the conventional confrontation of pros and cons of ileorectal anastomosis or restorative proctocolectomy.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25469031",
+          "offsetInBeginSection": 646,
+          "offsetInEndSection": 816
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Surgical options include total proctocolectomy with ileostomy, continent ileostomy, total colectomy with ileorectal anastomosis, and total proctocolectomy with ileal pouch anal anastomosis.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/8607012",
+          "offsetInBeginSection": 330,
+          "offsetInEndSection": 519
+        }
+      ],
+      "id": "660999a0fdcbea915f00001a",
+      "type": "list",
+      "body": "What are the colorectal surgical options for patients with Familial Polyposis?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/37628632",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35327996"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Mucopolysaccharidosis-plus syndrome (MPSPS) is an autosomal-recessive disorder caused by c.1492C\u003eT (p.R498W) in the VPS33A gene. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37628632",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 129
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Mucopolysaccharidosis-plus syndrome (MPS-PS) is a novel autosomal recessive disorder caused by a mutation in the VPS33A gene. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35327996",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 126
+        }
+      ],
+      "id": "67c7708481b1027333000002",
+      "type": "yesno",
+      "body": "Is mucopolysaccharidosis-plus syndrome (MPSPS) a X-linked disease?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39579745",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37216971"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "impending danger to maternal or fetal life",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39579745",
+          "offsetInBeginSection": 81,
+          "offsetInEndSection": 123
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Cesarean delivery indications (mutually exclusive) were the following: repeat cesarean delivery, nonreassuring fetal status, malpresentation, maternal indications (e.g., placenta previa or genital herpes simplex virus), failed labor (any stage labor arrest), or other (i.e., fetal anomaly and elective)",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37216971",
+          "offsetInBeginSection": 580,
+          "offsetInEndSection": 882
+        }
+      ],
+      "id": "67d7201b18b1e36f2e00002c",
+      "type": "list",
+      "body": "Indications of cesarean section."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39216232",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38241976"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Melanoma is a heterogeneous cancer influenced by the plasticity of melanoma cells and their dynamic adaptations to microenvironmental cues. Melanoma cells transition between well-defined transcriptional cell states that impact treatment response and resistance.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39216232",
+          "offsetInBeginSection": 12,
+          "offsetInEndSection": 273
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "We confirm the presence of four distinct melanoma cell states - melanocytic, transitory, neural-crest like and undifferentiated, and identify enrichment of neural crest-like and undifferentiated melanoma cells in immunotherapy-resistant tumours.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39216232",
+          "offsetInBeginSection": 503,
+          "offsetInEndSection": 748
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Melanoma cells can transition through a series of phenotypic and transcriptional cell states that vary in invasiveness and treatment responsiveness.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38241976",
+          "offsetInBeginSection": 241,
+          "offsetInEndSection": 389
+        }
+      ],
+      "id": "67da148418b1e36f2e000054",
+      "type": "list",
+      "body": "What are the main transcriptional cell states found in melanoma?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39180335"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "BioASQ Synergy: a dialogue between question-answering systems and biomedical experts for promoting COVID-19 research.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39180335",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 117
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "This article presents the novel BioASQ Synergy research process which aims to facilitate the interaction between biomedical experts and automated question-answering systems",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39180335",
+          "offsetInBeginSection": 11,
+          "offsetInEndSection": 183
+        }
+      ],
+      "id": "67d3434d18b1e36f2e000002",
+      "type": "factoid",
+      "body": "Which biomedical challenge has been designed to facilitate interaction between biomedical experts and automated question-answering systems in order to promote COVID-19 research?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/26557901",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28111727"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "In addition to inhibition of thymidylate synthase, the major mechanism of action of classical fluoropyrimidines, TAS-102\u0027s major mechanism of action is incorporation into DNA, thereby causing DNA damage. TAS-102 also follows an alternative activation pathway via thymidine kinase, and is not a substrate for dihydropyrimidine dehydrogenase.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26557901",
+          "offsetInBeginSection": 961,
+          "offsetInEndSection": 1301
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "potent thymidine phosphorylase inhibitor, tipiracil hydrochloride.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28111727",
+          "offsetInBeginSection": 230,
+          "offsetInEndSection": 296
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Tipiracil administered in combination with trifluridine significantly increased exposure to trifluridine compared with trifluridine alone",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28111727",
+          "offsetInBeginSection": 1381,
+          "offsetInEndSection": 1518
+        }
+      ],
+      "id": "662fc6aa187cba990d000017",
+      "type": "summary",
+      "body": "Why is Trifluridine/Tipiracil more active than other fluorpyrimidines in colorectal cancer patients?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/36617879",
+        "http://www.ncbi.nlm.nih.gov/pubmed/9192895",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27870409"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Here we report a study of 80 females with Turner\u0027s syndrome and a single X chromosome, in 55 of which the X was maternally derived (45,X[m]) and in 25 it was of paternal origin (45,X[p]). Members of the 45,X[p] group were significantly better adjusted, with superior verbal and higher-order executive function skills, which mediate social interactions. Our observations suggest that there is a genetic locus for social cognition, which is imprinted and is not expressed from the maternally derived X chromosome. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/9192895",
+          "offsetInBeginSection": 185,
+          "offsetInEndSection": 697
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "While each sex (XX and XY) harbors one active X due to X chromosome inactivation in females, some genes, such as Kdm6a, transcriptionally escape silencing in females-resulting in lower transcript levels in males. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36617879",
+          "offsetInBeginSection": 300,
+          "offsetInEndSection": 513
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Dosage differences in the expression of such genes (which constitute at least 15% of the total) are likely to play an important role in male-female neural differentiation, and in cognitive deficits and behavioral characteristics, particularly in the realm of social communication, that are associated with sex chromosome aneuploidies. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27870409",
+          "offsetInBeginSection": 478,
+          "offsetInEndSection": 813
+        }
+      ],
+      "id": "67cc89fa81b102733300000c",
+      "type": "yesno",
+      "body": "Is the inactivation of the X chromsome linked to cognition?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/33663193",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39403910"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "PMDD affects 2-8%",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33663193",
+          "offsetInBeginSection": 538,
+          "offsetInEndSection": 555
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "PMDD, which has a prevalence of 3.04% ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39403910",
+          "offsetInBeginSection": 1258,
+          "offsetInEndSection": 1296
+        }
+      ],
+      "id": "67d4354518b1e36f2e000010",
+      "type": "factoid",
+      "body": "Prevalence of Premenstrual Dysphoric Disorder"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/16150495",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30710529",
+        "http://www.ncbi.nlm.nih.gov/pubmed/19543315"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The mammalian GATA family of transcription factors comprises of 6 members that are involved in diverse roles.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/16150495",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 109
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "In this report, we identify GATA6 expression in the normal mouse and human CNS,",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/16150495",
+          "offsetInBeginSection": 203,
+          "offsetInEndSection": 282
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "GATA6 is expressed as a 2.2 kb transcript in the adult mouse brain and several regions of the adult human brain",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/16150495",
+          "offsetInBeginSection": 370,
+          "offsetInEndSection": 481
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Furthermore, cellular characterization demonstrates GATA6 nuclear expression in neurons, astrocytes, choroids plexus epithelium, and endothelial cells.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/16150495",
+          "offsetInBeginSection": 483,
+          "offsetInEndSection": 634
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "GATA-binding protein 4 (GATA-4)，a member of the GATA family of transcription factors, is expressed in the normal brain and participates in the neural inflammatory response and senescence.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30710529",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 187
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Collectively, we show that GATA4 is expressed in the embryonic and adult CNS and acts as a negative regulator of astrocyte proliferation and growth",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/19543315",
+          "offsetInBeginSection": 1236,
+          "offsetInEndSection": 1383
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "We now show GATA4, a family member of GATA6, to be expressed in the neurons and glia of normal murine and human embryonic and adult CNS.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/19543315",
+          "offsetInBeginSection": 337,
+          "offsetInEndSection": 473
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Using retroviral gene trapping on transgenic mouse glioma models, we identified GATA6 to be a novel tumor suppressor gene in glioblastoma multiforme",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/19543315",
+          "offsetInBeginSection": 187,
+          "offsetInEndSection": 335
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "GATA-4 regulates neuronal apoptosis after intracerebral hemorrhage via the NF-κB/Bax/Caspase-3 pathway both in vivo and in vitro.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30710529",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 129
+        }
+      ],
+      "id": "67d74a9b18b1e36f2e00003a",
+      "type": "yesno",
+      "body": "Are transcription factors of the GATA family found in the brain?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/34400559"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Myasthenia gravis genome-wide association study implicates AGRN as a risk locus.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34400559",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 80
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "We confirmed the previously reported MG association with TNFRSF11A (rs4369774; p\u003d1.09×10-13, OR\u003d1.4). Furthermore, gene-based analysis revealed AGRN as a novel MG susceptibility gene.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34400559",
+          "offsetInBeginSection": 607,
+          "offsetInEndSection": 790
+        }
+      ],
+      "id": "67d41b8518b1e36f2e00000d",
+      "type": "yesno",
+      "body": "Is there any role between AGRN and Myasthenia gravis?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/31258874"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Tetralogy of Fallot is the most common cyanotic congenital heart disease. It consists of right ventricular outflow tract obstruction, a ventricular septal defect, abnormally located aorta and right ventricular hypertrophy. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31258874",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 223
+        }
+      ],
+      "id": "67cdbe0c81b1027333000019",
+      "type": "list",
+      "body": "Please list the 4 problems that are found in the tetrology of Fallot."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39003412",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39278467",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39403837",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39299598"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "single nucleotide polymorphism rs13166360, causing a substitution of valine (Val) 147 to leucine (Leu) in the adenylyl cyclase 2 (ADCY2), has previously been associated with bipolar disorder ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39003412",
+          "offsetInBeginSection": 4,
+          "offsetInEndSection": 195
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Genetic variations are a risk factor for bipolar disorder. However, the identification of the exact gene variants and genotypes remains complex. This study, therefore, aims to identify the potential association between genotypes of analysed single nucleotide polymorphisms",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39278467",
+          "offsetInBeginSection": 210,
+          "offsetInEndSection": 482
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "association of ADRA2A/rs3750625/AC and AVPR1B/rs28536160/CT gene variants in stress-related bipolar disorder with the AC genotype of ADRA2A/rs3750625 constituting a risk genotype and CT of AVPR1B/rs28536160 constituting a protective genotype",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39278467",
+          "offsetInBeginSection": 1698,
+          "offsetInEndSection": 1939
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Rare pathogenic copy number variations (CNVs) that overlap with exons of synaptic genes have been associated with BD",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39403837",
+          "offsetInBeginSection": 136,
+          "offsetInEndSection": 252
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "CNVs in RNF216 and postsynaptic membrane-related genes confer a risk of BD",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39403837",
+          "offsetInBeginSection": 1513,
+          "offsetInEndSection": 1587
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "polygenic risk scores (PRS) for bipolar disorder",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39299598",
+          "offsetInBeginSection": 41,
+          "offsetInEndSection": 89
+        }
+      ],
+      "id": "67d7238518b1e36f2e000038",
+      "type": "summary",
+      "body": "Regarding genetic transmission of bipolar disorder, has any specific gene/mutation been identified?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38538643",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38653236"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Glioblastoma (GBM) is the most common primary malignant cancer of the central nervous system. Insufficient oxygenation (hypoxia) has been linked to GBM invasion and aggression, leading to poor patient outcomes. Hypoxia induces gene expression for cellular adaptations. However, GBM is characterized by high intertumoral (molecular subtypes) and intratumoral heterogeneity (cell states), and it is not well understood to what extent hypoxia triggers patient-specific gene responses and cellular diversity in GBM.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38538643",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 511
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Hypoxia gene signature to single cell RNA-seq datasets of glioma patients, which showed that hypoxic cells displayed a shift towards mesenchymal-like (MES) and astrocyte-like (AC) states. Interestingly, in response to hypoxia, tumor cells in IDH-mutant gliomas displayed a strong shift to the AC state, whereas tumor cells in IDH-wildtype gliomas mainly shifted to the MES state. This distinct hypoxia response of IDH-mutant gliomas may contribute to its more favorable prognosis. Our transcriptomic studies provide a basis for future approaches to better understand the diversity of hypoxic niches in gliomas.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38538643",
+          "offsetInBeginSection": 1061,
+          "offsetInEndSection": 1671
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "We find three prominent modes of organization. First, gliomas are composed of small local environments, each typically enriched with one major cellular state. Second, specific pairs of states preferentially reside in proximity across multiple scales. This pairing of states is consistent across tumors. Third, these pairwise interactions collectively define a global architecture composed of five layers. Hypoxia appears to drive the layers, as it is associated with a long-range organization that includes all cancer cell states.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38653236",
+          "offsetInBeginSection": 207,
+          "offsetInEndSection": 737
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "In summary, we provide a conceptual framework for the organization of cellular states in glioma, highlighting hypoxia as a long-range tissue organizer.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38653236",
+          "offsetInBeginSection": 889,
+          "offsetInEndSection": 1040
+        }
+      ],
+      "id": "67d74b0418b1e36f2e00003b",
+      "type": "summary",
+      "body": "How does hypoxia influence the cell states of glioblastoma multiforme (GBM)?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/37962376"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "JASPAR (https://jaspar.elixir.no/) is a widely-used open-access database presenting manually curated high-quality and non-redundant DNA-binding profiles for transcription factors (TFs) across taxa. In this 10th release and 20th-anniversary update, the CORE collection has expanded with 329 new profiles. We updated three existing profiles and provided orthogonal support for 72 profiles from the previous release\u0027s UNVALIDATED collection. Altogether, the JASPAR 2024 update provides a 20% increase in CORE profiles from the previous release. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37962376",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 542
+        }
+      ],
+      "id": "67d496ed18b1e36f2e000019",
+      "type": "factoid",
+      "body": "What\u0027s the increase in CORE profiles in JASPAR 2024 compared to the previous version?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39754631",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39108680",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38533288",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36735548"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "PURPOSE OF REVIEW: Baclofen, a muscle relaxant that reduces the release of excitatory neurotransmitters in the pre-synaptic neurons stimulating inhibitory neuronal signals in post-synaptic neurons, has been around for over 5 decades",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39754631",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 232
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Baclofen, a gamma-aminobutyric acid derivative, relies on renal excretion, r",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39108680",
+          "offsetInBeginSection": 199,
+          "offsetInEndSection": 275
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Baclofen, a gamma-aminobutyric acid receptor agonist, can help regulate sex hormones and reduce harmful blood lipids by protecting against morphine-induced gamma-aminobutyric acid inhibition.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38533288",
+          "offsetInBeginSection": 99,
+          "offsetInEndSection": 290
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Baclofen, a gamma-aminobutyric acid B receptor agonist structurally related to phenibut, ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36735548",
+          "offsetInBeginSection": 175,
+          "offsetInEndSection": 264
+        }
+      ],
+      "id": "67cdca3881b102733300001b",
+      "type": "summary",
+      "body": "What is the mode of action for baclofen?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39447350",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37272660",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37167532",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38417132"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Sarcopenia",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39447350",
+          "offsetInBeginSection": 12,
+          "offsetInEndSection": 22
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Metfomin-associated lactic acidosis",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37272660",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 35
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Metformin therapy has adversely affected serum vitamin B12 concentrations",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37167532",
+          "offsetInBeginSection": 787,
+          "offsetInEndSection": 860
+        }
+      ],
+      "id": "67d6bf9a18b1e36f2e000023",
+      "type": "list",
+      "body": "Adverse effects of metformin."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38826227",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38650010",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31973233"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": " In addition to the lack of dedicated drug discovery programs for GBM, extensive intratumor heterogeneity and epigenetic plasticity related to cell-state transitions are major roadblocks to successful drug therapy in GBM. To study these phenomenon, publicly available snRNAseq and bulk RNAseq data from patient samples were used to categorize cells from patients into four cell states (i.e. phenotypes), namely: (i) neural progenitor-like (NPC-like), (ii) oligodendrocyte progenitor-like (OPC-like), (iii) astrocyte- like (AC-like), and (iv) mesenchymal-like (MES-like).",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38826227",
+          "offsetInBeginSection": 114,
+          "offsetInEndSection": 684
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Glioblastoma (GBM) remains an untreatable malignant tumor with poor patient outcomes, characterized by palisading necrosis and microvascular proliferation. While single-cell technology made it possible to characterize different lineage of glioma cells into neural progenitor-like (NPC-like), oligodendrocyte-progenitor-like (OPC-like), astrocyte-like (AC-like) and mesenchymal like (MES-like) states,",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38650010",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 400
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "A recent study has highlighted the degree of functional heterogeneity that coexists within individual GBM tumours, describing four cellular states (MES-like, NPC-like, OPC-like and AC-like). ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31973233",
+          "offsetInBeginSection": 602,
+          "offsetInEndSection": 793
+        }
+      ],
+      "id": "67c7392981b1027333000001",
+      "type": "list",
+      "body": "What are the main cell states of glioblastoma multiforme (GBM)?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39558144"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Pre-treatment transcriptomic profiles were used with the calculated resistance to identify baseline biomarkers of resistance, including potential combination targets. The model provided both a classification of responses, as well as a continuous description of resistance, allowing for more robust biomarker associations and capturing the observed variability. Thirty-six resistance gene markers were identified, including multiple homologous recombination repair (HRR) pathway genes. High WEE1 expression was also linked to resistance, highlighting an opportunity for combining PARP and WEE1 inhibitors. This framework facilitates a fully automated way of capturing intrinsic resistance, and accounts for the pharmacological response variability captured within PDX studies and hence provides a precision medicine approach.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39558144",
+          "offsetInBeginSection": 330,
+          "offsetInEndSection": 1154
+        }
+      ],
+      "id": "67d34ad518b1e36f2e000005",
+      "type": "yesno",
+      "body": "Is high WEE1 expression linked to PARP inhibition resistance?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38552375",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39628433",
+        "http://www.ncbi.nlm.nih.gov/pubmed/15274715"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Pilomatrix carcinoma is a rare malignant variant of pilomatrixoma. Given the rarity of this lesion there are no well-defined standards for surgical management. Wide local excision has been recommended given the high rate of reoccurrence. Mohs micrographic surgery may provide optimal treatment of this neoplasm given the ability to have 100% margin control.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/15274715",
+          "offsetInBeginSection": 807,
+          "offsetInEndSection": 1164
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "s, MMS should be considered for the treatment of PMC, especially where tissue sparing is essential.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39628433",
+          "offsetInBeginSection": 1444,
+          "offsetInEndSection": 1543
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "There were 17 cases treated with Mohs micrographic surgery (MMS) with no recurrences. There were 84 cases treated with surgical excision with an overall recurrence rate of 34.5%. The mean follow-up time was 7.5 months for MMS and 7.6 months for surgical excision. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39628433",
+          "offsetInBeginSection": 727,
+          "offsetInEndSection": 991
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "There are no clear protocols for the management of PCs, however surgical intervention with clear margins has been highly considered in PC management to decrease risk of recurrence.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38552375",
+          "offsetInBeginSection": 209,
+          "offsetInEndSection": 389
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": " Given its rarity, there are no definitive guidelines regarding PC treatment. However, surgical intervention with clear margins including wide local excision or Mohs micrographic surgery has been highly considered. I",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38552375",
+          "offsetInBeginSection": 757,
+          "offsetInEndSection": 973
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Given the local aggressive nature of PC, appropriate surgical intervention is essential in decreasing the risk of recurrence. Wide excision with clear margins has been proposed to decrease the risk of recurrence. Additionally, total-body skin examination should be done 2-3 times annually to evaluate for recurrence or metastasis.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38552375",
+          "offsetInBeginSection": 1104,
+          "offsetInEndSection": 1434
+        }
+      ],
+      "id": "67cc9e6381b1027333000016",
+      "type": "list",
+      "body": "Please list the surgical treatments for Pilomatrix carcinoma."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39760305",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39754219",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38421348"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Aedes aegypti mosquitoes are the principal vectors of dengue",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39760305",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 60
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Mosquito-borne flaviviruses",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39754219",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 27
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Several outbreaks of chikungunya and dengue occurred on Mediterranean coasts during the hot season in the last two decades. Aedes albopictus was the vector involved in all the events",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38421348",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 182
+        }
+      ],
+      "id": "67d7fe1718b1e36f2e000043",
+      "type": "factoid",
+      "body": "Vector of dengue infection."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/36539501",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27539476"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "We found that recurrent GBMs are characterized by a shift to a mesenchymal phenotype. We show that the mesenchymal state is mediated by activator protein 1.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36539501",
+          "offsetInBeginSection": 585,
+          "offsetInEndSection": 741
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Glioblastomas (GBM) are aggressive brain tumors that inevitably recur despite surgical resection, chemotherapy, and radiation. The degree to which recurrent GBM retains its initial immunophenotype is incompletely understood.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27539476",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 224
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Recurrent tumors showed decreased staining for CD34 suggesting lower vessel density. A subset of tumors showed increased staining for markers associated with the mesenchymal gene expression pattern, including CD44, phosphorylated STAT3, and YKL40.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27539476",
+          "offsetInBeginSection": 653,
+          "offsetInEndSection": 900
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "These data support the notion that GBM progression is associated with a shift toward a mesenchymal phenotype in a subset of tumors and this may portend a more aggressive behavior.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27539476",
+          "offsetInBeginSection": 1268,
+          "offsetInEndSection": 1447
+        }
+      ],
+      "id": "67da131f18b1e36f2e000053",
+      "type": "yesno",
+      "body": "Is there a shift in the cell states of glioblastoma during recurrence?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/31770575"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Association between CUBN gene variants, type 2 diabetes and vitamin D concentrations in an elderly Greek population.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31770575",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 116
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": " Our results indicate a potential role of CUBN gene in T2DM genetic susceptibility in the Greek population. These findings may also denote an indirect effect of vitamin D metabolism dysregulation on the pathogenesis of T2DM. Further studies are required to replicate our findings and clarify the complex underlying mechanisms.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31770575",
+          "offsetInBeginSection": 1307,
+          "offsetInEndSection": 1633
+        }
+      ],
+      "id": "67d45d5818b1e36f2e000012",
+      "type": "factoid",
+      "body": "In which population has it been described an association between the CUBN gene and T2DM genetic susceptibility?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39060406",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38578768",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37046350"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "lthough in its initial stages, the use of stem cells seems to be a promising therapy to alleviate xerostomia regardless of its cause.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39060406",
+          "offsetInBeginSection": 1597,
+          "offsetInEndSection": 1730
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Long-Term Outcome Following Treatment With Allogeneic Mesenchymal Stem/Stromal Cells for Radiation-Induced Hyposalivation and Xerostomia.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38578768",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 137
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Adipose-derived mesenchymal stem/stromal cells (ASCs) are proposed as a new xerostomia treatment. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38578768",
+          "offsetInBeginSection": 12,
+          "offsetInEndSection": 110
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Mesenchymal Stem/Stromal Cell Therapy for Radiation-Induced Xerostomia in Previous Head and Neck Cancer Patients: ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38441659",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 114
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "fficacy of mesenchymal stem cell therapy in rodent models of radiation-induced xerostomia and oral mucositis: a systematic review.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37046350",
+          "offsetInBeginSection": 1,
+          "offsetInEndSection": 131
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Radiation-induced xerostomia and oral mucositis are serious complications of radiation therapy for head and neck cancers. Current treatment options have limited efficacy. Mesenchymal stem cell (MSC) therapy has shown promising results in supporting the restoration of glandular secretion function and the regeneration of damaged tissues. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37046350",
+          "offsetInBeginSection": 12,
+          "offsetInEndSection": 350
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The results of our systematic review suggest that MSCs appeared to be effective in the treatment of radiation-induced xerostomia and oral mucositis.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37046350",
+          "offsetInBeginSection": 1437,
+          "offsetInEndSection": 1585
+        }
+      ],
+      "id": "67cde99581b102733300001f",
+      "type": "yesno",
+      "body": "Can stem cell therapies be used to treat xerostomia"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39480870",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36055769",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38394337",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37498955"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "species of Trypanosoma which cause human African trypanosomiasis",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39480870",
+          "offsetInBeginSection": 45,
+          "offsetInEndSection": 109
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "African trypanosomes are bloodstream protozoan parasites that infect mammals including humans, where they cause sleeping sickness",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36055769",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 129
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Trypanosoma brucei is a causative agent of the Human and Animal African Trypanosomiases",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38394337",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 87
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Trypanosoma brucei gambiense",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37498955",
+          "offsetInBeginSection": 144,
+          "offsetInEndSection": 172
+        }
+      ],
+      "id": "67d6bda918b1e36f2e000021",
+      "type": "factoid",
+      "body": "What is the cause of African trypanosomiasis?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/16267055",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28178271"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The Fgfr4 promoter region contained a Tead protein binding site (M-CAT 5\u0027-CATTCCT-3\u0027), and Tead2 showed induction during regeneration commensurate with Fgfr4 regulation.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/16267055",
+          "offsetInBeginSection": 721,
+          "offsetInEndSection": 890
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The TEAD family of transcription factors (TEAD1-4) bind the MCAT element in the regulatory elements of both growth promoting and myogenic differentiation genes.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28178271",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 160
+        }
+      ],
+      "id": "67d7506e18b1e36f2e00003f",
+      "type": "factoid",
+      "body": "What is the consensus binding site of the TEAD transcription factors?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/28716001"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Variant Ranker: a web-tool to rank genomic data according to functional significance.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28716001",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 85
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "We describe Variant Ranker, a user-friendly simple web-based tool for ranking, filtering and annotation of coding and non-coding variants. Variant Ranker facilitates the identification of causal variants based on novelty, effect and annotation information. The algorithm implements and aggregates multiple prediction algorithm scores, conservation scores, allelic frequencies, clinical information and additional open-source annotations using accessible databases via ANNOVAR. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28716001",
+          "offsetInBeginSection": 329,
+          "offsetInEndSection": 806
+        }
+      ],
+      "id": "67d4854918b1e36f2e000014",
+      "type": "summary",
+      "body": "Describe Variant Ranker"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/25599729",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34187299"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Drug-induced acute interstitial nephritis (DAIN) is often associated with improved outcomes, whereas some patients may still progress to chronic kidney disease (CKD). ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34187299",
+          "offsetInBeginSection": 11,
+          "offsetInEndSection": 178
+        }
+      ],
+      "id": "67cec6e781b1027333000021",
+      "type": "yesno",
+      "body": "Is creatinine usually elevated in Drug-induced intestinal neuropathy(DAIN)?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38468305"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "antibiotics perturb many components of the microbiota, which return close to the baseline state within 30 days. These data suggest an important role of endogenous β-lactamase-producing anaerobes in protecting the functions of the microbiota by de-activating the antibiotics reaching the colon",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38468305",
+          "offsetInBeginSection": 1625,
+          "offsetInEndSection": 1917
+        }
+      ],
+      "id": "67d721d118b1e36f2e000031",
+      "type": "yesno",
+      "body": "Are systemic beta lactams considered harmful to the human microbiome?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/33283409",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25691693"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The epidermal growth factor receptor variant type III (EGFRvIII) is the most common mutation of EGFR in glioblastoma multiforme (GBM) and is found in approximately 25% of all GBMs. Intriguingly, EGFRvIII is mostly found in GFAP+ astrocytic tumour cells in the brain, suggesting connection of EGFRvIII to astrogenesis.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33283409",
+          "offsetInBeginSection": 12,
+          "offsetInEndSection": 329
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "In this study we determined whether EGFR amplification and expression of the most common mutation in GBMs (EGFRvIII) is retained at tumor recurrence.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25691693",
+          "offsetInBeginSection": 496,
+          "offsetInEndSection": 645
+        }
+      ],
+      "id": "67da0c0f18b1e36f2e000052",
+      "type": "factoid",
+      "body": "What is the most common EGFR mutation in glioblastoma multiforme?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/29196930"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": " ALOX12 rs14309 GG genotype expression was found to be significantly associated with MI, higher cIMT, increased CV events, CV, and overall mortality. This phenomenon could be partially explained by the increased platelet proaggregatory activity of AA products and the control they exert in thrombotic occurrence and plaque formation.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/29196930",
+          "offsetInBeginSection": 2834,
+          "offsetInEndSection": 3167
+        }
+      ],
+      "id": "67d486e118b1e36f2e000015",
+      "type": "list",
+      "body": "Which cardiovascular events are associated with ALOX12 gene polymorphisms?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/35924976",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38214543",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38801453"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Drug reaction with eosinophilia and systemic symptoms (DRESS) syndrome is a rare and severe adverse drug reaction involving multiple organs. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38214543",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 141
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "We present a case of lamotrigine-triggered DRESS (drug reaction with eosinophilia and systemic symptoms) syndrome with acute kidney injury stage 3",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38801453",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 146
+        }
+      ],
+      "id": "67cc9bef81b1027333000013",
+      "type": "factoid",
+      "body": "What is DRESS in the context of drug therapy?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38399268"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "development of type 2 diabetes mellitus, muscular symptoms, liver toxicity, kidney diseases, cataracts, hemorrhagic strokes, and psychiatric complications",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38399268",
+          "offsetInBeginSection": 485,
+          "offsetInEndSection": 639
+        }
+      ],
+      "id": "67d430f918b1e36f2e00000f",
+      "type": "list",
+      "body": "Adverse effects of statins."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/37551617"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "As a means to simplify and strengthen the support for this endeavor, we have developed oncoEnrichR, a flexible bioinformatics tool that allows cancer researchers to comprehensively interrogate a given gene list along multiple facets of cancer relevance. oncoEnrichR differs from general gene set analysis frameworks through the integration of an extensive set of prior knowledge specifically relevant for cancer, including ranked gene-tumor type associations, literature-supported proto-oncogene and tumor suppressor gene annotations, target druggability data, regulatory interactions, synthetic lethality predictions, as well as prognostic associations, gene aberrations and co-expression patterns across tumor types. The software produces a structured and user-friendly analysis report as its main output, where versions of all underlying data resources are explicitly logged, the latter being a critical component for reproducible science. We demonstrate the usefulness of oncoEnrichR through interrogation of two candidate lists from proteomic and CRISPR screens. oncoEnrichR is freely available as a web-based service hosted by the Galaxy platform (https://oncotools.elixir.no), and can also be accessed as a stand-alone R package (https://github.com/sigven/oncoEnrichR).",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37551617",
+          "offsetInBeginSection": 442,
+          "offsetInEndSection": 1718
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Comprehensive interrogation of gene lists from genome-scale cancer screens with oncoEnrichR.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37551617",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 92
+        }
+      ],
+      "id": "67d3460218b1e36f2e000004",
+      "type": "summary",
+      "body": "Describe oncoEnrichR"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39579221",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38327007",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38160479",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38434126",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39098538"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Endometrioma patients are under-treated with endocrine endometriosis therapy",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39579221",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 76
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "What are the complications of transvaginal ethanol sclerotherapy for the treatment of endometriomas",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38327007",
+          "offsetInBeginSection": 16,
+          "offsetInEndSection": 115
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Treatment of endometriomas: Surgical approaches ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38160479",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 48
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Efficacy of Ethanol Sclerotherapy Versus Laparoscopic Excision in the Treatment of Ovarian Endometrioma.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38434126",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 104
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Recurrence after surgery for endometrioma: a systematic review and meta-analyses.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39098538",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 81
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "These endometriomas can, in addition to medical treatment, be treated surgically.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39098538",
+          "offsetInBeginSection": 247,
+          "offsetInEndSection": 328
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "After surgery, hormonal therapy is still frequently used for the treatment of endometriosis",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39098538",
+          "offsetInBeginSection": 329,
+          "offsetInEndSection": 420
+        }
+      ],
+      "id": "67cc9ca681b1027333000014",
+      "type": "list",
+      "body": "What are the treatments for endometrioma/endometriosis?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/36961565",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38341154",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39100850",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38788859"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "subclinical hypothyroidism (SCH) are prevalent in major depressive disorder (MDD)",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36961565",
+          "offsetInBeginSection": 35,
+          "offsetInEndSection": 116
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "causal relationship between different hypothyroidism subtypes and the risk of major depression (MD) is yet to be fully elucidated",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38341154",
+          "offsetInBeginSection": 16,
+          "offsetInEndSection": 145
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "high rate of comorbidity between hypothyroidism and psychiatric disorders",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39100850",
+          "offsetInBeginSection": 1181,
+          "offsetInEndSection": 1254
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "relationship between depression and thyroid diseases and function, its causal relationship remains unclear",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38788859",
+          "offsetInBeginSection": 47,
+          "offsetInEndSection": 153
+        }
+      ],
+      "id": "67d7fee818b1e36f2e000048",
+      "type": "summary",
+      "body": "Association between hypothyroidism and depression."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/36394233"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "SEGCOND predicts putative transcriptional condensate-associated genomic regions by integrating multi-omics data.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36394233",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 112
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "In this work, we present SEGCOND, a computational framework aiming to highlight genomic regions involved in the formation of transcriptional condensates. SEGCOND is flexible in combining multiple genomic datasets related to enhancer activity and chromatin accessibility, to perform a genome segmentation. It then uses this segmentation for the detection of highly transcriptionally active regions of the genome.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36394233",
+          "offsetInBeginSection": 615,
+          "offsetInEndSection": 1026
+        }
+      ],
+      "id": "67d48f6c18b1e36f2e000017",
+      "type": "factoid",
+      "body": "Which computational method exists for prediction of transcriptional condensate-associated genomic regions?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/35313748",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33975986",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25747736"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Mesenchymal stem cells derived from umbilical cord Wharton\u0027s Jelly (WJ-MSCs) are emerging as promising therapeutics for a variety of diseases due to their ability of regeneration and immunomodulation,",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35313748",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 200
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Human umbilical cord Wharton\u0027s jelly-derived mesenchymal stem cell transplantation could improve diabetic intracavernosal pressure.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33975986",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 131
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "his study aimed to assess the effects of human umbilical cord Wharton\u0027s jelly-derived MSCs (hWJ-MSCs) on diabetes-related intracavernosal pressure (ICP) impairment in rats. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33975986",
+          "offsetInBeginSection": 102,
+          "offsetInEndSection": 275
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "harton\u0027s jelly derived mesenchymal stromal cells: Biological properties, induction of neuronal phenotype and current applications in neurodegeneration research.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25747736",
+          "offsetInBeginSection": 1,
+          "offsetInEndSection": 161
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Wharton\u0027s jelly, WJ) stromal cells have therefore emerged as a more suitable alternative source of MSCs, thanks to their primitive nature and the easy isolation without relevant ethical concerns.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25747736",
+          "offsetInBeginSection": 1065,
+          "offsetInEndSection": 1260
+        }
+      ],
+      "id": "67cf221a81b1027333000022",
+      "type": "factoid",
+      "body": "What tissue would be used to derive  Wharton\u0027s Jelly Mesenchymal Stem Cells?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38910558",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33436535",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34609508",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32720461",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31923059",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32610473"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Cutibacterium acnes, Corynebacterium aurimucosum, and Pseudomonas denitrificans",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38910558",
+          "offsetInBeginSection": 750,
+          "offsetInEndSection": 829
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Human bocavirus",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33436535",
+          "offsetInBeginSection": 11,
+          "offsetInEndSection": 26
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "parvovirus",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33436535",
+          "offsetInBeginSection": 39,
+          "offsetInEndSection": 49
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "cardiotropic viruses have been implicated as causes of myocarditis",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34609508",
+          "offsetInBeginSection": 621,
+          "offsetInEndSection": 687
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "cardiotropic enteroviruses (Coxsackieviruses B), the most commonly detected parvovirus B19, and human herpes virus 6",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34609508",
+          "offsetInBeginSection": 737,
+          "offsetInEndSection": 853
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "SARS-CoV-2",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34609508",
+          "offsetInBeginSection": 943,
+          "offsetInEndSection": 953
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Parvovirus B19",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32720461",
+          "offsetInBeginSection": 311,
+          "offsetInEndSection": 325
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": " Coxsackievirus B3",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32720461",
+          "offsetInBeginSection": 565,
+          "offsetInEndSection": 583
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "severe acute respiratory syndrome coronavirus 2",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32720461",
+          "offsetInBeginSection": 462,
+          "offsetInEndSection": 509
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Herpes simplex virus",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31923059",
+          "offsetInBeginSection": 12,
+          "offsetInEndSection": 32
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Trypanosona cruzi infection",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32610473",
+          "offsetInBeginSection": 28,
+          "offsetInEndSection": 55
+        }
+      ],
+      "id": "67d6c1bb18b1e36f2e000029",
+      "type": "list",
+      "body": "Causes of infectious myocardiopathy."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38815010"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Germline-mediated immunoediting sculpts breast cancer subtypes and metastatic proclivity.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38815010",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 89
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Tumors with the same diagnosis can have different molecular profiles and response to treatment. It remains unclear when and why these differences arise. Somatic genomic aberrations occur within the context of a highly variable germline genome. Interrogating 5870 breast cancer lesions, we demonstrated that germline-derived epitopes in recurrently amplified genes influence somatic evolution by mediating immunoediting. Individuals with a high germline-epitope burden in human epidermal growth factor receptor 2 (HER2/ERBB2) are less likely to develop HER2-positive breast cancer compared with other subtypes. The same holds true for recurrent amplicons defining three aggressive estrogen receptor (ER)-positive subgroups. Tumors that overcome such immune-mediated negative selection are more aggressive and demonstrate an \"immune cold\" phenotype. These data show that the germline genome plays a role in dictating somatic evolution.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38815010",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 933
+        }
+      ],
+      "id": "67d49ade18b1e36f2e00001b",
+      "type": "summary",
+      "body": "What\u0027s the effect of germline-mediated immunoediting?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/36654468",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37132309",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37190944",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38219142",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38245543"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Mesenchymal Stem Cells Therapy for COVID-19: From Basic Research to Clinical Trial.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36654468",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 83
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "In the present study, we described the underlying mechanisms of MSCs therapy and provided a thorough research study on the recent clinical trials of MSCs for SARS-CoV-2 infection.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36654468",
+          "offsetInBeginSection": 762,
+          "offsetInEndSection": 941
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Human Umbilical Cord Mesenchymal Stem Cells Alleviate Rat Knee Osteoarthritis via Activating Wnt/ β-catenin Signaling Pathway",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37132309",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 125
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": " This study evaluated the therapeutic potential and underlying mechanism of hUC-MSCs in alleviating pathological symptoms of OA",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37132309",
+          "offsetInBeginSection": 378,
+          "offsetInEndSection": 505
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Overall, this study demonstrated that hUC-MSCs induce the secretion of some cytokines via the paracrine function to activate the Wnt/β-catenin signaling pathway to reduce the pathological condition of OA and maintain the proper expression of cytokines and extracellular matrix proteins.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37132309",
+          "offsetInBeginSection": 1886,
+          "offsetInEndSection": 2172
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Mesenchymal stem cells- an excellent therapeutic agent for cancer.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37190944",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 66
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "This review aims to focus on the anticancer properties of MSCs and their effect on different signaling pathways. Later on, we discuss the advantages of engineered MSCs over non-engineered MSCsin cancer therapy.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37190944",
+          "offsetInBeginSection": 893,
+          "offsetInEndSection": 1103
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": " Our previous single-center, randomized, double-blinded, placebo-controlled phase 2 study evaluated the safety and effectiveness of human umbilical cord mesenchymal stromal cell (UC-MSC) transfusion for treating patients with type 2 diabetes mellitus",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38219142",
+          "offsetInBeginSection": 11,
+          "offsetInEndSection": 261
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Male patients with T2DM with greater AUCC-pep may be more likely to respond clinically to UC-MSC therapy, and further large-scale multi-ethnic clinical studies should be performed to confirm the conclusion.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38219142",
+          "offsetInBeginSection": 1604,
+          "offsetInEndSection": 1810
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "MSCs mediate long-term efficacy in a Crohn\u0027s disease model by sustained anti-inflammatory macrophage programming via efferocytosis",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38245543",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 130
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Mesenchymal stem cells (MSCs) are novel therapeutics for the treatment of Crohn\u0027s disease. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38245543",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 91
+        }
+      ],
+      "id": "67cc94f681b102733300000e",
+      "type": "list",
+      "body": "Please list diseases that can be treated with MSCs, Human Mesenchymal Stem cells"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39510417",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39277033",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39586142"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "mild elevation of NfL in bipolar disorder ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39510417",
+          "offsetInBeginSection": 1361,
+          "offsetInEndSection": 1403
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "positive correlation between sNfl and depression",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39277033",
+          "offsetInBeginSection": 1650,
+          "offsetInEndSection": 1698
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Eighteen MDD-related differential metabolites have been identified, involving pathways of phospholipids, glycerolipids, fatty acids, sphingolipids, cholesterol, vitamin E, and heme. A potential biomarker combination consisting of palmitelaidic acid, gamma carboxyethyl hydroxychroman (gamma-CEHC), and lysoPE(16:0) was confirmed for predicting depression in women",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39586142",
+          "offsetInBeginSection": 338,
+          "offsetInEndSection": 701
+        }
+      ],
+      "id": "67d723d918b1e36f2e000039",
+      "type": "summary",
+      "body": "Are there biomarkers of depression?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/37947183"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Biallelic CRELD1 variants cause a multisystem syndrome, including neurodevelopmental phenotypes, cardiac dysrhythmias, and frequent infections.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37947183",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 143
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Biallelic variants in CRELD1 were found in 18 participants from 14 families. Affected individuals displayed an array of phenotypes involving developmental delay, early-onset epilepsy, and hypotonia, with about half demonstrating cardiac arrhythmias and some experiencing recurrent infections.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37947183",
+          "offsetInBeginSection": 415,
+          "offsetInEndSection": 707
+        }
+      ],
+      "id": "67d34e2518b1e36f2e000006",
+      "type": "list",
+      "body": "What is caused by Biallelic CRELD1 variants?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/37291773",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39121786",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38595352",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38157663"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "We compared patient responses to desflurane and sevoflurane anesthesia, as measured by a quicker recovery and fewer complications, ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37291773",
+          "offsetInBeginSection": 98,
+          "offsetInEndSection": 229
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Desflurane versus sevoflurane anesthesia ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39121786",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 41
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Thus, we evaluated the effect of desflurane versus sevoflurane anesthesia on speed of postoperative recovery in older adults",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39121786",
+          "offsetInBeginSection": 123,
+          "offsetInEndSection": 247
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Sevoflurane with Desflurane Anesthesia.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38595352",
+          "offsetInBeginSection": 79,
+          "offsetInEndSection": 118
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "sevoflurane- and desflurane-induced anesthesia h",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38157663",
+          "offsetInBeginSection": 190,
+          "offsetInEndSection": 238
+        }
+      ],
+      "id": "67cc960381b102733300000f",
+      "type": "factoid",
+      "body": "What are desflurane and sevoflurane?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/37394650",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39101962",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32069859",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25660431"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "high-sensitivity C-reactive protein",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37394650",
+          "offsetInBeginSection": 824,
+          "offsetInEndSection": 859
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "interleukin 6 ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39101962",
+          "offsetInBeginSection": 522,
+          "offsetInEndSection": 536
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "tumor necrosis factor-alpha ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39101962",
+          "offsetInBeginSection": 544,
+          "offsetInEndSection": 572
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "C-reactive protein",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39101962",
+          "offsetInBeginSection": 589,
+          "offsetInEndSection": 607
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Prostaglandins",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32069859",
+          "offsetInBeginSection": 325,
+          "offsetInEndSection": 339
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "increase of cytokines",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25660431",
+          "offsetInBeginSection": 1057,
+          "offsetInEndSection": 1078
+        }
+      ],
+      "id": "67d7232418b1e36f2e000037",
+      "type": "summary",
+      "body": "Are there inflammatory markers of dysmenorrhea?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/34741119"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "The tumor suppressor MIR139 is silenced by POLR2M to promote AML oncogenesis.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34741119",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 77
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Our findings elucidate the molecular control of tumor suppressor MIR139 and reveal a role for POLR2M in the MIR139-silencing mechanism, downstream of MLL-AF9 and PRC2 in AML.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34741119",
+          "offsetInBeginSection": 888,
+          "offsetInEndSection": 1062
+        }
+      ],
+      "id": "67d751e418b1e36f2e000040",
+      "type": "factoid",
+      "body": "Which protein is silencing MIR139 in order to promote AML oncogenesis?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39423992",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39547425",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36867074"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The Fontan operation provides lifesaving palliation for individuals with single ventricle (SV) physiology. G",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39423992",
+          "offsetInBeginSection": 12,
+          "offsetInEndSection": 120
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "This population-based study demonstrated that patients with a Fontan circulation had increased risk of SD, which in turn led to higher risk of mortality. These findings underscore the need for more systematic surveillance of cardiac and systemic disease for patients after Fontan operation.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39423992",
+          "offsetInBeginSection": 1910,
+          "offsetInEndSection": 2200
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": " The Fontan circulation palliates single-ventricle congenital heart disease by separating the systemic and pulmonary circulations. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39547425",
+          "offsetInBeginSection": 13,
+          "offsetInEndSection": 144
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The Fontan procedure is a staged palliative surgery performed in children with congenital univentricular heart defects. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36867074",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 120
+        }
+      ],
+      "id": "67cc97c481b1027333000012",
+      "type": "factoid",
+      "body": "On what part of the body is Fontan Palliation(AKA Fontan proceedure) performed?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/37458141",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38219897",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38416497",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38388489",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38387571"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Improved ambient PM benefits in decreasing childhood asthma prevalence",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37458141",
+          "offsetInBeginSection": 1608,
+          "offsetInEndSection": 1678
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "characteristics of the urban environment during pregnancy are of relevance to the offspring\u0027s respiratory health during childhood",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38219897",
+          "offsetInBeginSection": 1935,
+          "offsetInEndSection": 2064
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "early life air pollution was associated with increased asthma incidence by early and middle childhood",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38416497",
+          "offsetInBeginSection": 2705,
+          "offsetInEndSection": 2806
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Reducing asthma risk in the US requires air pollution regulation and reduction",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38416497",
+          "offsetInBeginSection": 2971,
+          "offsetInEndSection": 3049
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Recommendations to reduce exposure and use of indoor air filtration in areas with high PM pollution may improve symptom control and lung function in children with asthma",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38388489",
+          "offsetInBeginSection": 1780,
+          "offsetInEndSection": 1949
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "vulnerable subpopulation of children who were exposed to 13 of the 25 significant combinations in at least one exposure period. On average, these children experienced the largest number of asthma symptoms in our sample. By providing evidence on air toxic combinations associated with childhood asthma",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38387571",
+          "offsetInBeginSection": 1571,
+          "offsetInEndSection": 1871
+        }
+      ],
+      "id": "67d6b4e218b1e36f2e00001e",
+      "type": "yesno",
+      "body": "Is childhood asthma more common in highly polluted areas?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38806488"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "We show that nucleosomes inherently restrain distinct ∆Lk values depending on their genomic origin. Nucleosome DNA topologies differ at gene bodies (∆Lk \u003d -1.29), intergenic regions (∆Lk \u003d -1.23), rDNA genes (∆Lk \u003d -1.24) and telomeric regions (∆Lk \u003d -1.07). Nucleosomes near the transcription start and termination sites also exhibit singular DNA topologies. Our findings demonstrate that nucleosome DNA topology is imprinted by its native chromatin context and persists when the nucleosome is relocated.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38806488",
+          "offsetInBeginSection": 555,
+          "offsetInEndSection": 1060
+        }
+      ],
+      "id": "67d4161318b1e36f2e00000a",
+      "type": "yesno",
+      "body": "Does nucleosomal DNA have topological memory?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/37503091",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38680365",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37992606",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39448786",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37461376"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "In the present work, a silencing RNA screen was performed to uncover plasma membrane repair mechanisms of cells exposed to a pore-forming toxin (listeriolysin O). T",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37503091",
+          "offsetInBeginSection": 210,
+          "offsetInEndSection": 374
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "he pore forming and actin polymerizing Listeria monocytogenes effectors listeriolysin-O (LLO) and actin assembly-inducing protein (ActA) were synthesized using a novel green fluorescent protein (GFP)-linked heterologous expression system",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38680365",
+          "offsetInBeginSection": 376,
+          "offsetInEndSection": 613
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "he system utilizes listeriolysin O (LLO), a toxin produced by L. monocytogenes that enlarges the pores split GFP-encapsulated liposomes,",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37992606",
+          "offsetInBeginSection": 425,
+          "offsetInEndSection": 561
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Listeriolysin O and pneumolysin efficiently assemble into non-covalent membrane pore complexes of approximately 30 units or more within the surface layer.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39448786",
+          "offsetInBeginSection": 1244,
+          "offsetInEndSection": 1398
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": ". Listeriolysin O plays a crucial role in the pathogenesis of the bacterium by facilitating the escape of the pathogen from the phagosome into the cytosol. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37461376",
+          "offsetInBeginSection": 317,
+          "offsetInEndSection": 473
+        }
+      ],
+      "id": "67c9e84181b1027333000008",
+      "type": "factoid",
+      "body": "What cellular process is Listeriolysin associated with?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/35061103",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35900686",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36775196"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Five studies reported cumulative incidence of postpartum psychosis (ranging from 1.1 to 16.7 per 1000 births)",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35061103",
+          "offsetInBeginSection": 944,
+          "offsetInEndSection": 1053
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Postpartum psychosis has been found to affect 0.89-2.6 per 1000 women",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35900686",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 69
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "13,894 (1.1 per 1000) had a diagnosis of postpartum psychosis during the delivery hospitalization, and 7128 (0.6 per 1000) had a 60-day postpartum readmission with postpartum psychosis",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36775196",
+          "offsetInBeginSection": 1276,
+          "offsetInEndSection": 1460
+        }
+      ],
+      "id": "67d7203018b1e36f2e00002d",
+      "type": "factoid",
+      "body": "Estimated prevalence of postpartum psychosis."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/36536133"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Liver RBFOX2 regulates cholesterol homeostasis via Scarb1 alternative splicing in mice.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36536133",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 87
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Here, we identify a key role for the splicing factor RNA-binding Fox protein 2 (RBFOX2) in maintaining cholesterol homeostasis in a lipogenic environment in the liver.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36536133",
+          "offsetInBeginSection": 203,
+          "offsetInEndSection": 370
+        }
+      ],
+      "id": "67d497c418b1e36f2e00001a",
+      "type": "factoid",
+      "body": "What\u0027s the effect of liver RBFOX2?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39025435",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38809658",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39121994",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39745839"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Geographic atrophy (GA) is a form of advanced age-related macular degeneration (AMD) that can cause irreversible vision impairment and is responsible for approximately 20% of legal blindness in the United States.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39745839",
+          "offsetInBeginSection": 12,
+          "offsetInEndSection": 224
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "The Discrepancy Between Visual Acuity Decline and Foveal Involvement in Geographic Atrophy.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39121994",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 91
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "To investigate the discrepancy between visual acuity (VA) decline and foveal involvement in geographic atrophy (GA) ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39121994",
+          "offsetInBeginSection": 9,
+          "offsetInEndSection": 125
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Ophthalmologists\u0027 awareness of geographic atrophy: An Italian survey including 365 participants.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38809658",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 96
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Geographic atrophy (GA) is a severe complication of age-related macular degeneration (AMD) and leads to irreversible visual decline.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38809658",
+          "offsetInBeginSection": 9,
+          "offsetInEndSection": 141
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "This survey provided an overview of how GA patients are managed in Italy. The Italian ophthalmology community appears to be ready to adopt the upcoming treatments for GA.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38809658",
+          "offsetInBeginSection": 1384,
+          "offsetInEndSection": 1554
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Oral Antioxidant and Lutein/Zeaxanthin Supplements Slow Geographic Atrophy Progression to the Fovea in Age-Related Macular Degeneration",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39025435",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 135
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "o determine whether oral micronutrient supplementation slows geographic atrophy (GA) progression in age-related macular degeneration (AMD).",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39025435",
+          "offsetInBeginSection": 10,
+          "offsetInEndSection": 149
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Oral micronutrient supplementation slowed GA progression toward the central macula, likely by augmenting the natural phenomenon of foveal sparing.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39025435",
+          "offsetInBeginSection": 2276,
+          "offsetInEndSection": 2422
+        }
+      ],
+      "id": "67cc826c81b102733300000b",
+      "type": "yesno",
+      "body": "Is Geographic Atrophy(GA) found in the hand or foot?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38331482",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37105647",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36812284",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36751550"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "recurrent, self-limited genital ulcers",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38331482",
+          "offsetInBeginSection": 92,
+          "offsetInEndSection": 130
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "recurrent, self-limited genital, buttock, and thigh ulcerations",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37105647",
+          "offsetInBeginSection": 64,
+          "offsetInEndSection": 127
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "painful necrotic ulcers of both labia minora, urinary retention, and extreme discomfort",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36812284",
+          "offsetInBeginSection": 480,
+          "offsetInEndSection": 567
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "pain and burning sensation and swelling of the vulva",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36812284",
+          "offsetInBeginSection": 656,
+          "offsetInEndSection": 708
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "vagina and cervix were covered with ulcerated and crustal lesions",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36812284",
+          "offsetInBeginSection": 807,
+          "offsetInEndSection": 872
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "primary genital herpes, after a short incubation period, multiple bilaterally located papules, vesicles, painful ulcers, and crusts appear, which resolve over a period of 15 to 21 days",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36812284",
+          "offsetInBeginSection": 1397,
+          "offsetInEndSection": 1581
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Clinically atypical presentations include either unusual sites or atypical morphological forms of genital disease, exophytic (verrucoid or nodular) superficially ulcerated lesions",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36812284",
+          "offsetInBeginSection": 1587,
+          "offsetInEndSection": 1766
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "formation of ulcers and erosions within the mucous membranes. It is characterized by a wide range of clinical symptoms from serous-filled blisters located on the erythematous and oedematous substrate to asymptomatic infection. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36751550",
+          "offsetInBeginSection": 117,
+          "offsetInEndSection": 344
+        }
+      ],
+      "id": "67d7fe6a18b1e36f2e000046",
+      "type": "summary",
+      "body": "Manifestations of herpes genital infection."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39371122",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31515523"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Heterozygous loss-of-function variants in SPTAN1 cause a novel early childhood onset distal myopathy with chronic neurogenic features.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39371122",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 134
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "This study expands the phenotype of SPTAN1 mutations, which at the heterozygous state, when occurred de novo, may cause early infantile epileptic encephalopathy-5 (EIEE5). ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31515523",
+          "offsetInBeginSection": 1219,
+          "offsetInEndSection": 1391
+        }
+      ],
+      "id": "67d352e918b1e36f2e000009",
+      "type": "list",
+      "body": "What is caused by heterozygous loss of function SPTAN1?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38328828",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36996739",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35093536",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33995012"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Berberine Alleviates Ischemic Brain Injury by Enhancing Autophagic Flux via Facilitation of TFEB Nuclear Translocation.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38328828",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 119
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Berberine has been demonstrated to alleviate cerebral ischemia/reperfusion injury, ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38328828",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 83
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": " berberine can improve the nerve function deficits in ischemic stroke by inhibiting inflammation. T",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36996739",
+          "offsetInBeginSection": 48,
+          "offsetInEndSection": 147
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "our results indicate that BBR confers neuroprotective effects by activating PPARδ to scavenge ROS, providing a novel mechanistic insight for the antioxidant action of BBR.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35093536",
+          "offsetInBeginSection": 1333,
+          "offsetInEndSection": 1504
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Berberine Attenuates Cerebral Ischemia-Reperfusion Injury Induced Neuronal Apoptosis by Down-Regulating the CNPY2 Signaling Pathwa",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33995012",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 130
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Berberine (BBR) has a neuroprotective effect against ischemic stroke, but its specific protective mechanism has not been clearly elaborated.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33995012",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 140
+        }
+      ],
+      "id": "67cc969581b1027333000010",
+      "type": "summary",
+      "body": "Whats is the effect of berberine in ischemic stroke?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38246426",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39070652",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39096466",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39074349",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38925001",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38890597"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Attention deficit hyperactivity disorder (ADHD) symptoms are associated with disordered eating",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38246426",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 94
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Eating disorders (EDs) commonly co-occur with other psychiatric and neurodevelopmental disorders including attention-deficit/hyperactivity disorder (ADHD) ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39070652",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 155
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Binge eating disorder (BED) is the most common specific eating disorder (ED). It is frequently associated with attention deficit hyperactivity disorder (ADHD)",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39096466",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 158
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "symptoms of attention deficit hyperactivity disorder (ADHD) with binge eating spectrum conditions - BESC ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39074349",
+          "offsetInBeginSection": 50,
+          "offsetInEndSection": 155
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "ymptoms of Attention-Deficit/Hyperactivity Disorder (ADHD) and loss of control (LOC) eating ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38925001",
+          "offsetInBeginSection": 122,
+          "offsetInEndSection": 214
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Difficulties with inhibitory control have been identified in eating disorders (EDs) and neurodevelopmental disorders (NDs; including attention deficit hyperactivity disorder (ADHD) ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38890597",
+          "offsetInBeginSection": 12,
+          "offsetInEndSection": 193
+        }
+      ],
+      "id": "67d7fe9318b1e36f2e000047",
+      "type": "summary",
+      "body": "Association between eating disorders and ADHD."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/35272364"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Integrated GWAS and Gene Expression Suggest ORM1 as a Potential Regulator of Plasma Levels of Cell-Free DNA and Thrombosis Risk.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35272364",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 128
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Finally, genetic correlation analysis between cfDNA and thrombosis identified a suggestive association (ρ g \u003d 0.43, p \u003d 0.089).All in all, we show evidence of the role of ORM1 in regulating cfDNA levels in plasma, which might contribute to the susceptibility to thrombosis through mechanisms of immunothrombosis.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35272364",
+          "offsetInBeginSection": 1084,
+          "offsetInEndSection": 1396
+        }
+      ],
+      "id": "67d418f418b1e36f2e00000c",
+      "type": "summary",
+      "body": "What is the association of ORM1 and cell-free DNA?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/28584483",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39724130",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32337126"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": " We know that teeth trouble us a lot when we are alive, but they last longer for thousands of years even after we are dead. Teeth being the strongest and resistant structure are the most significant tool in forensic investigations. P",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28584483",
+          "offsetInBeginSection": 11,
+          "offsetInEndSection": 244
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Can dead man tooth do tell tales? Tooth prints in forensic identification.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28584483",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 74
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "This study is aimed to know whether these tooth prints can become a forensic tool in personal identification such as finger prints. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28584483",
+          "offsetInBeginSection": 322,
+          "offsetInEndSection": 454
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Reliability of ameloglyphics in forensic identification: a systematic review.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39724130",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 77
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": " To assess if ameloglyphics is an accurate and reliable method for forensic identification of individuals.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39724130",
+          "offsetInBeginSection": 721,
+          "offsetInEndSection": 827
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "he results of the eighteen studies included in this review suggest that Ameloglyphicsis an useful adjunct for forensic identification.P",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39724130",
+          "offsetInBeginSection": 2235,
+          "offsetInEndSection": 2370
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Ameloglyphics: A Forensic Tool for Human Identification.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37654278",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 56
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": " Thus, ameloglyphics was created to serve as a key tool in forensic odontology, particularly in the case of huge fatalities caused by natural catastrophes.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37654278",
+          "offsetInBeginSection": 663,
+          "offsetInEndSection": 818
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "Forensic Odontology, a Boon and a Humanitarian Tool: A Literature Review.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32337126",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 73
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The techniques involved in forensic odontology include: bite mark analysis, tooth prints, rugroscopy, cheiloscopy, dental DNA analysis, radiographs, and photographs.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32337126",
+          "offsetInBeginSection": 688,
+          "offsetInEndSection": 853
+        }
+      ],
+      "id": "67cc9d4c81b1027333000015",
+      "type": "yesno",
+      "body": "Are ameleographics (AKA tooth prints) useful for forensic identification?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/32315552",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28674988",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29887138"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "evolving dementia in conjunction with neurological symptoms such as ataxia, myoclonus, pyramidal and extrapyramidal signs",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32315552",
+          "offsetInBeginSection": 263,
+          "offsetInEndSection": 384
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "isolated visual symptoms",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32315552",
+          "offsetInBeginSection": 677,
+          "offsetInEndSection": 701
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "isolated anomic aphasia",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32315552",
+          "offsetInBeginSection": 747,
+          "offsetInEndSection": 770
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "non-convulsive status epilepticus",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32315552",
+          "offsetInBeginSection": 789,
+          "offsetInEndSection": 822
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "psychiatric and visual symptoms, which are relatively common, epileptic seizures, otologic symptoms and presentation of sCJD as an acute vascular event",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32315552",
+          "offsetInBeginSection": 989,
+          "offsetInEndSection": 1140
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "language, communication and writing impairments, movement disorders, symptoms from the peripheral nervous system and bulbar signs were reported as well",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32315552",
+          "offsetInBeginSection": 1152,
+          "offsetInEndSection": 1303
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "encephalopathies",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/29887138",
+          "offsetInBeginSection": 242,
+          "offsetInEndSection": 258
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "neuronal loss, astrogliosis, and cognitive loss",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/29887138",
+          "offsetInBeginSection": 531,
+          "offsetInEndSection": 578
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "neurodegenerative disorders",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28674988",
+          "offsetInBeginSection": 65,
+          "offsetInEndSection": 92
+        }
+      ],
+      "id": "67d81c7218b1e36f2e00004d",
+      "type": "list",
+      "body": "Characteristics of prion diseases."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/36376298"
+      ],
+      "snippets": [
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "The 3D enhancer network of the developing T cell genome is shaped by SATB1.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36376298",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 75
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Mechanisms of tissue-specific gene expression regulation via 3D genome organization are poorly understood. Here we uncover the regulatory chromatin network of developing T cells and identify SATB1, a tissue-specific genome organizer, enriched at the anchors of promoter-enhancer loops. We have generated a T-cell specific Satb1 conditional knockout mouse which allows us to infer the molecular mechanisms responsible for the deregulation of its immune system. H3K27ac HiChIP and Hi-C experiments indicate that SATB1-dependent promoter-enhancer loops regulate expression of master regulator genes (such as Bcl6), the T cell receptor locus and adhesion molecule genes, collectively being critical for cell lineage specification and immune system homeostasis. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36376298",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 757
+        }
+      ],
+      "id": "67d4903418b1e36f2e000018",
+      "type": "factoid",
+      "body": "Which gene shapes the 3D enhancer network of the developing T cell genome?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38090649",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37038186",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35339647",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31578439"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The expression of nonsynonymous mutations results in the production of mutant proteins from tumor cells, namely tumor-specific antigens called neoantigens. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38090649",
+          "offsetInBeginSection": 157,
+          "offsetInEndSection": 313
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": " However, some reports have claimed recently that aberrant gene expression followed by proteome alterations and neoantigen formation ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37038186",
+          "offsetInBeginSection": 228,
+          "offsetInEndSection": 361
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "inally, we summarize the contributions of alternative splicing events to neoantigens and chemoresistance and prospects for splicing-based therapies.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35339647",
+          "offsetInBeginSection": 771,
+          "offsetInEndSection": 919
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Differentially spliced isoforms and splicing proteins also impact neoantigen creation and treatment resistance,",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35339647",
+          "offsetInBeginSection": 1633,
+          "offsetInEndSection": 1744
+        },
+        {
+          "beginSection": "title",
+          "endSection": "title",
+          "text": "RNA Transcription and Splicing Errors as a Source of Cancer Frameshift Neoantigens for Vaccines",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31578439",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 95
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "This realization has motivated the interest in personal cancer vaccines based on sequencing the patient\u0027s tumor DNA to discover neoantigens. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31578439",
+          "offsetInBeginSection": 178,
+          "offsetInEndSection": 319
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "We show that errors in transcription of microsatellites (MS) and mis-splicing of exons create highly immunogenic frameshift (FS) neoantigens in tumors.",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31578439",
+          "offsetInBeginSection": 392,
+          "offsetInEndSection": 543
+        }
+      ],
+      "id": "67c9e48f81b1027333000005",
+      "type": "summary",
+      "body": "How is a  neoantigen created?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/35399426",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37395946",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38850720",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36299969",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34403091",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31714154"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "most often of unknown causes",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35399426",
+          "offsetInBeginSection": 121,
+          "offsetInEndSection": 149
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Vascular causes",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37395946",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 15
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "cochlear ischemia, or cochlear infarction",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38850720",
+          "offsetInBeginSection": 169,
+          "offsetInEndSection": 210
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "vestibulo-cochlear artery (VCA). Occlusion of the VCA ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38850720",
+          "offsetInBeginSection": 562,
+          "offsetInEndSection": 616
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "autoimmune diseases, infections, functional, metabolic disorders, vascular disorders, traumatic causes, due to toxins, and neurological disorders",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36299969",
+          "offsetInBeginSection": 335,
+          "offsetInEndSection": 480
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "SSNHL has some relationship with hereditary in Chinese population, but its complex genetic pathogenic mechanisms",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34403091",
+          "offsetInBeginSection": 1598,
+          "offsetInEndSection": 1710
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "viral infection, vascular insufficiency, autoimmune disorder and stress theory, while causes of secondary SSHL include neoplasm, stroke and irradiation",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31714154",
+          "offsetInBeginSection": 734,
+          "offsetInEndSection": 885
+        }
+      ],
+      "id": "67d7219018b1e36f2e000030",
+      "type": "list",
+      "body": "Causes of sudden deafness."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38355534"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The registry has three-layered datasets, with European Commission-mandated data elements (EU-CDEs), a set of cross-neuromuscular data elements (NMD-CDEs) and a dataset of disease-specific data elements that function modularly (DS-DEs). The registry captures clinical, neuromuscular imaging, neuromuscular histopathology, biological and genetic data and patient-reported outcomes in a computer-interpretable format using selected ontologies and classifications. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38355534",
+          "offsetInBeginSection": 352,
+          "offsetInEndSection": 813
+        }
+      ],
+      "id": "67d74dd718b1e36f2e00003d",
+      "type": "list",
+      "body": "Which types of data does the EURO-NMD registry capture?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39717671",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37550825",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38378017"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Tumors and tumor-like lesions of the uterine adnexa in children and adolescents are uncommon but may carry devastating consequences. M",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38378017",
+          "offsetInBeginSection": 14,
+          "offsetInEndSection": 148
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "The ovarian-adnexal reporting and data system on magnetic resonance imaging (O-RADS MRI) score is now a well-established tool to characterize pelvic gynecological masses based on their likelihood of malignancy",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37550825",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 209
+        }
+      ],
+      "id": "67cdbdb981b1027333000018",
+      "type": "factoid",
+      "body": "What tissue is the origin of adnexal masses."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39258870",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36882223"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Compared to matched controls, median life expectancy was 8-9 years shorter in pwMS with survival diverging from controls during the first decade after diagnosis, more clearly in men than women",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39258870",
+          "offsetInBeginSection": 1061,
+          "offsetInEndSection": 1253
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "New Zealanders with MS have a median survival age 7.2 years lower than the general population and twice the mortality risk. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36882223",
+          "offsetInBeginSection": 1269,
+          "offsetInEndSection": 1393
+        }
+      ],
+      "id": "67d7228818b1e36f2e000034",
+      "type": "factoid",
+      "body": "Mean survival after a diagnosis of multiple sclerosis."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/37808782"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Here, we develop SEQUOIA, a transformer model to predict cancer transcriptomes from whole-slide histology images. To enable the full potential of transformers, we first pre-train the model using data from 1,802 normal tissues. Then, we fine-tune and evaluate the model in 4,331 tumor samples across nine cancer types. The prediction performance is assessed at individual gene levels and pathway levels through Pearson correlation analysis and root mean square error. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37808782",
+          "offsetInBeginSection": 489,
+          "offsetInEndSection": 956
+        }
+      ],
+      "id": "67d49cf318b1e36f2e00001c",
+      "type": "summary",
+      "body": "Describe the SEQUOIA tool for predicting cancer transcriptomics profiles from histology images"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38414061",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38920727",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38164154",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38874230",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39167629"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Cancer cells can overexpress CD47, an innate immune checkpoint that prevents phagocytosis upon interaction with signal regulatory protein alpha (SIRPα) expressed in macrophages and other myeloid cells. ",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38414061",
+          "offsetInBeginSection": 12,
+          "offsetInEndSection": 214
+        }
+      ],
+      "id": "67c9e75881b1027333000006",
+      "type": "factoid",
+      "body": "What is the function of CD47"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38444695",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32566323"
+      ],
+      "snippets": [
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Coronavirus adult respiratory distress syndrome",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38444695",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 47
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "administration of surfactant via high-flow nasal cannula",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38444695",
+          "offsetInBeginSection": 192,
+          "offsetInEndSection": 248
+        },
+        {
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "text": "Poractant alfa (Curosurf®), a natural surfactant effective in the treatment of newborn respiratory distress, has been used in various forms of ARDS",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32566323",
+          "offsetInBeginSection": 442,
+          "offsetInEndSection": 589
+        }
+      ],
+      "id": "67d6c10618b1e36f2e000027",
+      "type": "yesno",
+      "body": "Is the use of surfactant restricted to neonatology?"
+    }
+  ]
+}
