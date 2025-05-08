@@ -1,0 +1,429 @@
+{
+  "questions": [
+    {
+      "id": "67e6cf2618b1e36f2e0000d0",
+      "type": "yesno",
+      "body": "Should Zotiraciclib be used for glioblastoma?"
+    },
+    {
+      "id": "680d5e47353a4a2e6b000005",
+      "type": "factoid",
+      "body": "Is bronchiectasis a chronic or acute condition?"
+    },
+    {
+      "id": "680f4a68353a4a2e6b000007",
+      "type": "yesno",
+      "body": "Do biopharmaceuticals have a role in the treatment of depression?"
+    },
+    {
+      "id": "680a083218b1e36f2e00014d",
+      "type": "yesno",
+      "body": "Are microglia involved in synaptic pruning during development?"
+    },
+    {
+      "id": "67e5557c18b1e36f2e0000ac",
+      "type": "factoid",
+      "body": "What is the target of fezolinetant?"
+    },
+    {
+      "id": "6810fef8353a4a2e6b000016",
+      "type": "factoid",
+      "body": "What complication of pregnancy was treated with  Diethylstilbestrol"
+    },
+    {
+      "id": "6810cb23353a4a2e6b000012",
+      "type": "factoid",
+      "body": "Biopharmaceuticals for pediatric bronchiolitis."
+    },
+    {
+      "id": "680bc7a718b1e36f2e000156",
+      "type": "summary",
+      "body": "What is the cancer-immunity cycle?"
+    },
+    {
+      "id": "67e56f2018b1e36f2e0000b0",
+      "type": "summary",
+      "body": "What is the mechanism of action of Iptacopan?"
+    },
+    {
+      "id": "67fe5f0918b1e36f2e000144",
+      "type": "factoid",
+      "body": "What is the previous acronym for Metabolic Dysfunction-Associated Steatotic Liver Diasease  (MASLD)?"
+    },
+    {
+      "id": "67fbe4d718b1e36f2e00011d",
+      "type": "summary",
+      "body": "What is the genetic basis of addiction?"
+    },
+    {
+      "id": "680a079718b1e36f2e000147",
+      "type": "yesno",
+      "body": "Do natural killer (NK) cells require antigen presentation to eliminate cancer cells?"
+    },
+    {
+      "id": "67e5749b18b1e36f2e0000b5",
+      "type": "list",
+      "body": "What are the targets of blinatumomab?"
+    },
+    {
+      "id": "680d5f2a353a4a2e6b000006",
+      "type": "summary",
+      "body": "What is the relationship between bronchiectasis and Erdosteine?"
+    },
+    {
+      "id": "6810f6f0353a4a2e6b000015",
+      "type": "yesno",
+      "body": "Can GLP-1 receptor agonists be used for obesity in children under 10 years of age?"
+    },
+    {
+      "id": "680a237618b1e36f2e000152",
+      "type": "yesno",
+      "body": "Are radiomic features useful in predicting survival in glioblastoma patients?"
+    },
+    {
+      "id": "68110110353a4a2e6b000018",
+      "type": "yesno",
+      "body": "In patients with acute liver failure associated with  paracetamol overdose does  N‐acetylcysteine treatment improve survival?."
+    },
+    {
+      "id": "680f4c63353a4a2e6b00000d",
+      "type": "factoid",
+      "body": "What is the pharmacological treatment of urinary schistosomiasis?"
+    },
+    {
+      "id": "680a087218b1e36f2e00014f",
+      "type": "list",
+      "body": "What types of features are typically extracted in radiomics?"
+    },
+    {
+      "id": "6810daad353a4a2e6b000013",
+      "type": "list",
+      "body": "What diseases are treated with fecal transplants?"
+    },
+    {
+      "id": "6810c27b353a4a2e6b000010",
+      "type": "yesno",
+      "body": "Can sertraline be used in children under 10?"
+    },
+    {
+      "id": "680a07a418b1e36f2e000148",
+      "type": "factoid",
+      "body": "Which cells are the primary antigen-presenting cells?"
+    },
+    {
+      "id": "67fbd58c18b1e36f2e00010e",
+      "type": "yesno",
+      "body": "Do misfolded and aggregated proteins build up in neurodegenerative illnesses, which causes neuronal dysfunction and ultimately neuronal death?"
+    },
+    {
+      "id": "67fbe10618b1e36f2e000111",
+      "type": "list",
+      "body": "Differential traits of autism spectrum disorders in girls."
+    },
+    {
+      "id": "680fcb72353a4a2e6b00000e",
+      "type": "list",
+      "body": "What are the major classes of immunoglobulins?"
+    },
+    {
+      "id": "6805568118b1e36f2e000145",
+      "type": "list",
+      "body": "Please list the DORA type drugs"
+    },
+    {
+      "id": "67e26b0b18b1e36f2e000073",
+      "type": "yesno",
+      "body": "Is takotsubo cardiomyopathy more common in men?"
+    },
+    {
+      "id": "680a080b18b1e36f2e00014b",
+      "type": "summary",
+      "body": "What is radiomics?"
+    },
+    {
+      "id": "6810db0a353a4a2e6b000014",
+      "type": "factoid",
+      "body": "What is the cause of Fibromyalgia?"
+    },
+    {
+      "id": "67e2cfcf18b1e36f2e00009a",
+      "type": "list",
+      "body": "Recommended prevention of osteoporosis in postmenopausal women."
+    },
+    {
+      "id": "680a081d18b1e36f2e00014c",
+      "type": "summary",
+      "body": "What are the functions of astrocytes in the CNS?"
+    },
+    {
+      "id": "6810ff8f353a4a2e6b000017",
+      "type": "yesno",
+      "body": "Is Laparoscopic salpingectomy used to treat testicular cancer?"
+    },
+    {
+      "id": "67fbe21818b1e36f2e000113",
+      "type": "list",
+      "body": "Factors that are associated with thyroid cancer."
+    },
+    {
+      "id": "67fc20ee18b1e36f2e00012a",
+      "type": "yesno",
+      "body": "Do glioblastoma tumors have a high degree of lymphocyte infiltration?"
+    },
+    {
+      "id": "67f8527318b1e36f2e000104",
+      "type": "list",
+      "body": "Please list the types of Videolaryngoscopy for adults undergoing tracheal intubation"
+    },
+    {
+      "id": "680f4ae9353a4a2e6b000009",
+      "type": "yesno",
+      "body": "Is Electroconvulsive Therapy used for any type of epilepsy?"
+    },
+    {
+      "id": "67fd922518b1e36f2e000143",
+      "type": "summary",
+      "body": "What are the characteristics of the M1/M2 macrophage polarization paradigm in the tumor microenvironment?"
+    },
+    {
+      "id": "67fc1a3818b1e36f2e000129",
+      "type": "factoid",
+      "body": "What is Nissen fundoplication"
+    },
+    {
+      "id": "67e285b018b1e36f2e00007b",
+      "type": "factoid",
+      "body": "What are the genetic variants in Turner syndrome?"
+    },
+    {
+      "id": "680a07f918b1e36f2e00014a",
+      "type": "factoid",
+      "body": "What organelle is responsible for ATP production?"
+    },
+    {
+      "id": "67cdc78381b102733300001a",
+      "type": "factoid",
+      "body": "What age group is commonly affected by biliary atresia?"
+    },
+    {
+      "id": "67d7ff2c18b1e36f2e000049",
+      "type": "list",
+      "body": "Manifestations of gluten allergy/intolerance."
+    },
+    {
+      "id": "680a084018b1e36f2e00014e",
+      "type": "yesno",
+      "body": "Do T cells enter the CNS in healthy individuals?"
+    },
+    {
+      "id": "67cde41a81b102733300001d",
+      "type": "yesno",
+      "body": "Is urolithiasis the same thing as kidney stones?"
+    },
+    {
+      "id": "67e2b80618b1e36f2e00008f",
+      "type": "summary",
+      "body": "How do you acquire Legionella pneumophila?"
+    },
+    {
+      "id": "680a21ff18b1e36f2e000151",
+      "type": "summary",
+      "body": "What is the role of the choroid plexus in immune surveillance?"
+    },
+    {
+      "id": "67fc546c18b1e36f2e000130",
+      "type": "yesno",
+      "body": "Has Antibiotic use induced hiccups?"
+    },
+    {
+      "id": "680f4aa6353a4a2e6b000008",
+      "type": "summary",
+      "body": "What do snake antivenoms contain?"
+    },
+    {
+      "id": "680a078618b1e36f2e000146",
+      "type": "yesno",
+      "body": "Are microglia derived from the same lineage as peripheral macrophages?"
+    },
+    {
+      "id": "67e098cb18b1e36f2e00006d",
+      "type": "summary",
+      "body": "How does a gastric pacemaker work?"
+    },
+    {
+      "id": "67d6be8a18b1e36f2e000022",
+      "type": "yesno",
+      "body": "Can newborns have glaucoma?"
+    },
+    {
+      "id": "680bc74618b1e36f2e000155",
+      "type": "list",
+      "body": "What are some recent advances in cancer immunotherapy?"
+    },
+    {
+      "id": "67f857eb18b1e36f2e000105",
+      "type": "yesno",
+      "body": "Is delirium a frequent complication after cardiac surgery?"
+    },
+    {
+      "id": "67e291a718b1e36f2e000081",
+      "type": "list",
+      "body": "Phobias affecting humans."
+    },
+    {
+      "id": "680b7f4818b1e36f2e000154",
+      "type": "summary",
+      "body": "How can convolutional neural networks (CNNs) be utilized in radiomics?"
+    },
+    {
+      "id": "67cde43c81b102733300001e",
+      "type": "summary",
+      "body": "Please summarize Graves disease"
+    },
+    {
+      "id": "67e2958018b1e36f2e000084",
+      "type": "yesno",
+      "body": "Are there any studies on the genetics of suicide?"
+    },
+    {
+      "id": "680c174d353a4a2e6b000001",
+      "type": "list",
+      "body": "What are some common post-translational modifications of proteins?"
+    },
+    {
+      "id": "67e0053118b1e36f2e000067",
+      "type": "yesno",
+      "body": "Do MiOXSYS and OxiSperm measure ROS(Reactive Oxygen Species) in sperm?"
+    },
+    {
+      "id": "67e2a8d618b1e36f2e000088",
+      "type": "list",
+      "body": "Which parasitic infections can cause anemia?"
+    },
+    {
+      "id": "680a07ed18b1e36f2e000149",
+      "type": "factoid",
+      "body": "What neurotransmitter is most associated with muscle activation?"
+    },
+    {
+      "id": "67e93f2d18b1e36f2e0000db",
+      "type": "factoid",
+      "body": "What medical proceedure causes nephrogenic systemic fibrosis?"
+    },
+    {
+      "id": "67e2bde318b1e36f2e000093",
+      "type": "yesno",
+      "body": "Is obesity a risk factor for sleep apnea?"
+    },
+    {
+      "id": "680c137818b1e36f2e000158",
+      "type": "list",
+      "body": "What cancer hallmarks are characteristically promoted by tumor microenvironment components, such as pericytes?"
+    },
+    {
+      "id": "67ca061181b102733300000a",
+      "type": "factoid",
+      "body": "XIST proteins mediate what cellular process?"
+    },
+    {
+      "id": "67e26d6218b1e36f2e000074",
+      "type": "factoid",
+      "body": "Typical age range of onset of systemic scleroderma."
+    },
+    {
+      "id": "680a21eb18b1e36f2e000150",
+      "type": "factoid",
+      "body": "What glial cells are responsible for myelination in the CNS?"
+    },
+    {
+      "id": "67fa3c5818b1e36f2e000109",
+      "type": "factoid",
+      "body": "What is BIONDA"
+    },
+    {
+      "id": "6810c54b353a4a2e6b000011",
+      "type": "list",
+      "body": "Indications for Electro-convulsive therapy."
+    },
+    {
+      "id": "67fd5d6518b1e36f2e000138",
+      "type": "factoid",
+      "body": "What is a common chromosome-level gain in glioblastoma?"
+    },
+    {
+      "id": "67fb046e18b1e36f2e00010c",
+      "type": "factoid",
+      "body": "What is the gene target for  Zanidatamab?"
+    },
+    {
+      "id": "67d6bbfa18b1e36f2e000020",
+      "type": "summary",
+      "body": "How do you diagnose HIV infection?"
+    },
+    {
+      "id": "680fe1e3353a4a2e6b00000f",
+      "type": "yesno",
+      "body": "Is a single-nucleotide polymorphism (SNP) the same as a mutation?"
+    },
+    {
+      "id": "680d5dd8353a4a2e6b000004",
+      "type": "summary",
+      "body": "Is Melatonin found in human milk?"
+    },
+    {
+      "id": "67d7208218b1e36f2e00002e",
+      "type": "summary",
+      "body": "Physiopathology of alopecia."
+    },
+    {
+      "id": "67fc381f18b1e36f2e00012f",
+      "type": "summary",
+      "body": "What is phenotype switching in melanoma?"
+    },
+    {
+      "id": "67c9e46881b1027333000004",
+      "type": "summary",
+      "body": "What is a neoantigen?"
+    },
+    {
+      "id": "67fbe2ab18b1e36f2e000116",
+      "type": "yesno",
+      "body": "Do hyaluronic acid injections improve knee pain?"
+    },
+    {
+      "id": "67eaf14c18b1e36f2e0000de",
+      "type": "list",
+      "body": "Which transcription factors are important to define human astrocyte identity?"
+    },
+    {
+      "id": "67c9e7ee81b1027333000007",
+      "type": "yesno",
+      "body": "Is Peto\u0027s Paradox associated with cancer rates?"
+    },
+    {
+      "id": "67d71d8f18b1e36f2e00002b",
+      "type": "factoid",
+      "body": "Is Clostridioides difficile an aerobe or a anaerobe bacterium?"
+    },
+    {
+      "id": "67cdb26a81b1027333000017",
+      "type": "list",
+      "body": "Please list the benefits of sodium-glucose cotransporter 2 inhibitors"
+    },
+    {
+      "id": "67e2b0a018b1e36f2e00008b",
+      "type": "factoid",
+      "body": "Bacteria that most commonly causes urinary tract infection."
+    },
+    {
+      "id": "67e090be18b1e36f2e00006c",
+      "type": "yesno",
+      "body": "Is Bacillus Clausii a probiotic?"
+    },
+    {
+      "id": "67d7fded18b1e36f2e000042",
+      "type": "list",
+      "body": "Symptoms of chlamydia genital infection in women."
+    }
+  ]
+}

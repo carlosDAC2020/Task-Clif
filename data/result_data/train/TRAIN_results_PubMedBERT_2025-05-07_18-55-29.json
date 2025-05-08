@@ -1,0 +1,143 @@
+{
+  "questions": [
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39555889"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39555889",
+          "text": "RankMHC: Learning to Rank Class-I Peptide-MHC Structural Models.. The binding of peptides to class-I Major Histocompability Complex (MHC) receptors and their subsequent recognition downstream by T-cell receptors are crucial processes for most mult...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.2638596296310425,
+          "rerank_position": 1
+        }
+      ],
+      "id": "67d74cde18b1e36f2e00003c",
+      "type": "summary",
+      "body": "Describe RankMHC"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/35977725",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31365134",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29154906",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31538196",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37069528",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33955776",
+        "http://www.ncbi.nlm.nih.gov/pubmed/10322219",
+        "http://www.ncbi.nlm.nih.gov/pubmed/9342339",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32716929",
+        "http://www.ncbi.nlm.nih.gov/pubmed/24354965"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35977725",
+          "text": "Anaplastic ganglioglioma-A diagnosis comprising several distinct tumour types.. AIMS: Anaplastic ganglioglioma is a rare tumour, and diagnosis has been based on histological criteria. The 5th edition of the World Health Organization Classification...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.3859790563583374,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31365134",
+          "text": "Revisiting the classification of adhesion GPCRs.. G protein-coupled receptors (GPCRs) are encoded by over 800 genes in the human genome. Motivated by different scientific rationales, the two classification systems that are mainly in use, the ABC a...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.2993395924568176,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/29154906",
+          "text": "Increase in taxonomic assignment efficiency of viral reads in metagenomic studies.. Metagenomics studies have revolutionized the field of biology by revealing the presence of many previously unisolated and uncultured micro-organisms. However, one ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.2685198187828064,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31538196",
+          "text": "Hunting the Snark: the flawed search for mythical Jurassic angiosperms.. Several recent palaeobotanical studies claim to have found and described pre-Cretaceous angiosperm macrofossils. With rare exceptions, these papers fail to define a flower, d...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.2455098032951355,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37069528",
+          "text": "Multimodal ultrasound features of breast cancers: correlation with molecular subtypes.. OBJECTIVES: To investigate whether multimodal intratumour and peritumour ultrasound features correlate with specific breast cancer molecular subtypes. METHODS:...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.24300655722618103,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33955776",
+          "text": "Annual Screening Mammography Associated With Lower Stage Breast Cancer Compared With Biennial Screening.. OBJECTIVE. The purpose of this study was to compare breast cancer characteristics and treatment regimens among women undergoing annual versus...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.2296096384525299,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/10322219",
+          "text": "Predicting structures for genome proteins.. Assigning three-dimensional protein folds to genome sequences is essential to understanding protein function. Although experimental three-dimensional structures are currently available for only a very sm...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.22159343957901,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/9342339",
+          "text": "Assigning folds to the proteins encoded by the genome of Mycoplasma genitalium.. A crucial step in exploiting the information inherent in genome sequences is to assign to each protein sequence its three-dimensional fold and biological function. He...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.22122521698474884,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32716929",
+          "text": "Entrofy your cohort: A transparent method for diverse cohort selection.. Selecting a cohort from a set of candidates is a common task within and beyond academia. Admitting students, awarding grants, and choosing speakers for a conference are situa...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.1958867609500885,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/24354965",
+          "text": "Specific cancer rates may differ in patients with hereditary haemorrhagic telangiectasia compared to controls.. BACKGROUND: Hereditary haemorrhagic telangiectasia (HHT) is inherited as an autosomal dominant trait, affects ~1 in 5,000, and causes m...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.19100916385650635,
+          "rerank_position": 10
+        }
+      ],
+      "id": "65f7741fc4010b4d78000027",
+      "type": "factoid",
+      "body": "What proportion of colorectal cancer cases are not assignable to any of the consensus molecular subtype (CMS) groups?"
+    }
+  ]
+}

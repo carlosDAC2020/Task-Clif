@@ -45,7 +45,7 @@ httpx==0.28.1
 huggingface-hub==0.30.2
 idna==3.10
 ipykernel==6.29.5
-ipython==9.0.2
+ipython
 ipython_pygments_lexers==1.1.1
 isoduration==20.11.0
 jedi==0.19.2

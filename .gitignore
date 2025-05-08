@@ -1,6 +1,6 @@
 # Ignorar archivos de configuración sensibles
 .env
-
+env
 # Ignorar caché de Python
 __pycache__/
 *.pyc

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39555889"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39555889",
+          "text": "RankMHC: Learning to Rank Class-I Peptide-MHC Structural Models.. The binding of peptides to class-I Major Histocompability Complex (MHC) receptors and their subsequent recognition downstream by T-cell receptors are crucial processes for most mult...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9048770666122437,
+          "rerank_position": 1
+        }
+      ],
+      "id": "67d74cde18b1e36f2e00003c",
+      "type": "summary",
+      "body": "Describe RankMHC"
+    }
+  ]
+}

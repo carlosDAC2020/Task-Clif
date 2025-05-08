@@ -5,12 +5,14 @@ from sentence_transformers import SentenceTransformer
 import numpy as np
 import re
 
+
 class Reranker:
     """
     Clase para reordenar documentos basándose en la similitud con una consulta.
     Incluye métodos para TF-IDF y BM25.
     """
-    def __init__(self, stop_words='english', min_df=1, max_features=5000):
+
+    def __init__(self, stop_words="english", min_df=1, max_features=5000):
         """
         Inicializa el Reranker con un TfidfVectorizer.
 
@@ -20,13 +22,13 @@ class Reranker:
             max_features (int, optional): Número máximo de características para el vectorizador. Por defecto, 5000.
         """
         self.vectorizer = TfidfVectorizer(
-            stop_words=stop_words,
-            min_df=min_df,
-            max_features=max_features
+            stop_words=stop_words, min_df=min_df, max_features=max_features
         )
         print(f"Reranker inicializado con TF-IDF (max_features={max_features}).")
 
-        self.pubmedbert_model = SentenceTransformer("neuml/pubmedbert-base-embeddings")
+        self.pubmedbert_model = SentenceTransformer(
+            "NeuML/pubmedbert-base-embeddings"
+        )
         print("Reranker inicializado con PubMedBERT embeddings.")
 
     def _preprocess_text(self, text):
@@ -42,7 +44,7 @@ class Reranker:
         # Convertir a minúsculas
         text = text.lower()
         # Eliminar caracteres no alfanuméricos
-        text = re.sub(r'[^a-z0-9\s]', '', text)
+        text = re.sub(r"[^a-z0-9\s]", "", text)
         # Dividir en tokens
         tokens = text.split()
         return tokens
@@ -61,7 +63,9 @@ class Reranker:
                 - pmid_scores (dict): Diccionario {pmid: score} con las puntuaciones de similitud.
         """
         if not original_question or not pmid_details_map:
-            print("Reranker.rerank: Entrada inválida (pregunta vacía o mapa de detalles vacío).")
+            print(
+                "Reranker.rerank: Entrada inválida (pregunta vacía o mapa de detalles vacío)."
+            )
             return [], {}
 
         valid_pmids = []
@@ -81,10 +85,14 @@ class Reranker:
                     documents_combined_text.append(combined_text)
 
         if not valid_pmids:
-            print("[!] Reranker: No hay textos válidos (título/resumen) para reordenar.")
+            print(
+                "[!] Reranker: No hay textos válidos (título/resumen) para reordenar."
+            )
             return list(pmid_details_map.keys()), {}
 
-        print(f"[*] Reranker: Iniciando reordenamiento TF-IDF para {len(valid_pmids)} PMIDs...")
+        print(
+            f"[*] Reranker: Iniciando reordenamiento TF-IDF para {len(valid_pmids)} PMIDs..."
+        )
 
         try:
             # Incluir la pregunta original al principio de la lista de textos
@@ -92,7 +100,9 @@ class Reranker:
 
             # Verificar que haya textos no vacíos para evitar error en fit_transform
             if not any(all_texts):
-                print("[!] Reranker: Todos los textos (pregunta + documentos) están vacíos. Saltando TF-IDF.")
+                print(
+                    "[!] Reranker: Todos los textos (pregunta + documentos) están vacíos. Saltando TF-IDF."
+                )
                 return valid_pmids, {}
 
             # Calcular la matriz TF-IDF
@@ -104,11 +114,15 @@ class Reranker:
 
             # Asegurar que hay vectores de documentos para comparar
             if document_vectors.shape[0] == 0:
-                print("[!] Reranker: No hay vectores de documentos válidos para comparar. Saltando cálculo de similitud.")
+                print(
+                    "[!] Reranker: No hay vectores de documentos válidos para comparar. Saltando cálculo de similitud."
+                )
                 return valid_pmids, {}
 
             # Calcular similitudes coseno
-            cosine_similarities = cosine_similarity(question_vector, document_vectors).flatten()
+            cosine_similarities = cosine_similarity(
+                question_vector, document_vectors
+            ).flatten()
 
             # Crear pares (score, pmid) y mapeo de scores
             scored_pmids = list(zip(cosine_similarities, valid_pmids))
@@ -122,7 +136,9 @@ class Reranker:
             return reranked_pmids, pmid_scores
 
         except ValueError as ve:
-            print(f"[!] Reranker: Error de Valor durante TF-IDF (posiblemente vocabulario vacío): {ve}")
+            print(
+                f"[!] Reranker: Error de Valor durante TF-IDF (posiblemente vocabulario vacío): {ve}"
+            )
             return valid_pmids, {}
         except Exception as e:
             print(f"[!] Reranker: Error inesperado durante reordenamiento: {e}")
@@ -142,7 +158,9 @@ class Reranker:
                 - pmid_scores (dict): Diccionario {pmid: score} con las puntuaciones BM25.
         """
         if not original_question or not pmid_details_map:
-            print("Reranker.rerank_bm25: Entrada inválida (pregunta vacía o mapa de detalles vacío).")
+            print(
+                "Reranker.rerank_bm25: Entrada inválida (pregunta vacía o mapa de detalles vacío)."
+            )
             return [], {}
 
         valid_pmids = []
@@ -162,14 +180,20 @@ class Reranker:
                     documents_combined_text.append(combined_text)
 
         if not valid_pmids:
-            print("[!] Reranker: No hay textos válidos (título/resumen) para reordenar.")
+            print(
+                "[!] Reranker: No hay textos válidos (título/resumen) para reordenar."
+            )
             return list(pmid_details_map.keys()), {}
 
-        print(f"[*] Reranker: Iniciando reordenamiento BM25 para {len(valid_pmids)} PMIDs...")
+        print(
+            f"[*] Reranker: Iniciando reordenamiento BM25 para {len(valid_pmids)} PMIDs..."
+        )
 
         try:
             # Preprocesar y tokenizar los documentos
-            tokenized_corpus = [self._preprocess_text(doc) for doc in documents_combined_text]
+            tokenized_corpus = [
+                self._preprocess_text(doc) for doc in documents_combined_text
+            ]
 
             # Inicializar el modelo BM25
             bm25 = BM25Okapi(tokenized_corpus)
@@ -230,11 +254,13 @@ class Reranker:
             return list(pmid_details_map.keys()), {}
 
         # Codificar la pregunta y los documentos
+        print(" Generando embedings")
         question_embedding = self.pubmedbert_model.encode([original_question])[0]
         document_embeddings = self.pubmedbert_model.encode(documents_combined_text)
 
         # Calcular similitudes coseno
         from sklearn.metrics.pairwise import cosine_similarity
+
         similarities = cosine_similarity(
             [question_embedding], document_embeddings
         ).flatten()

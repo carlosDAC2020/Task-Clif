@@ -1,0 +1,2252 @@
+{
+  "questions": [
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39555889"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39555889",
+          "text": "RankMHC: Learning to Rank Class-I Peptide-MHC Structural Models.. The binding of peptides to class-I Major Histocompability Complex (MHC) receptors and their subsequent recognition downstream by T-cell receptors are crucial processes for most mult...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9048771262168884,
+          "rerank_position": 1
+        }
+      ],
+      "id": "67d74cde18b1e36f2e00003c",
+      "type": "summary",
+      "body": "Describe RankMHC"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/35773407",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29589308",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28825047",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28741479",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30796810",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26457759",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33571895",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36490322",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34258029",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36717674"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35773407",
+          "text": "Single-cell and bulk transcriptome sequencing identifies two epithelial tumor cell states and refines the consensus molecular classification of colorectal cancer.. The consensus molecular subtype (CMS) classification of colorectal cancer is based ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9849358201026917,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/29589308",
+          "text": "Classification of Colorectal Cancer in Molecular Subtypes by Immunohistochemistry.. Colorectal cancer (CRC) is a heterogeneous disease, which can be categorized into distinct consensus molecular subtypes (CMSs). These subtypes differ in both clini...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9844130277633667,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28825047",
+          "text": "Consensus Molecular Subtypes of Colorectal Cancer and their Clinical Implications.. The colorectal cancer (CRC) Subtyping Consortium has unified six independent molecular classification systems, based on gene expression data, into a single consens...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9842919707298279,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28741479",
+          "text": "Colorectal Cancer Subtypes: Developmental Origin and Microenvironmental Regulation.. Cancer is a heterogeneous disease and many cancer types do not represent a single entity, but are composed of biologically and clinically diverse subtypes. The su...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9840769171714783,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30796810",
+          "text": "Context matters-consensus molecular subtypes of colorectal cancer as biomarkers for clinical trials.. The Colorectal Cancer Subtyping Consortium identified four gene expression consensus molecular subtypes, CMS1 (immune), CMS2 (canonical), CMS3 (m...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9838452339172363,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26457759",
+          "text": "The consensus molecular subtypes of colorectal cancer.. Colorectal cancer (CRC) is a frequently lethal disease with heterogeneous outcomes and drug responses. To resolve inconsistencies among the reported gene expression-based CRC classifications ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9838042855262756,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33571895",
+          "text": "Consensus molecular subtyping of colorectal cancers is influenced by goblet cell content.. A critical obstacle in the field of colorectal cancer (CRC) is the establishment of precise tumor subtypes to facilitate the development of targeted therape...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9836580753326416,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36490322",
+          "text": "Improved Delineation of Colorectal Cancer Molecular Subtypes and Functional Profiles with a 62-Gene Panel.. UNLABELLED: Since its establishment in 2015, the transcriptomics-based consensus molecular subtype (CMS) classification has unified our und...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9834018349647522,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34258029",
+          "text": "Consensus molecular subtypes of primary colon tumors and their hepatic metastases.. AIM: This pilot study aimed to evaluate the congruency in consensus molecular subtypes (CMS) of primary colorectal cancer and corresponding hepatic metastasis (HM)...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9832019805908203,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36717674",
+          "text": "MmCMS: mouse models' consensus molecular subtypes of colorectal cancer.. BACKGROUND: Colorectal cancer (CRC) primary tumours are molecularly classified into four consensus molecular subtypes (CMS1-4). Genetically engineered mouse models aim to fai...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9829372763633728,
+          "rerank_position": 10
+        }
+      ],
+      "id": "65f7741fc4010b4d78000027",
+      "type": "factoid",
+      "body": "What proportion of colorectal cancer cases are not assignable to any of the consensus molecular subtype (CMS) groups?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/17568908",
+        "http://www.ncbi.nlm.nih.gov/pubmed/19371324",
+        "http://www.ncbi.nlm.nih.gov/pubmed/18552451",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33960173",
+        "http://www.ncbi.nlm.nih.gov/pubmed/20235039",
+        "http://www.ncbi.nlm.nih.gov/pubmed/18296466",
+        "http://www.ncbi.nlm.nih.gov/pubmed/20101899",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26122487",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27936591",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39801170"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/17568908",
+          "text": "[Erectile dysfunction: treatment with type 5 phosphodiesterase inhibitors].",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 75,
+          "rerank_score": 0.9771367907524109,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/19371324",
+          "text": "Substrate-specific pharmacokinetic interaction between endothelin receptor antagonists and phosphodiesterase-5 inhibitors--assembling the clues.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 144,
+          "rerank_score": 0.9766517281532288,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/18552451",
+          "text": "[Pharmacological, pharmacokinetic, and clinical profile of tadalafil (Cialis)].",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 79,
+          "rerank_score": 0.9754307270050049,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33960173",
+          "text": "[Phosphodesterase type 5 inhibitors clinical efficiency and role in therapy for erectile dysfunction].. This article discusses the physiological mechanisms of erection and the pathophysiological basis of erectile dysfunction. Parameters characteri...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9747412204742432,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/20235039",
+          "text": "[Therapy for male patients with sexual dysfunction].. Phosphodiasterase type 5 inhibitors (sildenafil, vardenafil, tadalafil) are the first line symptomatic therapy for patients with erectile dysfunction. The patient should receive a meticolous in...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9729717969894409,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/18296466",
+          "text": "Phosphodiesterase 5 inhibitors and cystic fibrosis: correcting chloride channel dysfunction.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 92,
+          "rerank_score": 0.9729551672935486,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/20101899",
+          "text": "[Clinical use of phosphodiesterase-5 inhibitors in cardiopulmonary diseases: from experimental evidence to clinical application].. Phosphodiesterases are a class of proteins that primarily modulate intracellular levels of cyclic nucleotides such a...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9717994332313538,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26122487",
+          "text": "Phosphodiesterase type 5 inhibitors: back and forward from cardiac indications.. PDE5 inhibitors (PDE5i) are widely known as treatment for erectile dysfunction (ED). This favorable action has emerged as a \"side effect\" from pioneering studies when...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9712514877319336,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27936591",
+          "text": "Impact of Scaffold Exploration on Novel Dual-Acting Histone Deacetylases and Phosphodiesterase 5 Inhibitors for the Treatment of Alzheimer's Disease.. A novel systems therapeutics approach, involving simultaneous inhibition of phosphodiesterase 5 ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9712202548980713,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39801170",
+          "text": "Next-generation pharmaceuticals: the rise of sildenafil citrate ODF for the treatment of men with erectile dysfunction.. Orodispersible film (ODF) is one of the novel formulations that disintegrate rapidly in the mouth without the requisite for wa...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9710726141929626,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67cc973e81b1027333000011",
+      "type": "list",
+      "body": "Please list the short half life Phosphodiesterase 5 inhibitors."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/33893774",
+        "http://www.ncbi.nlm.nih.gov/pubmed/18710475",
+        "http://www.ncbi.nlm.nih.gov/pubmed/22766519",
+        "http://www.ncbi.nlm.nih.gov/pubmed/23937469",
+        "http://www.ncbi.nlm.nih.gov/pubmed/23855395",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25154691",
+        "http://www.ncbi.nlm.nih.gov/pubmed/15862931",
+        "http://www.ncbi.nlm.nih.gov/pubmed/19303538",
+        "http://www.ncbi.nlm.nih.gov/pubmed/16777498",
+        "http://www.ncbi.nlm.nih.gov/pubmed/16898611"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33893774",
+          "text": "Inflammation in Irritable Bowel Syndrome (IBS): Role of Psyllium Fiber Supplementation in Decreasing Inflammation and Physiological Management of IBS.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 150,
+          "rerank_score": 0.9871020913124084,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/18710475",
+          "text": "Altered protease signalling in the gut: a novel pathophysiological factor in irritable bowel syndrome.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 102,
+          "rerank_score": 0.983606219291687,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/22766519",
+          "text": "Subtle mucosal changes at capsule endoscopy in diarrhoea predominant Irritable Bowel Syndrome.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 94,
+          "rerank_score": 0.9828179478645325,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/23937469",
+          "text": "Letter: the role of sub-clinical inflammation and TRPV1 in the development of IBS-like symptoms in ulcerative colitis in remission.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 131,
+          "rerank_score": 0.9818878173828125,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/23855395",
+          "text": "Commentary: symptoms of irritable bowel syndrome in patients with inflammatory bowel disease--organic disease or diseased organ?",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 128,
+          "rerank_score": 0.9818019866943359,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25154691",
+          "text": "[Functional diarrhea - pathophysiology, investigation and treatment].. The most important reason for functional diarrhea in clinical practice is diarrhea-predominant irritable bowel syndrome (IBS) which is characterized by chronic intermittent dia...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9781849980354309,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/15862931",
+          "text": "Disturbances of motility and visceral hypersensitivity in irritable bowel syndrome: biological markers or epiphenomenon.. Motility and visceral hypersentitivity are regarded as the primary mechanisms of symptom development in irritable bowel syndr...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9776150584220886,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/19303538",
+          "text": "[Alterations of intestinal epithelial barrier and flora in the irritable bowel syndrome].. The irritable bowel syndrome (IBS) is a common bowel disorder that markedly impairs quality of life of patients. The causes of IBS symptoms are not well kno...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9774880409240723,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/16777498",
+          "text": "The probiotic agent Escherichia coli M-17 has a healing effect in patients with IBS with proximal inflammation of the small bowel.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 130,
+          "rerank_score": 0.9769143462181091,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/16898611",
+          "text": "[Pathophysiology of irritable bowel syndrome].. Irritable bowel syndrome (IBS) is considered a biopsychosocial disorder resulting from a combination of 3 interacting mechanisms: psychosocial factors, altered motility and transit, which may reflect...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9769085645675659,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67d722e818b1e36f2e000036",
+      "type": "summary",
+      "body": "Pathophysiology of irritable bowel syndrome (IBS)."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/34403827",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27703029",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29967225",
+        "http://www.ncbi.nlm.nih.gov/pubmed/22187964",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31664482",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38685399",
+        "http://www.ncbi.nlm.nih.gov/pubmed/22071539",
+        "http://www.ncbi.nlm.nih.gov/pubmed/17064312",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25139999",
+        "http://www.ncbi.nlm.nih.gov/pubmed/23649974"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34403827",
+          "text": "Accelerating AXL targeting for TNBC therapy.. The tyrosine kinase receptor AXL of the TAM (TYRO3, AXL and MERTK) family is considered as a promising therapeutic target for different hematological cancers and solid tumors. AXL is involved in multip...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9831215739250183,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27703029",
+          "text": "New twists in the AXL(e) of tumor progression.. Patients with a mesenchymal subtype of ovarian cancer face a poor prognosis with limited treatment options to halt metastatic progression. In this issue of Science Signaling, Antony et al found that ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9829528331756592,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/29967225",
+          "text": "Synergistic inactivation of AXL: a (cross)road to cure ovarian cancer?. Inhibition of the receptor tyrosine kinase AXL, a key molecular driver of ovarian cancer, has recently been highlighted as promising therapeutic strategy. In this issue of EMB...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9827890396118164,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/22187964",
+          "text": "Axl-dependent signalling: a clinical update.. Axl is a receptor tyrosine kinase that was originally cloned from cancer cells. Axl belongs to the TAM (Tyro3, Axl and Mertk) family of receptor tyrosine kinases. Gas6 (growth-arrest-specific protein 6...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9827741384506226,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31664482",
+          "text": "TAM-ing T cells in the tumor microenvironment: implications for TAM receptor targeting.. The TAM receptors-TYRO3, AXL, MERTK-are pleiotropically expressed receptors in both healthy and diseased tissue. A complex of the ligands Protein S (PROS1) or...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9827505946159363,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38685399",
+          "text": "AXL receptor as an emerging molecular target in colorectal cancer.. AXL receptor tyrosine kinase (AXL) is a receptor tyrosine kinase whose aberrant expression has recently been associated with colorectal cancer (CRC), contributing to tumor growth,...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9826582670211792,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/22071539",
+          "text": "Axl of evil?. Receptor tyrosine kinases (RTKs) play key roles in the initiation and progression of human skin cancers, yet the importance of some RTKs remains poorly understood. In this issue, Sensi et al. provide new insights into the expression ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9825711846351624,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/17064312",
+          "text": "Gas6 and protein S. Vitamin K-dependent ligands for the Axl receptor tyrosine kinase subfamily.. Gas6 and protein S are two homologous secreted proteins that depend on vitamin K for their execution of a range of biological functions. A discrete su...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9821678996086121,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25139999",
+          "text": "Axl kinase as a key target for oncology: focus on small molecule inhibitors.. Receptor tyrosine kinases (RTK) are transmembrane receptors that regulate signal transduction in cells. As a member of the TAM (Tyro-3, Axl, Mer) RTK subfamily, Axl regu...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9820476174354553,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/23649974",
+          "text": "The receptor tyrosine kinase Axl in cancer: biological functions and therapeutic implications.. The receptor tyrosine kinase Axl has been implicated in the malignancy of different types of cancer. Emerging evidence of Axl upregulation in numerous ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9818649888038635,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67da17c918b1e36f2e000055",
+      "type": "summary",
+      "body": "What is the role of the receptor tyrosine kinase AXL in malignancy?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/22084278",
+        "http://www.ncbi.nlm.nih.gov/pubmed/20823007",
+        "http://www.ncbi.nlm.nih.gov/pubmed/863687",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25582468",
+        "http://www.ncbi.nlm.nih.gov/pubmed/16214065",
+        "http://www.ncbi.nlm.nih.gov/pubmed/7242564",
+        "http://www.ncbi.nlm.nih.gov/pubmed/40279470",
+        "http://www.ncbi.nlm.nih.gov/pubmed/22781000",
+        "http://www.ncbi.nlm.nih.gov/pubmed/3967451",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28269180"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/22084278",
+          "text": "SPP1 genotype is a determinant of disease severity in Duchenne muscular dystrophy: predicting the severity of Duchenne muscular dystrophy: implications for treatment.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 166,
+          "rerank_score": 0.9898198246955872,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/20823007",
+          "text": "Clinical implications of MRI to assess cardiac and pulmonary function in patients with duchenne muscular dystrophy.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 115,
+          "rerank_score": 0.9892208576202393,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/863687",
+          "text": "Respiratory function and pulmonary infection in Duchenne muscular dystrophy.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 76,
+          "rerank_score": 0.988600492477417,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25582468",
+          "text": "[Progress in respiratory function assessment and management for Duchenne muscular dystrophy].",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 93,
+          "rerank_score": 0.9881896376609802,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/16214065",
+          "text": "Respiratory support of individuals with Duchenne muscular dystrophy: toward a standard of care.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 95,
+          "rerank_score": 0.9877839088439941,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/7242564",
+          "text": "Duchenne muscular dystrophy: does serum myoglobin correlate with serum creatine kinase?",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 87,
+          "rerank_score": 0.9873182773590088,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/40279470",
+          "text": "Dystrophin isoform deficiency and upper-limb and respiratory function in Duchenne muscular dystrophy.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 101,
+          "rerank_score": 0.9872866272926331,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/22781000",
+          "text": "Progressive respiratory insufficiency in the absence of cardiac disease in late-stage Duchenne muscular dystrophy.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 114,
+          "rerank_score": 0.9870626330375671,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/3967451",
+          "text": "Spinal bracing and respiratory function in Duchenne muscular dystrophy.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 71,
+          "rerank_score": 0.9856808185577393,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28269180",
+          "text": "Localized MRI and histological image correlation in a canine model of duchenne muscular dystrophy.. Duchenne Muscular Dystrophy (DMD) is a fatal X-linked disorder. Therapeutic assessments currently require muscle biopsy to ascertain information ab...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9847204089164734,
+          "rerank_position": 10
+        }
+      ],
+      "id": "66301d1d187cba990d000026",
+      "type": "yesno",
+      "body": "Are respiratory measurements correlated with disease severity in Duchenne Muscular Dystrophy?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/37650884",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38131667",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39030458",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28007905",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35986737",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38549004",
+        "http://www.ncbi.nlm.nih.gov/pubmed/15325839",
+        "http://www.ncbi.nlm.nih.gov/pubmed/20013014",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36774704",
+        "http://www.ncbi.nlm.nih.gov/pubmed/18704525"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37650884",
+          "text": "Heterozygous UCHL1 loss-of-function variants cause a neurodegenerative disorder with spasticity, ataxia, neuropathy, and optic atrophy.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 135,
+          "rerank_score": 0.9861232042312622,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38131667",
+          "text": "Digenic FLNA and UCHL1 variants resulting in a complex phenotype.. AIM: X-linked variants in Filamin A (FLNA) are associated with the Ehlers-Danlos-syndrome-variant form of periventricular heterotopia, and autosomal dominant variants in ubiquitin ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9797929525375366,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39030458",
+          "text": "Phenotypic variability related to dominant UCHL1 mutations: about three families with optic atrophy and ataxia.. INTRODUCTION: Ubiquitin C-terminal hydrolase L1 (UCHL1) has been associated with a severe, complex autosomal recessive spastic paraple...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9795169234275818,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28007905",
+          "text": "Novel UCHL1 mutations reveal new insights into ubiquitin processing.. Recessive loss of function of the neuronal ubiquitin hydrolase UCHL1 has been implicated in early-onset progressive neurodegeneration (MIM no. 615491), so far only in one family...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9783524870872498,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35986737",
+          "text": "Heterozygous UCHL1 loss-of-function variants cause a neurodegenerative disorder with spasticity, ataxia, neuropathy, and optic atrophy.. PURPOSE: Biallelic variants in UCHL1 have been associated with a progressive early-onset neurodegenerative dis...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9777014255523682,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38549004",
+          "text": "Variants in mitochondrial disease genes are common causes of inherited peripheral neuropathies.. BACKGROUND: Peripheral neuropathies in mitochondrial disease are caused by mutations in nuclear genes encoding mitochondrial proteins, or in the mitoc...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9775879383087158,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/15325839",
+          "text": "Pathogenetic mechanisms of parkin in Parkinson's disease.. CONTEXT: The cause and pathogenesis of Parkinson's disease remain unknown; mitochondrial dysfunction, oxidative damage, environmental factors, and genetic predisposition might all be invol...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9774174690246582,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/20013014",
+          "text": "Analysis of exon dosage using MLPA in South African Parkinson's disease patients.. Genomic rearrangements (exon dosage) are common mutations reported in Parkinson's disease (PD) patients. In the present study, we aimed to investigate the prevalenc...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9766867160797119,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36774704",
+          "text": "Genetic screening of Filipinos suspected with familial Parkinson's disease: A pilot study.. INTRODUCTION: Although genetic factors are known to play a role in the pathogenesis of Parkinson's disease (PD), true prevalence of familial PD is unknown....",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9763802289962769,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/18704525",
+          "text": "Analysis of PARK genes in a Korean cohort of early-onset Parkinson disease.. Mutations in five PARK genes (SNCA, PARKIN, DJ-1, PINK1, and LRRK2) are well-established genetic causes of Parkinson disease (PD). Recently, G2385R substitution in LRRK2 ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9755538702011108,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67d3518718b1e36f2e000008",
+      "type": "factoid",
+      "body": "Which disease is caused by heterozygous UCHL1 loss-of-function variants?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/33220806",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39510674",
+        "http://www.ncbi.nlm.nih.gov/pubmed/21677499",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25475573",
+        "http://www.ncbi.nlm.nih.gov/pubmed/19343144",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34572817",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28224365",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31687149",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26862487",
+        "http://www.ncbi.nlm.nih.gov/pubmed/22811880"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33220806",
+          "text": "Debate: Improvements in Systemic Therapies for Liver Metastases Will Increase the Role of Locoregional Treatments.. The benefit of resection of liver metastases depends on primary diseases. Neuroendocrine tumors are associated with favorable progn...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9867627024650574,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39510674",
+          "text": "Debate: Improvements in Systemic Therapies for Liver Metastases Will Increase the Role of Locoregional Treatments.. The benefit of resection of liver metastases depends on primary diseases. Neuroendocrine tumors are associated with favorable progn...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9867627024650574,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/21677499",
+          "text": "[A case report of conversion therapy for initially unresectable colorectal cancer liver metastases after cetuximab as third-line treatment].. The introduction of monoclonal antibodies into the treatment protocols for metastatic colorectal cancer(m...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9860337972640991,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25475573",
+          "text": "Surgical management of hepatic metastases of colorectal cancer.. For the 20% of patients with resectable colorectal liver metastases (CRLM), hepatic resection is safe, effective and potentially curative. Factors related to the primary and metastat...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.985774576663971,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/19343144",
+          "text": "Managing potentially resectable metastatic colon cancer.. For patients with metastatic colon cancer, management has evolved from resecting a single liver metastasis and having only one chemotherapy medicine, to resecting multiple metastases includ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9855689406394958,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34572817",
+          "text": "Perioperative Systemic Chemotherapy for Colorectal Liver Metastasis: Recent Updates.. The liver is the most common site of metastases for colorectal cancer. Complete resection in some patients with resectable liver metastases (LM) can lead to long...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9855532050132751,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28224365",
+          "text": "Timing of Surgical Resection for Curative Colorectal Cancer with Liver Metastasis.. PURPOSE AND DESIGN: Optimal surgical strategy for resectable synchronous colorectal cancer with liver metastasis (SCRLM) remains a therapeutic dilemma. Multiple re...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9852270483970642,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31687149",
+          "text": "Use of perioperative chemotherapy in colorectal cancer metastatic to the liver.. A curative-intent approach may improve survival in carefully selected patients with oligometastatic colorectal cancer. Aggressive treatments are most frequently admin...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.985188901424408,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26862487",
+          "text": "Current treatment options for patients with initially unresectable isolated colorectal liver metastases.. The development of liver metastases is a common clinical entity in the clinical course of colorectal cancer. For patients with isolated liver...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9850248694419861,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/22811880",
+          "text": "What is the potential role of hepatic arterial infusion chemo-therapy in the current armamentorium against colorectal cancer.. The management of colorectal cancer patients with liver metastases is a common clinical problem. If patients can undergo...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9847235083580017,
+          "rerank_position": 10
+        }
+      ],
+      "id": "662154f0b9f8b89d7e000009",
+      "type": "factoid",
+      "body": "What is the most appropriate systemic treatment for conversion therapy in colorectal cancer with potentially resectable liver metastasis?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/21302701",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28735646",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32197861",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38790673",
+        "http://www.ncbi.nlm.nih.gov/pubmed/21297256",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39681731",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33026331",
+        "http://www.ncbi.nlm.nih.gov/pubmed/10150870",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36113764",
+        "http://www.ncbi.nlm.nih.gov/pubmed/20711706"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/21302701",
+          "text": "Epidemiology and quality of life of patients with age-related macular degeneration.. It is well known that age-related macular degeneration (AMD), besides glaucoma and diabetic retinopathy, represents a major cause of low vision and blindness thro...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9795753359794617,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28735646",
+          "text": "Hyperhomocysteinemia and Age-related Macular Degeneration: Role of Inflammatory Mediators and Pyroptosis; A Proposal.. Age-related macular degeneration (AMD) and pyroptosis cause irreversible vascular changes in the eyes leading to central vision ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9789096713066101,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32197861",
+          "text": "New frontiers and clinical implications in the pathophysiology of age-related macular degeneration.. Age-related macular degeneration (AMD) involves progressive degeneration of the central retina, termed the macula, which provides high-acuity visi...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9785200953483582,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38790673",
+          "text": "Antioxidants and Mechanistic Insights for Managing Dry Age-Related Macular Degeneration.. Age-related macular degeneration (AMD) severely affects central vision due to progressive macular degeneration and its staggering prevalence is rising global...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9780057668685913,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/21297256",
+          "text": "Age-related macular degeneration (AMD): Alzheimer's disease in the eye?. Age-related macular degeneration (AMD) is a late-onset, neurodegenerative retinal disease that shares several clinical and pathological features with Alzheimer's disease (AD)...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9779728055000305,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39681731",
+          "text": "[Climate change as a factor in the development of retinal diseases: a critical review].. The climate change has multiple effects on health. The eyes are not exempt from these effects and components of climate change, such as the temperature, UV ra...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.977968156337738,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33026331",
+          "text": "[On the inflammatory origins of AMD].. Age-related macular degeneration (AMD) is a complex, highly heritable, multifactorial disease caused by the interplay of age and genetic and environmental risk factors. No treatment has yet been found to trea...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9778936505317688,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/10150870",
+          "text": "Prevalence of age-related macular degeneration.. Early and late age-related macular degeneration (AMD) have a high prevalence in elderly patients but may be differentiated by medical or environmental factors, eg, hypertension, geographic area, or ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9778291583061218,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36113764",
+          "text": "Interplay between aging and other factors of the pathogenesis of age-related macular degeneration.. Age-related macular degeneration (AMD) is a complex eye disease with the retina as the target tissue and aging as per definition the most serious r...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9777770638465881,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/20711706",
+          "text": "Genetic control of complement activation in humans and age related macular degeneration.. The major focus of our research is to understand how age-related macular degeneration (AMD) develops. It is known that genetic variation can explain much of ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9773849248886108,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67c847f581b1027333000003",
+      "type": "yesno",
+      "body": "Is age an underlying factor in the eye disease AMD?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/27028561",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26973301",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28536757",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27290831",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27831765",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32818418",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26947167",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26777915",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27257232",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27187993"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27028561",
+          "text": "Zika Virus.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 11,
+          "rerank_score": 0.9865127801895142,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26973301",
+          "text": "Zika virus in the dock.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 23,
+          "rerank_score": 0.9841275811195374,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28536757",
+          "text": "Non-human Hosts and Zika Virus Maintenance.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 43,
+          "rerank_score": 0.9837200045585632,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27290831",
+          "text": "[Zika virus].",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 13,
+          "rerank_score": 0.9810709953308105,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27831765",
+          "text": "Zika control through the bacterium Wolbachia pipientis.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 55,
+          "rerank_score": 0.9796679615974426,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32818418",
+          "text": "Zika Virus Infection, Philippines, 2012.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 40,
+          "rerank_score": 0.9777845740318298,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26947167",
+          "text": "[Infection imported virus Zika in an area settled by Aedes albopictus].",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 71,
+          "rerank_score": 0.9769228100776672,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26777915",
+          "text": "Anticipating the international spread of Zika virus from Brazil.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 64,
+          "rerank_score": 0.9768207669258118,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27257232",
+          "text": "INFECTIOUS DISEASE. Mosquito hunters search for Zika vectors.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 61,
+          "rerank_score": 0.9761854410171509,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27187993",
+          "text": "Epidemic focus. Waiting in the wings: Aedes mosquitoes and flavivirus epidemics.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 80,
+          "rerank_score": 0.9750568270683289,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67d7fe2618b1e36f2e000044",
+      "type": "factoid",
+      "body": "Vector of zika virus."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/30662831",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31298733",
+        "http://www.ncbi.nlm.nih.gov/pubmed/18497759",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27345406",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26968235",
+        "http://www.ncbi.nlm.nih.gov/pubmed/20145155",
+        "http://www.ncbi.nlm.nih.gov/pubmed/23516171",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35710828",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28007636",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37509281"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30662831",
+          "text": "Rogue one: another faction of the Wnt empire implicated in assisting GBM progression.. It remains incumbent on researchers to conceive novel treatments for the most common primary malignancy of the brain in adults, glioblastoma multiforme (GBM), a...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9838221073150635,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31298733",
+          "text": "Mesenchymal transition and increased therapy resistance of glioblastoma cells is related to astrocyte reactivity.. Grade IV astrocytoma/glioblastoma multiforme (GBM) is essentially incurable, partly due to its heterogenous nature, demonstrated eve...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.983430027961731,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/18497759",
+          "text": "Mesenchymal differentiation of glioblastoma stem cells.. Glioblastoma multiforme is a severe form of cancer most likely arising from the transformation of stem or progenitor cells resident in the brain. Although the tumorigenic population in gliob...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9834276437759399,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27345406",
+          "text": "Differential propagation of stroma and cancer stem cells dictates tumorigenesis and multipotency.. Glioblastoma Multiforme (GBM) is characterized by high cancer cell heterogeneity and the presence of a complex tumor microenvironment. Those factors...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9831982851028442,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26968235",
+          "text": "The role of octamer binding transcription factors in glioblastoma multiforme.. A group of transcription factors (TF) that are master developmental regulators of the establishment and maintenance of pluripotency during embryogenesis play additional...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9831789135932922,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/20145155",
+          "text": "Transcriptional profiles of CD133+ and CD133- glioblastoma-derived cancer stem cell lines suggest different cells of origin.. Glioblastoma multiforme (GBM) is paradigmatic for the investigation of cancer stem cells (CSC) in solid tumors. Growing e...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9830922484397888,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/23516171",
+          "text": "Assessing current therapeutic approaches to decode potential resistance mechanisms in glioblastomas.. Unique astrocytic cell infiltrating growth and glial tumor growth in the confined skull make human glioblastoma (GBM) one of the most difficult c...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9830296039581299,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35710828",
+          "text": "Iron commensalism of mesenchymal glioblastoma promotes ferroptosis susceptibility upon dopamine treatment.. The heterogeneity of glioblastoma multiforme (GBM) leads to poor patient prognosis. Here, we aim to investigate the mechanism through which...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9829144477844238,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28007636",
+          "text": "Inflammatory landscape of human brain tumors reveals an NFκB dependent cytokine pathway associated with mesenchymal glioblastoma.. The tumor microenvironment is being increasingly recognized as a key factor in cancer aggressiveness. In this study,...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.982671856880188,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37509281",
+          "text": "iPSC-Derived Glioblastoma Cells Have Enhanced Stemness Wnt/β-Catenin Activity Which Is Negatively Regulated by Wnt Antagonist sFRP4.. Growing evidence indicates that cancer stem cells (CSCs) endow the tumor with stem-like properties. Recently, ind...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.982464075088501,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67d7503018b1e36f2e00003e",
+      "type": "list",
+      "body": "What are the main transcription factors driving the mesenchymal-like (MES-like) state of glioblastoma multiforme?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/32851396",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37450567",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37917284",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38978724",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31824583",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36034314",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38685975",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32939785",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37621409",
+        "http://www.ncbi.nlm.nih.gov/pubmed/8088839"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32851396",
+          "text": "A Māori specific RFC1 pathogenic repeat configuration in CANVAS, likely due to a founder allele.. Cerebellar ataxia with neuropathy and bilateral vestibular areflexia syndrome (CANVAS) is a recently recognized neurodegenerative disease with onset ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9710569977760315,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37450567",
+          "text": "Normal and pathogenic variation of RFC1 repeat expansions: implications for clinical diagnosis.. Cerebellar ataxia, neuropathy and vestibular areflexia syndrome (CANVAS) is an autosomal recessive neurodegenerative disease, usually caused by bialle...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9698959589004517,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37917284",
+          "text": "Investigation of RFC1 tandem nucleotide repeat locus in diverse neurodegenerative outcomes in an Indian cohort.. An intronic bi-allelic pentanucleotide repeat expansion mutation, (AAGGG)400-2000, at AAAAG repeat locus in RFC1 gene, is known as und...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9672459959983826,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38978724",
+          "text": "Pathologic RFC1 repeat expansions do not contribute to the development of inflammatory neuropathies.. Biallelic expansions of the AAGGG repeat in the replication factor C subunit 1 (RFC1) have recently been described to be responsible for cerebell...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9669300317764282,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31824583",
+          "text": "Investigation of the RFC1 Repeat Expansion in a Canadian and a Brazilian Ataxia Cohort: Identification of Novel Conformations.. A biallelic pentanucleotide expansion in the RFC1 gene has been reported to be a common cause of late-onset ataxia. In ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9669193029403687,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36034314",
+          "text": "Genetic and clinical features of cerebellar ataxia with RFC1 biallelic repeat expansions in Japan.. The recessive intronic pentanucleotide repeat AAGGG expansion of replication factor complex subunit 1 (RFC1) is associated with cerebellar ataxia, ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9647140502929688,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38685975",
+          "text": "RFC1 Repeat Distribution in the Cypriot Population: Study of a Large Cohort of Patients With Undiagnosed Ataxia and Non-Disease Controls.. BACKGROUND AND OBJECTIVES: The intronic biallelic AAGGG expansion in the replication factor C subunit 1 (RFC...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9632939696311951,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32939785",
+          "text": "Biallelic Intronic AAGGG Expansion of RFC1 is Related to Multiple System Atrophy.. OBJECTIVE: A recessive biallelic repeat expansion, (AAGGG)exp , in the RFC1 gene has been reported to be a frequent cause of late-onset ataxia. For cerebellar ataxi...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9624758362770081,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37621409",
+          "text": "RFC1 in an Australasian neurological disease cohort: extending the genetic heterogeneity and implications for diagnostics.. Cerebellar ataxia, neuropathy and vestibular areflexia syndrome is a progressive, generally late-onset, neurological disord...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9621250629425049,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/8088839",
+          "text": "Localization and characterization of the mouse alpha-globin locus control region.. The control of the expression of the alpha- and beta-globin gene clusters is effected by sequences called locus control regions (LCRs). Detailed analysis of these e...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9606308341026306,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67d34fb318b1e36f2e000007",
+      "type": "factoid",
+      "body": "Which role does AAAGG have in RFC1 repeat expansions?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38936972",
+        "http://www.ncbi.nlm.nih.gov/pubmed/24199172",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28741479",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30638897",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29270051",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30919552",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27151745",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32463385",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32934885",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25829526"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38936972",
+          "text": "Correction: A consensus molecular subtypes classification strategy for clinical colorectal cancer tissues.. This work presents a novel consensus molecular subtype (CMS) classifier for colorectal cancer (CRC), optimized for RNA-sequencing data stem...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9842907190322876,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/24199172",
+          "text": "Toward a molecular classification of colorectal cancer: the role of microsatellite instability status.. Microsatellite instability (MSI) is the molecular hallmark of DNA mismatch repair deficiency. Since its initial description in colorectal cance...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9819130301475525,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28741479",
+          "text": "Colorectal Cancer Subtypes: Developmental Origin and Microenvironmental Regulation.. Cancer is a heterogeneous disease and many cancer types do not represent a single entity, but are composed of biologically and clinically diverse subtypes. The su...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.98140949010849,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30638897",
+          "text": "[Going beyond microsatellite instability for immunotherapy in metastatic colorectal cancer: Consensus molecular subtypes and tumor mutational burden].. Next generation immunotherapies have limited efficacy in colorectal cancer. Immune checkpoints ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9811016321182251,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/29270051",
+          "text": "The predictive effect of primary tumour location in the treatment of metastatic colorectal cancer: a Canadian consensus statement.. In recently published data, the predictive value of primary tumour location for the treatment of metastatic colorec...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9810781478881836,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30919552",
+          "text": "Clinical implications of the genetics of sporadic colorectal cancer.. Colorectal cancer (CRC) is common and at least 80% of cases are sporadic, without any significant family history. Prognostication and treatment have been relatively empirical fo...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9804641604423523,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27151745",
+          "text": "Challenging the Cancer Molecular Stratification Dogma: Intratumoral Heterogeneity Undermines Consensus Molecular Subtypes and Potential Diagnostic Value in Colorectal Cancer.. PURPOSE: A number of independent gene expression profiling studies have...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.980405867099762,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32463385",
+          "text": "Consensus molecular subtypes (CMS) in metastatic colorectal cancer - personalized medicine decision.. Background Colorectal cancer (CRC) is one of the most common types of cancer in the world. Metastatic disease is still incurable in most of these...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9803932309150696,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32934885",
+          "text": "The consensus immunoscore: toward a new classification of colorectal cancer.. In its latest edition, the WHO classification of the Digestive System Tumors introduced for the first time the immune response as essential and desirable diagnostic crit...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9800050258636475,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25829526",
+          "text": "Hereditary colorectal cancer syndromes: American Society of Clinical Oncology clinical practice guideline endorsement of the familial risk-colorectal cancer: European Society for Medical Oncology clinical practice guidelines.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 225,
+          "rerank_score": 0.9799547791481018,
+          "rerank_position": 10
+        }
+      ],
+      "id": "662fc277187cba990d000013",
+      "type": "yesno",
+      "body": "Does the consensus molecular subtype (CMS) classification for colorectal cancer any use in routine clinical practice?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/32242614",
+        "http://www.ncbi.nlm.nih.gov/pubmed/18192450",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25900952",
+        "http://www.ncbi.nlm.nih.gov/pubmed/21633604",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26396535",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27025632",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29020255",
+        "http://www.ncbi.nlm.nih.gov/pubmed/23828079",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30060067",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30457126"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32242614",
+          "text": "Clostridium Difficile Infection Complicating Acute Severe Colitis During Pregnancy.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 83,
+          "rerank_score": 0.9780786633491516,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/18192450",
+          "text": "Prognosis in Clostridium difficile infection complicating inflammatory bowel disease.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 85,
+          "rerank_score": 0.9753440618515015,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25900952",
+          "text": "Current advances related to Clostridium difficile infection.. Clostridium difficile infection (CDI) can trigger various responses, ranging from asymptomatic carriage to fulminant colitis. Hard-to-cure CDI, such as severe CDI, multiple recurrences ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9752844572067261,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/21633604",
+          "text": "Prophylactic antibiotics for variceal hemorrhage: clostridium difficile infection still can be a risk.. Bron et al presented a retrospective study regarding the prophylactic use of antibiotics for variceal hemorrhage. Antibiotics appeared to impro...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9752246141433716,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26396535",
+          "text": "Antibiotic therapy and Clostridium difficile infection - primum non nocere - first do no harm.. Treatment options for Clostridium difficile infection (CDI) remain limited despite this usually nosocomial infection posing an urgent threat to public ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9748882055282593,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27025632",
+          "text": "A Review of Management of Clostridium difficile Infection: Primary and Recurrence.. Clostridium difficile infection (CDI) is a potentially fatal illness, especially in the elderly and hospitalized individuals. The recurrence and rates of CDI are i...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.974307656288147,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/29020255",
+          "text": "Mini-Fecal Microbiota Transplantation for Treatment of Clostridium difficile Proctitis Following Total Colectomy.. Rarely, in fulminant Clostridium difficile infection (CDI), the rectal stump is persistently infected following total abdominal cole...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9741339683532715,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/23828079",
+          "text": "[Case report. Leukocytosis in the course of Clostridium difficile infection].. Clostridium difficile infections (CDI) are increasing in incidence and severity, amongst other reasons because of the increasing spread of hypervirulent strains. Leukoc...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.974057674407959,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30060067",
+          "text": "A Tale of Two Healthcare-associated Infections: Clostridium difficile Coinfection Among Patients With Candidemia.. Candidemia and Clostridium difficile infection (CDI) are important healthcare-associated infections that share certain risk factors....",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9738131761550903,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30457126",
+          "text": "Current management of Clostridioides (Clostridium) difficile infection in adults: a summary of recommendations from the 2017 IDSA/SHEA clinical practice guideline.. Clostridioides (formerly Clostridium) difficile infection (CDI) is the most common...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.973617434501648,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67cddce881b102733300001c",
+      "type": "list",
+      "body": "Please list major complications of Clostridum Difficile infection."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/24384023",
+        "http://www.ncbi.nlm.nih.gov/pubmed/16798287",
+        "http://www.ncbi.nlm.nih.gov/pubmed/12397915",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29171475",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36165968",
+        "http://www.ncbi.nlm.nih.gov/pubmed/10352925",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26657398",
+        "http://www.ncbi.nlm.nih.gov/pubmed/17727172",
+        "http://www.ncbi.nlm.nih.gov/pubmed/2973981",
+        "http://www.ncbi.nlm.nih.gov/pubmed/20435290"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/24384023",
+          "text": "A patient's guide: polycystic ovary syndrome (PCOS).",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 52,
+          "rerank_score": 0.9845288991928101,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/16798287",
+          "text": "Clinical expression of polycystic ovary syndrome in adolescent girls.. Polycystic ovary syndrome (PCOS) is one of the major causes of adolescent hyperandrogenism and menstrual disorders. Because there is no universal definition for adolescent PCOS...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9754642844200134,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/12397915",
+          "text": "Polycystic ovarian syndrome. Preventing long-term health effects.. Polycystic ovarian syndrome (PCOS) is emerging from decades of misconseption as a bothersome yet benign gynecologic concern. Researchers have concluded that this syndrome actually ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9738094210624695,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/29171475",
+          "text": "[Long-term consequences of polycystic ovary syndrome].. Polycystic ovary syndrome (PCOS) is the most common chronic endocrine disease in women. The prevailing complaints at a young age are menstrual irregularities, infertility, and hyperandrogenis...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9729853868484497,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36165968",
+          "text": "Early diagnosis in polycystic ovary syndrome.. NPs are in an ideal position to educate patients on the lifelong implications of polycystic ovary syndrome (PCOS). A timely diagnosis and comprehensive plan are needed to appropriately manage patients...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9716284275054932,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/10352925",
+          "text": "Diagnosis of polycystic ovary syndrome.. The clinical features of polycystic ovary syndrome (PCOS) include hirsutism and irregular menses, which are the results of ovarian hyperandrogenism and chronic, unopposed estrogen secretion. The discovery t...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9714232683181763,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26657398",
+          "text": "Bilateral Parotid Swelling in Polycystic Ovarian Syndrome.. Polycystic ovarian syndrome (PCOS) is recognized by the presence of polycystic ovaries, irregular menstruation, and increased androgen levels. Many patients have insulin resistance or imp...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9712355136871338,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/17727172",
+          "text": "[Polycystic ovary syndrome and congenital adrenal hyperplasia: a different entity for comparable phenotypes?].. The phenotypes of the polycystic ovarian syndrome (PCOS) and congenital adrenal hyperplasia syndrome (CAHS) present a number of similar...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9710461497306824,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/2973981",
+          "text": "Clinical manifestations of polycystic ovarian disease.. Elevated androgens and/or increased sensitivity to them is at the core of polycystic ovarian disease (PCOD). In orbit around this essential element are a wide variety of signs and symptoms th...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9709795117378235,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/20435290",
+          "text": "The diagnosis of polycystic ovary syndrome in adolescents.. In women, the definition of polycystic ovary syndrome (PCOS) has become broad and includes several possible phenotypes. Because several features of PCOS may be in evolution in adolescents...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9707961678504944,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67d43cd218b1e36f2e000011",
+      "type": "list",
+      "body": "Symptoms of polycystic ovarian syndrome."
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/31051128",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37300769",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27308779",
+        "http://www.ncbi.nlm.nih.gov/pubmed/20558055",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29081882",
+        "http://www.ncbi.nlm.nih.gov/pubmed/12835391",
+        "http://www.ncbi.nlm.nih.gov/pubmed/24194700",
+        "http://www.ncbi.nlm.nih.gov/pubmed/12923300",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27488979",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25566075"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31051128",
+          "text": "Ancestry Tracing: Uncovering a Gliomagenesis Master Regulator.. In this issue of Cell Stem Cell, Weng et al. (2019) characterize a progenitor population that precedes oligodendrocyte progenitor cells (OPCs). The authors identified Zfp36l1 as a key...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9812642335891724,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37300769",
+          "text": "Generation of Oligodendrocytes from Human Pluripotent and Embryonic Stem Cells.. Oligodendrocyte progenitor cells (OPCs) and mature oligodendrocytes (OLs) can be generated using human induced pluripotent stem cells (hiPSCs) and human embryonic ste...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9797370433807373,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27308779",
+          "text": "Epigenetic control of oligodendrocyte development: adding new players to old keepers.. Emerging and strengthening evidence suggests an important role of myelin in plasticity and axonal survival. However, the mechanisms regulating progression from ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9795732498168945,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/20558055",
+          "text": "Transcriptional and post-transcriptional control of CNS myelination.. The successful transduction of action potentials along vertebrate axons is highly reliant on myelin, the concentric layers of membrane surrounding most large diameter axons. Wit...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9787288308143616,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/29081882",
+          "text": "Derivation of telencephalic oligodendrocyte progenitors from human pluripotent stem cells.. Oligodendrocytes are the main myelinating cell of the adult CNS and are vulnerable to injury in diverse disorders such as spinal cord injury, stroke, traum...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9783739447593689,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/12835391",
+          "text": "Delta-Notch signaling regulates oligodendrocyte specification.. Oligodendrocytes, the myelinating cell type of the central nervous system, arise from a ventral population of precursors that also produces motoneurons. Although the mechanisms that s...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9781903624534607,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/24194700",
+          "text": "Oligodendrogenesis after cerebral ischemia.. Neural stem cells in the subventricular zone (SVZ) of the lateral ventricle of adult rodent brain generate oligodendrocyte progenitor cells (OPCs) that disperse throughout the corpus callosum and striat...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9778396487236023,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/12923300",
+          "text": "Genetic programs and responses of neural stem/progenitor cells during demyelination: potential insights into repair mechanisms in multiple sclerosis.. In recent years, it has become evident that the adult mammalian CNS contains a population of neu...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9776904582977295,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27488979",
+          "text": "Neural Stem Cells and Ischemic Brain.. Stroke activates neural stem cells in the ventricular-subventricular zone (V/SVZ) of the lateral ventricle, which increases neuroblasts and oligodendrocyte progenitor cells (OPCs). Within the ischemic brain, ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9775295853614807,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25566075",
+          "text": "Role of NG2 expressing cells in addiction: a new approach for an old problem.. Neuron-glial antigen 2 (NG2) is a proteoglycan expressed predominantly in oligodendrocyte progenitor cells (OPCs). NG2-expressing OPCs (NG2-OPCs) are self-renewing cell...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9774222373962402,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67d9f6a418b1e36f2e000051",
+      "type": "list",
+      "body": "What are the lineage transcription factors of oligodendrocyte progenitor cells (OPCs)?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/34641707",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35876956",
+        "http://www.ncbi.nlm.nih.gov/pubmed/21885151",
+        "http://www.ncbi.nlm.nih.gov/pubmed/22926022",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27215143",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39103897",
+        "http://www.ncbi.nlm.nih.gov/pubmed/24853212",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36649045",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28402937",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29883857"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34641707",
+          "text": "Keeping it real: implications of real-world treatment outcomes for first-line immunotherapy in metastatic non-small-cell lung cancer.. Tweetable abstract Recent RWD studies suggest that the performance of immunotherapy in NSCLC is not as good as t...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9834544658660889,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35876956",
+          "text": "Targeted Therapy in Early Stage Non-small Cell Lung Cancer.. Tyrosine kinase inhibitors (TKIs) have dramatically improved tumor response rates and survival benefits in advanced oncogenic non-small-cell lung cancer (NSCLC). Given the impressive suc...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9796600341796875,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/21885151",
+          "text": "Predictive markers in the adjuvant therapy of non-small cell lung cancer.. Adjuvant chemotherapy increases the 5-year survival rate of patients with completely resected non-small cell lung cancer (NSCLC) by absolute 5%. Molecular-targeted therapie...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9795384407043457,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/22926022",
+          "text": "Emerging developments of chemoradiotherapy in stage III NSCLC.. Over the past decade, concomitant chemotherapy and radiotherapy has become the established treatment for patients with stage III non-small-cell lung cancer (NSCLC). Unfortunately, man...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9787020087242126,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27215143",
+          "text": "MicroRNAs in non-small cell lung cancer invasion and metastasis: from the perspective of the radiation oncologist.. INTRODUCTION: MicroRNAs (miRs), small sequences of RNA regulating various cellular processes, are implicated to play major roles in...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9785428047180176,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39103897",
+          "text": "Integrating knowledge graphs into machine learning models for survival prediction and biomarker discovery in patients with non-small-cell lung cancer.. Accurate survival prediction for Non-Small Cell Lung Cancer (NSCLC) patients remains a signific...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9783100485801697,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/24853212",
+          "text": "Advances in the treatment of non-small cell lung cancer.. Clinical trial data continue to emerge on treatments in advanced non-small cell lung cancer (NSCLC), supporting the strategy that histology and molecular driver mutations should guide treat...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9782103300094604,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36649045",
+          "text": "Different Liquid Biopsies for the Management of Non-Small Cell Lung Cancer in the Mutational Oncology Era.. In the last ten years, liquid biopsy has been slowly joining the traditional invasive techniques for the diagnosis and monitoring of tumors...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9780796766281128,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28402937",
+          "text": "Breaking the crosstalk of the cellular tumorigenic network: Hypothesis for addressing resistances to targeted therapies in advanced NSCLC.. In the light of current treatment developments for non-small cell lung cancer (NSCLC), the idea of a plasti...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9778532981872559,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/29883857",
+          "text": "Non-small cell lung cancer brain metastases and the immune system: From brain metastases development to treatment.. Brain metastases (BM) are diagnosed frequently in non-small cell lung cancer (NSCLC) patients. Despite the high incidence of BM (up...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9775940179824829,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67d7531018b1e36f2e000041",
+      "type": "list",
+      "body": "Data from which clinical trials have been used to demonstrate use of knowledge graphs for NSCLC survival prediction?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/11452254",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25418116",
+        "http://www.ncbi.nlm.nih.gov/pubmed/8696735",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30648139",
+        "http://www.ncbi.nlm.nih.gov/pubmed/16323029",
+        "http://www.ncbi.nlm.nih.gov/pubmed/8829326",
+        "http://www.ncbi.nlm.nih.gov/pubmed/10476175",
+        "http://www.ncbi.nlm.nih.gov/pubmed/15361631",
+        "http://www.ncbi.nlm.nih.gov/pubmed/8995117",
+        "http://www.ncbi.nlm.nih.gov/pubmed/20819886"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/11452254",
+          "text": "What functional outcomes and complications should be taught to the patient with ulcerative colitis or familial adenomatous polyposis who undergoes ileal pouch anal anastomosis?",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 176,
+          "rerank_score": 0.9850921630859375,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25418116",
+          "text": "Prophylactic colectomy: Rationale, indications, and approach.. Discerning the genetics of hereditary colorectal cancer syndromes has enabled a more individualized approach to preventing and treating colorectal cancers in affected patients and fami...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9835465550422668,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/8696735",
+          "text": "Can we safely delay or avoid prophylactic colectomy in familial adenomatous polyposis?",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 86,
+          "rerank_score": 0.9816819429397583,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30648139",
+          "text": "Challenging management of familial adenomatous polyposis with advanced colorectal cancer: laparoscopic partial resection and cold snare polypectomy.. Background and study aims  Prophylactic extended colectomy may be indicated because most surgical...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.980683445930481,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/16323029",
+          "text": "[Preventive surgery for familial adenomatous polyposis coli].. Familial adenomatous polyposis coli (FAP) may not be considered a single disease entity with standardized guidelines for operative treatment. However, prophylactic colectomy after the ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.980494499206543,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/8829326",
+          "text": "Operations for familial adenomatous polyposis.. The purpose of this article is to discuss the advantages and disadvantages of surgical procedures designed to eliminate the risk of colorectal cancer, the surgical treatment of extracolonic polyps, a...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9799807667732239,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/10476175",
+          "text": "Ileoanal procedures: acute and long-term management issues.. The pelvic pouch procedure has become the preferred surgical treatment for patients with ulcerative colitis and familial adenomatous polyposis. Even though this operation removes the dis...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9799498915672302,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/15361631",
+          "text": "Continent diversions: the new gold standards of ileoanal reservoir and neobladder.. In recent decades, surgical treatment of familial adenomatous polyposis, chronic ulcerative colitis, and muscle-invasive bladder cancer has undergone a revolution....",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9796292185783386,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/8995117",
+          "text": "Surveillance of familial adenomatous polyposis patients after ileorectal anastomosis or ileoanal pouch anastomosis.. This article summarizes the state of affairs with respect to rectal or ileal polyps after colectomy in patients with familial aden...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9795593023300171,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/20819886",
+          "text": "Is there a relationship between familial adenomatous polyposis and focal nodular hyperplasia?",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 93,
+          "rerank_score": 0.9793010950088501,
+          "rerank_position": 10
+        }
+      ],
+      "id": "660999a0fdcbea915f00001a",
+      "type": "list",
+      "body": "What are the colorectal surgical options for patients with Familial Polyposis?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/31936524",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39273517",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34013567",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35628659",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36232726",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37628632",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35327996"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31936524",
+          "text": "Mucopolysaccharidosis-Plus Syndrome.. Previously, we reported a novel disease of impaired glycosaminoglycans (GAGs) metabolism without deficiency of known lysosomal enzymes-mucopolysaccharidosis-plus syndrome (MPSPS). MPSPS, whose pathophysiology ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9763782620429993,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39273517",
+          "text": "Mucopolysaccharidosis-Plus Syndrome: Is This a Type of Mucopolysaccharidosis or a Separate Kind of Metabolic Disease?. Several years ago, dozens of cases were described in patients with symptoms very similar to mucopolysaccharidosis (MPS). This ne...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9737329483032227,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34013567",
+          "text": "Homozygous missense VPS16 variant is associated with a novel disease, resembling mucopolysaccharidosis-plus syndrome in two siblings.. Disorders of intracellular trafficking are a group of inherited disorders, which often display multisystem pheno...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9733848571777344,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35628659",
+          "text": "Hematopoietic Disorders, Renal Impairment and Growth in Mucopolysaccharidosis-Plus Syndrome.. Mucopolysaccharidoses (MPS) are rare lysosomal storage disorders (LSD) characterized by the excessive accumulation of glycosaminoglycans (GAG). Conventio...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9727004170417786,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36232726",
+          "text": "Mucopolysaccharidosis-Plus Syndrome: Report on a Polish Patient with a Novel VPS33A Variant with Comparison with Other Described Patients.. Eleven patients from Yakutia with a new lysosomal disease assumed then as mucopolysaccharidosis-plus syndro...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9709242582321167,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37628632",
+          "text": "Prenatal Diagnosis of Mucopolysaccharidosis-Plus Syndrome (MPSPS).. Mucopolysaccharidosis-plus syndrome (MPSPS) is an autosomal-recessive disorder caused by c.1492C>T (p.R498W) in the VPS33A gene. MPSPS is a severe disorder that causes a short lif...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9683552384376526,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35327996",
+          "text": "Mucopolysaccharidosis-Plus Syndrome, a Rapidly Progressive Disease: Favorable Impact of a Very Prolonged Steroid Treatment on the Clinical Course in a Child.. Mucopolysaccharidosis-plus syndrome (MPS-PS) is a novel autosomal recessive disorder cau...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9683309197425842,
+          "rerank_position": 7
+        }
+      ],
+      "id": "67c7708481b1027333000002",
+      "type": "yesno",
+      "body": "Is mucopolysaccharidosis-plus syndrome (MPSPS) a X-linked disease?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/5856557",
+        "http://www.ncbi.nlm.nih.gov/pubmed/18900564",
+        "http://www.ncbi.nlm.nih.gov/pubmed/4638491",
+        "http://www.ncbi.nlm.nih.gov/pubmed/2138",
+        "http://www.ncbi.nlm.nih.gov/pubmed/5712874",
+        "http://www.ncbi.nlm.nih.gov/pubmed/5523905",
+        "http://www.ncbi.nlm.nih.gov/pubmed/13103755",
+        "http://www.ncbi.nlm.nih.gov/pubmed/1243443",
+        "http://www.ncbi.nlm.nih.gov/pubmed/12305195",
+        "http://www.ncbi.nlm.nih.gov/pubmed/8550985"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/5856557",
+          "text": "[Indications for vaginal cesarean].",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 35,
+          "rerank_score": 0.98832106590271,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/18900564",
+          "text": "[Indication for Caesarean section delivery].",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 44,
+          "rerank_score": 0.9851729273796082,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/4638491",
+          "text": "[Indications for surgical delivery].",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 36,
+          "rerank_score": 0.9829107522964478,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/2138",
+          "text": "[Indications for cesarean section: indication and status of the newborn infant after surgery].",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 94,
+          "rerank_score": 0.9815450310707092,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/5712874",
+          "text": "[Changes in the obstetric indication and use of surgical delivery methods].",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 75,
+          "rerank_score": 0.979762852191925,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/5523905",
+          "text": "[Comparison of Apgar scores following spontaneous labor and surgical delivery].",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 79,
+          "rerank_score": 0.9773813486099243,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/13103755",
+          "text": "[Indications for surgical delivery in a small hospital].",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 56,
+          "rerank_score": 0.9771386384963989,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/1243443",
+          "text": "[Amniotic fluid influx in spontaneous and surgical delivery].",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 61,
+          "rerank_score": 0.9768416285514832,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/12305195",
+          "text": "Cesarean hysterectomy.",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 22,
+          "rerank_score": 0.9746831059455872,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/8550985",
+          "text": "[Advantages and disadvantages of induced labor without medical indications: the viewpoint of the anesthesiologist].",
+          "beginSection": "title",
+          "endSection": "title",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 115,
+          "rerank_score": 0.9730542302131653,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67d7201b18b1e36f2e00002c",
+      "type": "list",
+      "body": "Indications of cesarean section."
+    }
+  ]
+}

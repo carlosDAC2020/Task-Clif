@@ -1,0 +1,262 @@
+{
+  "questions": [
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39555889"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39555889",
+          "text": "RankMHC: Learning to Rank Class-I Peptide-MHC Structural Models.. The binding of peptides to class-I Major Histocompability Complex (MHC) receptors and their subsequent recognition downstream by T-cell receptors are crucial processes for most mult...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.2638596296310425,
+          "rerank_position": 1
+        }
+      ],
+      "id": "67d74cde18b1e36f2e00003c",
+      "type": "summary",
+      "body": "Describe RankMHC"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/29968252",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28825047",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28741479",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34909395",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37681286",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30796810",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32463385",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34638407",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26457759",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33571895"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/29968252",
+          "text": "Consensus molecular subtype classification of colorectal adenomas.. Consensus molecular subtyping is an RNA expression-based classification system for colorectal cancer (CRC). Genomic alterations accumulate during CRC pathogenesis, including the p...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.6614946126937866,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28825047",
+          "text": "Consensus Molecular Subtypes of Colorectal Cancer and their Clinical Implications.. The colorectal cancer (CRC) Subtyping Consortium has unified six independent molecular classification systems, based on gene expression data, into a single consens...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.6601980924606323,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28741479",
+          "text": "Colorectal Cancer Subtypes: Developmental Origin and Microenvironmental Regulation.. Cancer is a heterogeneous disease and many cancer types do not represent a single entity, but are composed of biologically and clinically diverse subtypes. The su...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.6544580459594727,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34909395",
+          "text": "Consensus molecular subtypes of colorectal cancer in clinical practice: A translational approach.. The identification of several genetic mutations in colorectal cancer (CRC) has allowed a better comprehension of the prognosis and response to diffe...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.6530706882476807,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37681286",
+          "text": "Consensus molecular subtype transition during progression of colorectal cancer.. The consensus molecular subtype (CMS) classification divides colorectal cancer (CRC) into four distinct subtypes based on RNA expression profiles. The biological diff...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.6485149264335632,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30796810",
+          "text": "Context matters-consensus molecular subtypes of colorectal cancer as biomarkers for clinical trials.. The Colorectal Cancer Subtyping Consortium identified four gene expression consensus molecular subtypes, CMS1 (immune), CMS2 (canonical), CMS3 (m...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.6326362490653992,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32463385",
+          "text": "Consensus molecular subtypes (CMS) in metastatic colorectal cancer - personalized medicine decision.. Background Colorectal cancer (CRC) is one of the most common types of cancer in the world. Metastatic disease is still incurable in most of these...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.6313058733940125,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34638407",
+          "text": "Implications of Intratumor Heterogeneity on Consensus Molecular Subtype (CMS) in Colorectal Cancer.. The implications of intratumor heterogeneity on the four consensus molecular subtypes (CMS) of colorectal cancer (CRC) are not well known. Here, w...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.6288523077964783,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26457759",
+          "text": "The consensus molecular subtypes of colorectal cancer.. Colorectal cancer (CRC) is a frequently lethal disease with heterogeneous outcomes and drug responses. To resolve inconsistencies among the reported gene expression-based CRC classifications ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.6239618062973022,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33571895",
+          "text": "Consensus molecular subtyping of colorectal cancers is influenced by goblet cell content.. A critical obstacle in the field of colorectal cancer (CRC) is the establishment of precise tumor subtypes to facilitate the development of targeted therape...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.6142247915267944,
+          "rerank_position": 10
+        }
+      ],
+      "id": "65f7741fc4010b4d78000027",
+      "type": "factoid",
+      "body": "What proportion of colorectal cancer cases are not assignable to any of the consensus molecular subtype (CMS) groups?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/23869678",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31350821",
+        "http://www.ncbi.nlm.nih.gov/pubmed/17017939",
+        "http://www.ncbi.nlm.nih.gov/pubmed/12166544",
+        "http://www.ncbi.nlm.nih.gov/pubmed/17694282",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26122487",
+        "http://www.ncbi.nlm.nih.gov/pubmed/17305582",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37484720",
+        "http://www.ncbi.nlm.nih.gov/pubmed/20402554",
+        "http://www.ncbi.nlm.nih.gov/pubmed/20101899"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/23869678",
+          "text": "PDE5 inhibitors: considerations for preference and long-term adherence.. INTRODUCTION: Erectile dysfunction (ED) is a highly prevalent condition affecting nearly one in five men worldwide. The advent of phosphodiesterase type 5 inhibitors (PDE5i) ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.5621333122253418,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31350821",
+          "text": "The first-generation phosphodiesterase 5 inhibitors and their pharmacokinetic issue.. BACKGROUND: Erectile dysfunction (ED) is a relatively frequent disease that negatively impacts the overall quality of life, well-being, and relationships. Althou...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.5336313247680664,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/17017939",
+          "text": "Phosphodiesterase 5 inhibitors--drug design and differentiation based on selectivity, pharmacokinetic and efficacy profiles.. The discovery that inhibition of phosphodiesterase-5 (PDE5) reduces the degradation of cGMP, allowing erectile function t...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.5220609903335571,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/12166544",
+          "text": "Pharmacology of phosphodiesterase-5 inhibitors.. The clinical properties (efficacy and safety profile) of a medicine are related not only to its mode of action, but also to its selectivity for its target (usually a receptor or enzyme) and are also...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.5159607529640198,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/17694282",
+          "text": "[Novel indications for phosphodiesterase type 5 inhibitors].. Phosphodiesterase type 5 (PDE5) induces the breakdown of cyclic guanosine monophosphate (cGMP) in smooth muscle cells. Hence, PDE5 inhibitors promote vasodilative effects by enhancing i...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.5103057622909546,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26122487",
+          "text": "Phosphodiesterase type 5 inhibitors: back and forward from cardiac indications.. PDE5 inhibitors (PDE5i) are widely known as treatment for erectile dysfunction (ED). This favorable action has emerged as a \"side effect\" from pioneering studies when...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.5066300630569458,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/17305582",
+          "text": "Design of second generation phosphodiesterase 5 inhibitors.. The clinical significance of phosphodiesterase 5 (PDE5) inhibition is increasingly understood following the pioneering work with sildenafil, and the continuing development programmes for...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.49869176745414734,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/37484720",
+          "text": "Phosphodiesterase-5 Inhibitors as Therapeutics for Cardiovascular Diseases: A Brief Review.. BACKGROUND: Three selective and most used inhibitors of PDE-5-sildenafil, vardenafil and tadalafil- have been successfully used for the treatment of erect...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.4952048659324646,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/20402554",
+          "text": "Phosphodiesterase type 5 (PDE5) inhibitors for the treatment of erectile dysfunction.. IMPORTANCE TO THE FIELD: Since sildenafil was introduced 10 years ago, highly selective phosphodiesterase type 5 inhibitors (PDE5i) have changed the medical man...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.49249812960624695,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/20101899",
+          "text": "[Clinical use of phosphodiesterase-5 inhibitors in cardiopulmonary diseases: from experimental evidence to clinical application].. Phosphodiesterases are a class of proteins that primarily modulate intracellular levels of cyclic nucleotides such a...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.4878535270690918,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67cc973e81b1027333000011",
+      "type": "list",
+      "body": "Please list the short half life Phosphodiesterase 5 inhibitors."
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "questions": [
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39555889"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39555889",
+          "text": "RankMHC: Learning to Rank Class-I Peptide-MHC Structural Models.. The binding of peptides to class-I Major Histocompability Complex (MHC) receptors and their subsequent recognition downstream by T-cell receptors are crucial processes for most mult...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": -0.49936922212186724,
+          "rerank_position": 1
+        }
+      ],
+      "id": "67d74cde18b1e36f2e00003c",
+      "type": "summary",
+      "body": "Describe RankMHC"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/30919552",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33571895",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36348949",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32463385",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32361272",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32104582",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31504112",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31614493",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33767867",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38403196"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30919552",
+          "text": "Clinical implications of the genetics of sporadic colorectal cancer.. Colorectal cancer (CRC) is common and at least 80% of cases are sporadic, without any significant family history. Prognostication and treatment have been relatively empirical fo...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 30.193004275336964,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33571895",
+          "text": "Consensus molecular subtyping of colorectal cancers is influenced by goblet cell content.. A critical obstacle in the field of colorectal cancer (CRC) is the establishment of precise tumor subtypes to facilitate the development of targeted therape...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 27.90460116601505,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36348949",
+          "text": "Molecular Analyses in Peritoneal Metastasis from Colorectal Cancer: A Review-An English Version.. Despite a trend showing continued improvement in survival by combing targeted agents in colorectal cancer, the improvement was limited, and clinicall...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 27.819097118383045,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32463385",
+          "text": "Consensus molecular subtypes (CMS) in metastatic colorectal cancer - personalized medicine decision.. Background Colorectal cancer (CRC) is one of the most common types of cancer in the world. Metastatic disease is still incurable in most of these...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 27.3951371021908,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32361272",
+          "text": "Assessing Cell Activities rather than Identities to Interpret Intra-Tumor Phenotypic Diversity and Its Dynamics.. Despite advances in single-cell and molecular techniques, it is still unclear how to best quantify phenotypic heterogeneity in cancer...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 25.31022264342463,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32104582",
+          "text": "Immunotherapy with immune checkpoint inhibitors in colorectal cancer: what is the future beyond deficient mismatch-repair tumours?. Following initial success in melanoma and lung tumours, immune checkpoint inhibitors (ICIs) are now well recognized...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 25.141335837296346,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31504112",
+          "text": "Relative contribution of clinicopathological variables, genomic markers, transcriptomic subtyping and microenvironment features for outcome prediction in stage II/III colorectal cancer.. BACKGROUND: It remains unknown to what extent consensus mole...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 24.440012122110705,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/31614493",
+          "text": "Human Colorectal Cancer from the Perspective of Mouse Models.. Colorectal cancer (CRC) is a heterogeneous disease that includes both hereditary and sporadic types of tumors. Tumor initiation and growth is driven by mutational or epigenetic changes...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 24.19377059375643,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33767867",
+          "text": "Investigation of clinicopathological characters and gene expression features in colorectal signet-ring cell carcinoma utilizing CMS classification.. Signet ring cell carcinoma (SRCC) is a rare pathological type of colorectal cancer, of which the c...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 23.931995038224166,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38403196",
+          "text": "Comprehensive RNA-sequencing analysis of colorectal cancer in a Korean cohort.. Considering the recent increase in the number of colorectal cancer (CRC) cases in South Korea, we aimed to clarify the molecular characteristics of CRC unique to the K...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 23.912880011538995,
+          "rerank_position": 10
+        }
+      ],
+      "id": "65f7741fc4010b4d78000027",
+      "type": "factoid",
+      "body": "What proportion of colorectal cancer cases are not assignable to any of the consensus molecular subtype (CMS) groups?"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/20235039",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30063020",
+        "http://www.ncbi.nlm.nih.gov/pubmed/20939743",
+        "http://www.ncbi.nlm.nih.gov/pubmed/32126313",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27416913",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29634153",
+        "http://www.ncbi.nlm.nih.gov/pubmed/23321580",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38423706",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33396535",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25951512"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/20235039",
+          "text": "[Therapy for male patients with sexual dysfunction].. Phosphodiasterase type 5 inhibitors (sildenafil, vardenafil, tadalafil) are the first line symptomatic therapy for patients with erectile dysfunction. The patient should receive a meticolous in...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 13.409486719174831,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30063020",
+          "text": "[Continuous use of PDE5 inhibitors in the treatment of erectile dysfunction: New insights and opportunities].. At present, there is debate regarding the continuous use of phosphodiesterase 5 inhibitors in the treatment of erectile dysfunction. Cum...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 9.50739732141517,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/20939743",
+          "text": "Avanafil, a new rapid-onset phosphodiesterase 5 inhibitor for the treatment of erectile dysfunction.. IMPORTANCE OF THE FIELD: Erectile dysfunction (ED) is a common sexual problem, affecting up to half of men over 50 years of age. Phosphodiesteras...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 9.464261593151821,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/32126313",
+          "text": "Skeletal restoration by phosphodiesterase 5 inhibitors in osteopenic mice: Evidence of osteoanabolic and osteoangiogenic effects of the drugs.. Phosphodiesterases (PDEs) hydrolyze cyclic nucleotides and thereby regulate diverse cellular functions....",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 9.406534039383393,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/27416913",
+          "text": "Avanafil for the treatment of erectile dysfunction.. INTRODUCTION: Erectile dysfunction (ED) affects millions of men worldwide, and the incidence of ED will continue to increase as the aging population grows. The first generation of phosphodiester...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 9.34161514980359,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/29634153",
+          "text": "[Dosage forms of sildenafil in the management of erectile dysfunction].. The experience in the management of erectile dysfunction shows that taking even the most effective medications in tablet form may be inconvenient due to the need for natural ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 9.326893660612996,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/23321580",
+          "text": "Avanafil, a highly selective phosphodiesterase type 5 inhibitor for erectile dysfunction, shows good safety profiles for retinal function and hemodynamics in anesthetized dogs.. PURPOSE: We evaluated the effects of the highly selective phosphodies...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 9.016682413224014,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/38423706",
+          "text": "Avanafil: A comprehensive drug profile.. Avanafil is an oral medication used to treat erectile dysfunction (ED). As a phosphodiesterase type 5 (PDE5) inhibitor, it functions by inhibiting the PDE5 enzyme, which ultimately results in increased leve...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 8.65981631465639,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33396535",
+          "text": "Exosomal miRNAs as Potential Biomarkers to Monitor Phosphodiesterase 5 Inhibitor Induced Anti-Fibrotic Effects on CCl4 Treated Rats.. MicroRNAs (miRNAs) are short, non-coding RNA species that are important post-transcriptional regulators of gene e...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 8.610505801106218,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25951512",
+          "text": "The characterization, current medications, and promising therapeutics targets for premature ejaculation.. Premature ejaculation (PE) is the most prevalent male sexual dysfunction. This is associated with negative personal and interpersonal psychol...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 8.590874172221113,
+          "rerank_position": 10
+        }
+      ],
+      "id": "67cc973e81b1027333000011",
+      "type": "list",
+      "body": "Please list the short half life Phosphodiesterase 5 inhibitors."
+    }
+  ]
+}

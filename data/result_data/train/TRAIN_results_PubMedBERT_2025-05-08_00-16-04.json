@@ -1,0 +1,143 @@
+{
+  "questions": [
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39555889"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/39555889",
+          "text": "RankMHC: Learning to Rank Class-I Peptide-MHC Structural Models.. The binding of peptides to class-I Major Histocompability Complex (MHC) receptors and their subsequent recognition downstream by T-cell receptors are crucial processes for most mult...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9048770666122437,
+          "rerank_position": 1
+        }
+      ],
+      "id": "67d74cde18b1e36f2e00003c",
+      "type": "summary",
+      "body": "Describe RankMHC"
+    },
+    {
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/35773407",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29589308",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28825047",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28741479",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30796810",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26457759",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33571895",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36490322",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34258029",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36717674"
+      ],
+      "snippets": [
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/35773407",
+          "text": "Single-cell and bulk transcriptome sequencing identifies two epithelial tumor cell states and refines the consensus molecular classification of colorectal cancer.. The consensus molecular subtype (CMS) classification of colorectal cancer is based ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9849358201026917,
+          "rerank_position": 1
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/29589308",
+          "text": "Classification of Colorectal Cancer in Molecular Subtypes by Immunohistochemistry.. Colorectal cancer (CRC) is a heterogeneous disease, which can be categorized into distinct consensus molecular subtypes (CMSs). These subtypes differ in both clini...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9844131469726562,
+          "rerank_position": 2
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28825047",
+          "text": "Consensus Molecular Subtypes of Colorectal Cancer and their Clinical Implications.. The colorectal cancer (CRC) Subtyping Consortium has unified six independent molecular classification systems, based on gene expression data, into a single consens...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9842919111251831,
+          "rerank_position": 3
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28741479",
+          "text": "Colorectal Cancer Subtypes: Developmental Origin and Microenvironmental Regulation.. Cancer is a heterogeneous disease and many cancer types do not represent a single entity, but are composed of biologically and clinically diverse subtypes. The su...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9840769171714783,
+          "rerank_position": 4
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/30796810",
+          "text": "Context matters-consensus molecular subtypes of colorectal cancer as biomarkers for clinical trials.. The Colorectal Cancer Subtyping Consortium identified four gene expression consensus molecular subtypes, CMS1 (immune), CMS2 (canonical), CMS3 (m...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9838452339172363,
+          "rerank_position": 5
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/26457759",
+          "text": "The consensus molecular subtypes of colorectal cancer.. Colorectal cancer (CRC) is a frequently lethal disease with heterogeneous outcomes and drug responses. To resolve inconsistencies among the reported gene expression-based CRC classifications ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9838041067123413,
+          "rerank_position": 6
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/33571895",
+          "text": "Consensus molecular subtyping of colorectal cancers is influenced by goblet cell content.. A critical obstacle in the field of colorectal cancer (CRC) is the establishment of precise tumor subtypes to facilitate the development of targeted therape...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9836580753326416,
+          "rerank_position": 7
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36490322",
+          "text": "Improved Delineation of Colorectal Cancer Molecular Subtypes and Functional Profiles with a 62-Gene Panel.. UNLABELLED: Since its establishment in 2015, the transcriptomics-based consensus molecular subtype (CMS) classification has unified our und...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9834018349647522,
+          "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/34258029",
+          "text": "Consensus molecular subtypes of primary colon tumors and their hepatic metastases.. AIM: This pilot study aimed to evaluate the congruency in consensus molecular subtypes (CMS) of primary colorectal cancer and corresponding hepatic metastasis (HM)...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9832019805908203,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/36717674",
+          "text": "MmCMS: mouse models' consensus molecular subtypes of colorectal cancer.. BACKGROUND: Colorectal cancer (CRC) primary tumours are molecularly classified into four consensus molecular subtypes (CMS1-4). Genetically engineered mouse models aim to fai...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.9829373359680176,
+          "rerank_position": 10
+        }
+      ],
+      "id": "65f7741fc4010b4d78000027",
+      "type": "factoid",
+      "body": "What proportion of colorectal cancer cases are not assignable to any of the consensus molecular subtype (CMS) groups?"
+    }
+  ]
+}
