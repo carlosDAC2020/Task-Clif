@@ -342,10 +342,29 @@ for i, item_original in enumerate(todas_las_preguntas):
         
         keywords_llm = gemini_service.extract_keywords(
             item_body
-        )  # La pausa está dentro
+        )
+        
+          # La pausa está dentro
         # extractor = WordListExtractor()
         # sentence = item_body
         # keywords_llm = extractor.extract_word_list_from_sentence(sentence, weirdness_threshold=10)
+        print(keywords_llm)
+        if keywords_llm:
+            keywords_para_filtrar = keywords_llm
+            metodo_exitoso_extraccion = "LLM"
+        elif USAR_FALLBACK_LOCAL:
+            print("[!] LLM falló o no devolvió keywords. Intentando Fallback Local...")
+            metodo_exitoso_extraccion = (
+                "LLM_FALLIDO_A_LOCAL"  # Marcar para intentar local
+            )
+        else:
+            print("[!] LLM falló. Sin fallback configurado.")
+            metodo_exitoso_extraccion = "LLM_FALLIDO"
+            num_fallos_extraccion_total += 1
+    if METODO_EXTRACCION == "WEIRD":
+        extractor = WordListExtractor()
+        sentence = item_body
+        keywords_llm = extractor.extract_word_list_from_sentence(sentence, weirdness_threshold=10)
         print(keywords_llm)
         if keywords_llm:
             keywords_para_filtrar = keywords_llm
