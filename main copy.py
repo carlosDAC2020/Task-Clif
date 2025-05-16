@@ -263,7 +263,7 @@ print(f"Total de preguntas: {len(todas_las_preguntas)}")
 
 # --- Bucle Principal de evaluacion ---
 # === CONFIGURACIÓN ===
-limite = 2  # len(todas_las_preguntas) # Procesar todo por defecto
+limite = len(todas_las_preguntas) # Procesar todo por defecto
 METODO_EXTRACCION = (
     "LLM" if gemini_service.llm_model else "LOCAL"
 )  # Decide basado en si el modelo se cargó
