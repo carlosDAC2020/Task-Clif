@@ -1,15 +1,15 @@
 import json
 import time
 import os
-import numpy as np  # Si usas numpy directamente aquí
-import pandas as pd  # Si usas pandas directamente aquí
+import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 from dotenv import load_dotenv
 
 # Modulos locales
 from services.Gemini import GeminiService
 from services.PubMed import PubMedService
-from services.Word_list import WordListExtractor
+from services.Word_list import WordListExtractor # Asumo que es un módulo tuyo
 from processing.Reranker import Reranker
 from processing.utils import extract_id
 from processing import metrics as mtrs
@@ -25,11 +25,15 @@ load_dotenv()  # Carga las variables desde el archivo .env
 # Cambia a "TRAIN" o "TEST" según sea necesario en el .env
 TYPE_EVALUATION = os.getenv("TYPE_EVALUATION")
 # Tipo de re-ranking a usar (ej: TF-IDF,  BM25  o PubMedBERT)
-RERANKER_TYPE = os.getenv("RERANKER_TYPE")  
+RERANKER_TYPE = os.getenv("RERANKER_TYPE")
 # Campo deL tipo de query a usar para el re-ranking el cual puede ser BODY, BODY + KEYWORDS o KEYWORDS
-RERANKER_QUERY = os.getenv("RERANKER_QUERY")  
+RERANKER_QUERY = os.getenv("RERANKER_QUERY")
 # Método de extracción inicial de keywords (LLM o WEIRD)
-METODO_EXTRACCION = os.getenv("METODO_EXTRACCION") 
+METODO_EXTRACCION = os.getenv("METODO_EXTRACCION")
+
+# NUEVO: Variable de entorno para el método de reestructuración de consulta PubMed
+PUBMED_RESTRUCTURE_METHOD = os.getenv("PUBMED_RESTRUCTURE_METHOD", "GEMINI") # Por defecto GEMINI si no se especifica
+
 
 # --- Configuración API Keys ---
 print("--- Configurando API Keys ---")
@@ -72,10 +76,18 @@ try:
     # Instanciar el servicio de re-ranking
     reranker = Reranker()
     print("Cliente de Reranker configurado.")
+
+    # NUEVO: Imprimir el método de reestructuración seleccionado
+    print(f"Método de reestructuración de consulta PubMed seleccionado: {PUBMED_RESTRUCTURE_METHOD}")
+
 # Use code with caution.
 except Exception as e:
     print(f"Error configurando los servicios: {e}. Terminando script.")
     gemini_llm_instance = None
+    # Asegurarse de que gemini_service existe incluso si falla la configuración del LLM para evitar errores posteriores
+    if 'gemini_service' not in locals():
+        gemini_service = GeminiService(llm_model=None) # Un servicio Gemini "vacío"
+
 
 # --- Clase LTV Local (Placeholder - REEMPLAZAR CON TU CLASE REAL) ---
 # print("\n--- Configurando Clasificador Local (Placeholder) ---")
@@ -100,131 +112,25 @@ classifier = LTV_Entitye_Clasifier_Local(ner_pipeline, pos_pipeline)
 # --- Listas de Stop Words ---
 stop_words_generales = set(
     [
-        "is",
-        "a",
-        "the",
-        "and",
-        "or",
-        "of",
-        "to",
-        "in",
-        "it",
-        "that",
-        "this",
-        "for",
-        "what",
-        "can",
-        "be",
-        "an",
-        "are",
-        "do",
-        "does",
-        "did",
-        "have",
-        "has",
-        "had",
-        "was",
-        "were",
-        "will",
-        "how",
-        "why",
-        "when",
-        "where",
-        "which",
-        "who",
-        "with",
-        "as",
-        "at",
-        "by",
-        "from",
-        "if",
-        "into",
-        "like",
-        "near",
-        "on",
-        "onto",
-        "out",
-        "over",
-        "past",
-        "than",
-        "then",
-        "through",
-        "under",
-        "until",
-        "up",
-        "upon",
-        "without",
-        "you",
-        "your",
-        "i",
-        "me",
-        "my",
-        "we",
-        "our",
-        "us",
-        "he",
-        "him",
-        "his",
-        "she",
-        "her",
-        "they",
-        "them",
-        "their",
-        "list",
-        "describe",
-        "main",
-        "give",
+        "is", "a", "the", "and", "or", "of", "to", "in", "it", "that", "this", "for",
+        "what", "can", "be", "an", "are", "do", "does", "did", "have", "has", "had",
+        "was", "were", "will", "how", "why", "when", "where", "which", "who", "with",
+        "as", "at", "by", "from", "if", "into", "like", "near", "on", "onto", "out",
+        "over", "past", "than", "then", "through", "under", "until", "up", "upon",
+        "without", "you", "your", "i", "me", "my", "we", "our", "us", "he", "him",
+        "his", "she", "her", "they", "them", "their", "list", "describe", "main", "give",
     ]
 )
 stop_words_medicas_genericas = set(
     [
-        "disease",
-        "disorder",
-        "syndrome",
-        "patient",
-        "study",
-        "analysis",
-        "results",
-        "review",
-        "case",
-        "report",
-        "effect",
-        "treatment",
-        "therapy",
-        "clinical",
-        "trial",
-        "evidence",
-        "role",
-        "mechanism",
-        "approach",
-        "management",
-        "association",
-        "factor",
-        "risk",
-        "level",
-        "group",
-        "use",
-        "related",
-        "potential",
-        "impact",
-        "efficacy",
-        "safety",
-        "comparison",
-        "development",
-        "evaluation",
-        "assessment",
-        "status",
-        "marker",
-        "expression",
-        "pathway",
-        "interaction",
-        "cell",
-        "gene",
-        "protein",
-        "receptor",
-        "inhibitor",
-        "agonist",
-        "antagonist",
+        "disease", "disorder", "syndrome", "patient", "study", "analysis", "results",
+        "review", "case", "report", "effect", "treatment", "therapy", "clinical",
+        "trial", "evidence", "role", "mechanism", "approach", "management",
+        "association", "factor", "risk", "level", "group", "use", "related",
+        "potential", "impact", "efficacy", "safety", "comparison", "development",
+        "evaluation", "assessment", "status", "marker", "expression", "pathway",
+        "interaction", "cell", "gene", "protein", "receptor", "inhibitor",
+        "agonist", "antagonist",
     ]
 )
 
@@ -274,7 +180,7 @@ print(f"Total de preguntas: {len(todas_las_preguntas)}")
 limite = 10 # len(todas_las_preguntas) # Procesar todo por defecto
 USAR_FALLBACK_LOCAL = True  # ¿Intentar clasificador local si LLM falla?
 USAR_REINTENTO_LLM = (
-    True if gemini_service.llm_model else False
+    True if gemini_service and gemini_service.llm_model else False # MODIFICADO: Chequear gemini_service también
 )  # ¿Reintentar búsqueda con LLM si la inicial falla?
 CORE_TERMS_INICIAL = (
     1  # Core terms para la búsqueda híbrida inicial (cuando LLM o Local funcionó)
@@ -317,7 +223,7 @@ for i, item_original in enumerate(todas_las_preguntas):
         resultados_finales_json["questions"].append(output_item)
         if PAUSA_ENTRE_ITEMS > 0:
             time.sleep(PAUSA_ENTRE_ITEMS)
-        os.system("cls" if os.name == "nt" else "clear")
+        # os.system("cls" if os.name == "nt" else "clear") # Comentado para revisión más fácil
         continue
 
     print(f"Texto: {item_body[:200]}...")  # Mostrar inicio del texto
@@ -329,56 +235,55 @@ for i, item_original in enumerate(todas_las_preguntas):
     # --- PASO 1: Extracción Inicial de Keywords ---
     start_extr = time.time()
     if METODO_EXTRACCION == "LLM":
-        # Usar el servicio Gemini
-        keywords_llm = gemini_service.extract_keywords(
-            item_body
-        )
-        print(keywords_llm)
-        if keywords_llm:
-            keywords_para_filtrar = keywords_llm
-            metodo_exitoso_extraccion = "LLM"
-        elif USAR_FALLBACK_LOCAL:
-            print("[!] LLM falló o no devolvió keywords. Intentando Fallback Local...")
-            metodo_exitoso_extraccion = (
-                "LLM_FALLIDO_A_LOCAL"  # Marcar para intentar local
-            )
+        if gemini_service and gemini_service.llm_model: # MODIFICADO: Chequear que el servicio esté activo
+            keywords_llm = gemini_service.extract_keywords(item_body)
+            print(keywords_llm)
+            if keywords_llm:
+                keywords_para_filtrar = keywords_llm
+                metodo_exitoso_extraccion = "LLM"
+            elif USAR_FALLBACK_LOCAL:
+                print("[!] LLM falló o no devolvió keywords. Intentando Fallback Local...")
+                metodo_exitoso_extraccion = "LLM_FALLIDO_A_LOCAL"
+            else:
+                print("[!] LLM falló. Sin fallback configurado.")
+                metodo_exitoso_extraccion = "LLM_FALLIDO"
+                num_fallos_extraccion_total += 1
         else:
-            print("[!] LLM falló. Sin fallback configurado.")
-            metodo_exitoso_extraccion = "LLM_FALLIDO"
-            num_fallos_extraccion_total += 1
-    if METODO_EXTRACCION == "WEIRD":
+            print("[!] Servicio Gemini no disponible para extracción de keywords LLM.")
+            if USAR_FALLBACK_LOCAL:
+                metodo_exitoso_extraccion = "LLM_FALLIDO_A_LOCAL" # Tratar como fallo para ir a local
+            else:
+                metodo_exitoso_extraccion = "LLM_FALLIDO"
+                num_fallos_extraccion_total += 1
+
+    elif METODO_EXTRACCION == "WEIRD": # MODIFICADO: 'elif' en lugar de 'if' para que sea mutuamente excluyente con "LLM"
         extractor = WordListExtractor()
         sentence = item_body
-        keywords_llm = extractor.extract_word_list_from_sentence(sentence, weirdness_threshold=10)
-        print(keywords_llm)
-        if keywords_llm:
-            keywords_para_filtrar = keywords_llm
-            metodo_exitoso_extraccion = "LLM"
-        elif USAR_FALLBACK_LOCAL:
-            print("[!] LLM falló o no devolvió keywords. Intentando Fallback Local...")
-            metodo_exitoso_extraccion = (
-                "LLM_FALLIDO_A_LOCAL"  # Marcar para intentar local
-            )
+        keywords_weird = extractor.extract_word_list_from_sentence(sentence, weirdness_threshold=10) # Renombrado keywords_llm a keywords_weird
+        print(keywords_weird)
+        if keywords_weird:
+            keywords_para_filtrar = keywords_weird
+            metodo_exitoso_extraccion = "WEIRD" # MODIFICADO: el método es WEIRD
+        # El fallback a local no tiene mucho sentido aquí si WEIRD es el método principal y falla.
+        # Podrías añadirlo si es un requisito.
         else:
-            print("[!] LLM falló. Sin fallback configurado.")
-            metodo_exitoso_extraccion = "LLM_FALLIDO"
+            print("[!] WEIRD no devolvió keywords.")
+            metodo_exitoso_extraccion = "WEIRD_FALLIDO"
             num_fallos_extraccion_total += 1
+    
+    elif METODO_EXTRACCION == "LOCAL": # NUEVO: Opción para usar LOCAL directamente
+        metodo_exitoso_extraccion = "LOCAL" # Marcar para ejecutar la lógica local de abajo
 
     # --- PASO 1.5: Fallback o Ejecución Local Directa ---
-    # Ejecutar si el método es 'LOCAL' o si LLM falló y el fallback está activo
     if (
-        metodo_exitoso_extraccion == "LOCAL"
-        or metodo_exitoso_extraccion == "LLM_FALLIDO_A_LOCAL"
+        metodo_exitoso_extraccion == "LOCAL" # Si se seleccionó LOCAL directamente
+        or metodo_exitoso_extraccion == "LLM_FALLIDO_A_LOCAL" # O si LLM falló y hay fallback
     ):
         try:
-            # Usar el clasificador local (Placeholder o real)
-            result_body = classifier.get(
-                item_body
-            )  # Asume que esto es rápido y no necesita pausa larga
+            result_body = classifier.get(item_body)
             keywords_local = result_body.get("keywords", [])
             if keywords_local:
                 keywords_para_filtrar = keywords_local
-                # Actualizar el método exitoso si vino de fallback
                 metodo_exitoso_extraccion = (
                     "LOCAL (Fallback)"
                     if metodo_exitoso_extraccion == "LLM_FALLIDO_A_LOCAL"
@@ -386,22 +291,20 @@ for i, item_original in enumerate(todas_las_preguntas):
                 )
             else:
                 print("[!] Extracción local no devolvió keywords.")
-                # Si era fallback y falló, contar como fallo total de extracción
-                if metodo_exitoso_extraccion == "LOCAL (Fallback)":
+                if metodo_exitoso_extraccion == "LOCAL (Fallback)" or metodo_exitoso_extraccion == "LOCAL":
                     num_fallos_extraccion_total += 1
-                metodo_exitoso_extraccion += "_FALLIDO"  # Marcar que falló
+                metodo_exitoso_extraccion += "_FALLIDO"
         except Exception as e:
             print(f"[!] Error durante ejecución del clasificador local: {e}")
-            if metodo_exitoso_extraccion == "LOCAL (Fallback)":
+            if metodo_exitoso_extraccion == "LOCAL (Fallback)" or metodo_exitoso_extraccion == "LOCAL":
                 num_fallos_extraccion_total += 1
-            metodo_exitoso_extraccion += "_FALLIDO"  # Marcar que falló
+            metodo_exitoso_extraccion += "_FALLIDO"
 
     end_extr = time.time()
     print(
         f"[*] Keywords Extraídos ({metodo_exitoso_extraccion}): {keywords_para_filtrar} (Tiempo Extr: {end_extr - start_extr:.2f}s)"
     )
 
-    # Si no hay keywords después de intentar todo, crear item vacío y continuar
     if not keywords_para_filtrar:
         print(
             f"[!] No se pudieron extraer keywords para {item_id}. Creando entrada vacía."
@@ -418,120 +321,103 @@ for i, item_original in enumerate(todas_las_preguntas):
         print("=" * 80)
         if PAUSA_ENTRE_ITEMS > 0:
             time.sleep(PAUSA_ENTRE_ITEMS)
-        os.system("cls" if os.name == "nt" else "clear")  # Limpiar consola (opcional)
+        # os.system("cls" if os.name == "nt" else "clear")
         continue
 
-    # --- PASO 2: Filtrado de Keywords y Búsqueda Inicial en PubMed ---
-    # Aplicar stop words y filtro básico
     palabras_filtradas = [
         p.lower()
         for p in keywords_para_filtrar
-        if isinstance(p, str)  # Asegurar que es string
+        if isinstance(p, str)
         and p.lower() not in stop_words_generales
         and p.lower() not in stop_words_medicas_genericas
-        and len(p) > 1  # Longitud mínima
-        and any(c.isalnum() for c in p)  # Al menos un alfanumérico
+        and len(p) > 1
+        and any(c.isalnum() for c in p)
     ]
-    # Mantener orden y unicidad
     palabras_unicas_ordenadas = list(dict.fromkeys(palabras_filtradas))
     print(f"[*] Keywords Filtrados para PubMed (Inicial): {palabras_unicas_ordenadas}")
 
-    kws_usados_en_busqueda = palabras_unicas_ordenadas  # Guardar qué se usó
+    kws_usados_en_busqueda = palabras_unicas_ordenadas
     resultados_pubmed_inicial = {"count": 0, "pmids": []}
     pmids_encontrados_inicial = []
     necesita_reintento_busqueda = False
-    consulta_usada_finalmente = "Híbrida (Inicial)"  # Tipo de consulta usada
+    consulta_usada_finalmente = "Híbrida (Inicial)"
 
     if not palabras_unicas_ordenadas:
         print("[!] No quedaron términos válidos tras filtrar para buscar en PubMed.")
         num_filtrado_cero += 1
-        necesita_reintento_busqueda = (
-            True  # Marcar para posible reintento LLM aunque no hubiera keywords
-        )
+        necesita_reintento_busqueda = True
     else:
-        # Decidir cuántos core terms usar basado en el éxito de la extracción
         num_core = (
             CORE_TERMS_INICIAL
             if "FALLIDO" not in metodo_exitoso_extraccion
             else CORE_TERMS_LOCAL
         )
-        # Usar el servicio PubMed
         resultados_pubmed_inicial = pubmed_service.search_hybrid(
             terms_list=palabras_unicas_ordenadas,
             num_core_terms=num_core,
             max_results=MAX_RESULTS_PUBMED_SEARCH,
-            # search_field=None, # Por defecto
-            # sort_by="relevance" # Por defecto
         )
         pmids_encontrados_inicial = resultados_pubmed_inicial.get("pmids", [])
         if not pmids_encontrados_inicial:
             print("[!] Búsqueda Híbrida inicial no encontró PMIDs.")
             necesita_reintento_busqueda = True
 
-    # --- PASO 3: Reintento con Reestructuración LLM (si aplica) ---
-    pmids_para_procesar = (
-        pmids_encontrados_inicial  # Empezar con los resultados iniciales
-    )
+    pmids_para_procesar = pmids_encontrados_inicial
 
-    if necesita_reintento_busqueda and USAR_REINTENTO_LLM:
+    # --- PASO 3: Reintento con Reestructuración (según PUBMED_RESTRUCTURE_METHOD) --- MODIFICADO
+    if necesita_reintento_busqueda and USAR_REINTENTO_LLM: # USAR_REINTENTO_LLM controla si se intenta reestructurar con *algún* LLM
         num_reintentos_llm_iniciados += 1
-        print(f"[*] Intentando reestructurar consulta con LLM...")
-        # Usar el servicio Gemini para reestructurar
-        nueva_consulta = gemini_service.restructure_query(
-            original_question=item_body,
-            initial_keywords=kws_usados_en_busqueda,  # Keywords originales usados
-            failure_type="no_pmids",
-        )
+        nueva_consulta = None # Inicializar
 
+        # MODIFICADO: Seleccionar el método de reestructuración
+        if PUBMED_RESTRUCTURE_METHOD == "GEMINI":
+            if gemini_service and gemini_service.llm_model:
+                print(f"[*] Intentando reestructurar consulta con GEMINI...")
+                nueva_consulta = gemini_service.restructure_query(
+                    original_question=item_body,
+                    initial_keywords=kws_usados_en_busqueda,
+                    failure_type="no_pmids",
+                )
+            else:
+                print("[!] Servicio Gemini no disponible para reestructuración, aunque PUBMED_RESTRUCTURE_METHOD sea GEMINI.")
+        # Aquí podrías añadir 'elif PUBMED_RESTRUCTURE_METHOD == "OTRO_METODO":' en el futuro
+        else:
+            print(f"[!] Método de reestructuración '{PUBMED_RESTRUCTURE_METHOD}' no es 'GEMINI' o no está soportado. No se reestructurará con LLM.")
+            # nueva_consulta permanecerá como None, y la lógica siguiente manejará esto.
         if nueva_consulta:
-            print(f"[*] Ejecutando búsqueda directa con consulta reestructurada...")
-            kws_usados_en_busqueda = [nueva_consulta]  # Guardar la nueva consulta usada
-            consulta_usada_finalmente = "Directa (Reintento LLM)"
-            # Usar el servicio PubMed para la búsqueda directa
+            print(f"[*] Ejecutando búsqueda directa con consulta reestructurada por {PUBMED_RESTRUCTURE_METHOD}...")
+            kws_usados_en_busqueda = [nueva_consulta]
+            consulta_usada_finalmente = f"Directa (Reintento {PUBMED_RESTRUCTURE_METHOD})" # MODIFICADO: Indicar el método usado
             resultados_pubmed_reintento = pubmed_service.search_direct(
                 query_string=nueva_consulta,
                 max_results=MAX_RESULTS_PUBMED_SEARCH,
-                # sort_by="relevance" # Por defecto
-            )  # La pausa está dentro
-            pmids_para_procesar = resultados_pubmed_reintento.get(
-                "pmids", []
-            )  # Actualizar PMIDs a procesar
+            )
+            pmids_para_procesar = resultados_pubmed_reintento.get("pmids", [])
             if not pmids_para_procesar:
-                print("[!] Reintento LLM con búsqueda directa tampoco encontró PMIDs.")
-                num_reintentos_llm_fallidos_output += (
-                    1  # Contar fallo si no produjo resultados
-                )
+                print(f"[!] Reintento con {PUBMED_RESTRUCTURE_METHOD} y búsqueda directa tampoco encontró PMIDs.")
+                num_reintentos_llm_fallidos_output += 1
             else:
-                print(f"[*] Reintento LLM encontró {len(pmids_para_procesar)} PMIDs.")
+                print(f"[*] Reintento con {PUBMED_RESTRUCTURE_METHOD} encontró {len(pmids_para_procesar)} PMIDs.")
         else:
+            # Este 'else' se alcanza si nueva_consulta es None, ya sea porque el método no era GEMINI,
+            # o porque Gemini no pudo generar una consulta.
             print(
-                "[!] LLM no pudo generar consulta reestructurada o la consulta era inválida."
+                f"[!] No se pudo generar consulta reestructurada (método intentado: {PUBMED_RESTRUCTURE_METHOD}) o la consulta era inválida."
             )
-            num_reintentos_llm_fallidos_output += (
-                1  # Contar fallo si no generó consulta
-            )
+            num_reintentos_llm_fallidos_output += 1
 
     elif necesita_reintento_busqueda:
-        # Si necesitaba reintento pero no se usó LLM
         print("[!] Búsqueda inicial sin PMIDs y sin reintento LLM configurado/activo.")
-        # Contar como fallo de búsqueda si no hubo reintento exitoso
         num_busqueda_cero_pmids += 1
 
-    # Contar como fallo si la búsqueda inicial dio 0 y *no* hubo reintento LLM exitoso
     if not pmids_para_procesar and not (
-        necesita_reintento_busqueda and USAR_REINTENTO_LLM
+        necesita_reintento_busqueda and USAR_REINTENTO_LLM and PUBMED_RESTRUCTURE_METHOD == "GEMINI" # MODIFICADO: Condición más específica para el conteo
     ):
-        # Esto cubre: inicial 0 sin reintento, o inicial 0 con reintento fallido
-        if (
-            not necesita_reintento_busqueda
-        ):  # Si la inicial ya dio 0 y no se marcó reintento
+        if not necesita_reintento_busqueda :
             num_busqueda_cero_pmids += 1
-        # El caso de reintento fallido ya se contó arriba, evitar doble conteo
-    elif not pmids_para_procesar and necesita_reintento_busqueda and USAR_REINTENTO_LLM:
-        # Si llegamos aquí, el reintento se hizo pero falló en encontrar PMIDs
-        # num_reintentos_llm_fallidos_output ya lo contó.
-        # Podríamos añadirlo a num_busqueda_cero_pmids también si queremos totalizar búsquedas fallidas.
-        pass  # Ya contado como reintento fallido
+        # No contar doble si el reintento LLM (Gemini) falló, ya que num_reintentos_llm_fallidos_output lo cubre
+    elif not pmids_para_procesar and necesita_reintento_busqueda and USAR_REINTENTO_LLM and PUBMED_RESTRUCTURE_METHOD == "GEMINI":
+        pass # Ya contado por num_reintentos_llm_fallidos_output
 
     # --- PASO 4: Obtener Detalles (EFetch) y Re-ranking ---
     pmid_details = {}
@@ -542,51 +428,51 @@ for i, item_original in enumerate(todas_las_preguntas):
         print(
             f"[*] Obteniendo detalles para {len(pmids_para_procesar)} PMIDs vía EFetch..."
         )
-        # Usar el servicio PubMed para fetch
-        pmid_details = pubmed_service.fetch_details(
-            pmids_para_procesar
-        )  # Pausa y reintentos dentro
+        pmid_details = pubmed_service.fetch_details(pmids_para_procesar)
 
-        # Verificar si EFetch recuperó detalles para todos los PMIDs solicitados
         if len(pmid_details) < len(pmids_para_procesar):
             print(
                 f"[!] Advertencia: EFetch recuperó detalles para {len(pmid_details)} de {len(pmids_para_procesar)} PMIDs."
             )
-            num_efetch_fallidos_parcial += 1  # Contar como fallo parcial
+            num_efetch_fallidos_parcial += 1
 
-        if pmid_details:  # Solo re-rankear si obtuvimos algún detalle
+        if pmid_details:
             print(f"[*] Realizando re-ranking con {RERANKER_TYPE}...")
-
-            # estructuramos el ripo de query para el re-ranking
             if RERANKER_QUERY == "BODY":
                 query_rerank = item_body
             elif RERANKER_QUERY == "KEYWORDS":
                 query_rerank = " ".join(palabras_unicas_ordenadas)
             elif RERANKER_QUERY == "BODY + KEYWORDS":
                 query_rerank = item_body + " " + " ".join(palabras_unicas_ordenadas)
+            else: # Default a BODY si no coincide
+                print(f"[!] RERANKER_QUERY '{RERANKER_QUERY}' no reconocido. Usando 'BODY' por defecto para re-ranking.")
+                query_rerank = item_body
 
-            # Usar el servicio Reranker
+
             if RERANKER_TYPE == "TF-IDF":
                 pmids_finales_reranked, pmid_scores_map = reranker.rerank_TF_IDF(
-                    original_question= query_rerank, pmid_details_map=pmid_details
+                    original_question=query_rerank, pmid_details_map=pmid_details
                 )
             elif RERANKER_TYPE == "BM25":
                 pmids_finales_reranked, pmid_scores_map = reranker.rerank_bm25(
-                    original_question= query_rerank, pmid_details_map=pmid_details
+                    original_question=query_rerank, pmid_details_map=pmid_details
                 )
             elif RERANKER_TYPE == "PubMedBERT":
                 pmids_finales_reranked, pmid_scores_map = reranker.rerank_pubmedbert(
-                    original_question= query_rerank, pmid_details_map=pmid_details
+                    original_question=query_rerank, pmid_details_map=pmid_details
                 )
+            else:
+                print(f"[!] Tipo de Reranker '{RERANKER_TYPE}' no reconocido. No se realizará re-ranking.")
+                pmids_finales_reranked = list(pmid_details.keys()) # Usar los PMIDs obtenidos si el reranker no es válido
+                pmid_scores_map = {pmid: 0.0 for pmid in pmids_finales_reranked}
         else:
             print(
                 "[!] No se obtuvieron detalles de PubMed (EFetch falló completamente?), no se puede re-rankear."
             )
-            # Mantener los PMIDs originales si EFetch falló pero la búsqueda no
             pmids_finales_reranked = pmids_para_procesar
             pmid_scores_map = {
                 pmid: 0.0 for pmid in pmids_finales_reranked
-            }  # Scores a cero
+            }
 
     else:
         print(
@@ -595,20 +481,17 @@ for i, item_original in enumerate(todas_las_preguntas):
 
     # --- PASO 5: Construir el objeto de salida JSON ---
     output_item = item_original.copy()
-    # Tomar los TOP N reordenados (o los que haya si son menos de N)
     final_documents_list = pmids_finales_reranked[:SNIPPETS_TOP_N]
     output_item["documents"] = [
         f"http://www.ncbi.nlm.nih.gov/pubmed/{pmid}" for pmid in final_documents_list
-    ]  # Formato URL
+    ]
     output_item["snippets"] = []
 
     print(
         f"[*] Generando snippets para los Top {len(final_documents_list)} documentos..."
     )
     for rank, pmid in enumerate(final_documents_list, 1):
-        details = pmid_details.get(
-            str(pmid)
-        )  # Asegurar que pmid es string para buscar en dict
+        details = pmid_details.get(str(pmid))
         snippet_text = "[Details unavailable]"
         begin_sec, end_sec = "N/A", "N/A"
         offset_end = 0
@@ -616,14 +499,9 @@ for i, item_original in enumerate(todas_las_preguntas):
         if details:
             title = details.get("title", "")
             abstract = details.get("abstract", "")
-
-            # Priorizar título + abstract si ambos existen
             if title and title != "N/A" and abstract and abstract != "N/A":
                 full_text = f"{title}. {abstract}"
-                begin_sec, end_sec = (
-                    "abstract",
-                    "abstract",
-                )  # O considerar "title_abstract"
+                begin_sec, end_sec = "abstract", "abstract"
             elif title and title != "N/A":
                 full_text = title
                 begin_sec, end_sec = "title", "title"
@@ -631,32 +509,28 @@ for i, item_original in enumerate(todas_las_preguntas):
                 full_text = abstract
                 begin_sec, end_sec = "abstract", "abstract"
             else:
-                full_text = "[Title/Abstract N/A]"  # Texto si no hay nada útil
+                full_text = "[Title/Abstract N/A]"
 
-            # Truncar el texto para el snippet
             snippet_text = full_text[:MAX_SNIPPET_LEN]
             if len(full_text) > MAX_SNIPPET_LEN and MAX_SNIPPET_LEN > 3:
-                snippet_text = snippet_text[:-3] + "..."  # Añadir elipsis si se truncó
+                snippet_text = snippet_text[:-3] + "..."
 
-            offset_end = len(snippet_text)  # Longitud final del snippet
+            offset_end = len(snippet_text)
 
         snippet_entry = {
-            "document": f"http://www.ncbi.nlm.nih.gov/pubmed/{pmid}",  # Usar URL también aquí
+            "document": f"http://www.ncbi.nlm.nih.gov/pubmed/{pmid}",
             "text": snippet_text,
             "beginSection": begin_sec,
             "endSection": end_sec,
-            "offsetInBeginSection": 0,  # Asumimos inicio de sección
+            "offsetInBeginSection": 0,
             "offsetInEndSection": offset_end,
-            # Añadir info extra si se desea (opcional)
-            "rerank_score": pmid_scores_map.get(str(pmid), 0.0),  # Score del reranking
-            "rerank_position": rank,  # Posición tras reranking
+            "rerank_score": pmid_scores_map.get(str(pmid), 0.0),
+            "rerank_position": rank,
         }
         output_item["snippets"].append(snippet_entry)
 
-    # Añadir el item procesado a la lista final
     resultados_finales_json["questions"].append(output_item)
 
-    # --- Fin del Procesamiento del Item ---
     item_end_time = time.time()
     item_duration = item_end_time - item_start_time
     tiempos_totales.append(item_duration)
@@ -665,20 +539,25 @@ for i, item_original in enumerate(todas_las_preguntas):
     )
     print("\n" + "=" * 80)
 
-    # Pausa general entre items
     if PAUSA_ENTRE_ITEMS > 0:
         print(f"[*] Pausando {PAUSA_ENTRE_ITEMS}s antes del siguiente item...")
         time.sleep(PAUSA_ENTRE_ITEMS)
+    # os.system("cls" if os.name == "nt" else "clear")
 
-    # Limpiar output si estás en notebook para mejor visualización
-    #os.system("cls" if os.name == "nt" else "clear")  # Limpiar consola (opcional)
 
 # --- Guardar el JSON Final ---
-# Obtener la fecha y hora actual para agregar al nombre del archivo
 fecha_hora_actual = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-# Actualizar el nombre del archivo de salida con la fecha y hora
-output_filename = f"{OUTPUT_DATA_FOLDER}/{TYPE_EVALUATION}_results_{RERANKER_TYPE}_{fecha_hora_actual}.json"
-# Guardar el archivo JSON final
+# MODIFICADO: Nombre de archivo más descriptivo incluyendo METODO_EXTRACCION y PUBMED_RESTRUCTURE_METHOD
+output_filename_parts = [
+    TYPE_EVALUATION,
+    "results",
+    METODO_EXTRACCION, # Método de extracción de keywords
+    f"Restruct-{PUBMED_RESTRUCTURE_METHOD}" if USAR_REINTENTO_LLM else "Restruct-None", # Método de reestructuración
+    RERANKER_TYPE, # Tipo de Reranker
+    fecha_hora_actual
+]
+output_filename = f"{OUTPUT_DATA_FOLDER}/{'_'.join(output_filename_parts)}.json"
+
 try:
     output_dir = os.path.dirname(output_filename)
     if output_dir and not os.path.exists(output_dir):
@@ -705,15 +584,14 @@ print(
     f"Items con Cero Keywords Válidos Post-Filtrado: {num_filtrado_cero} ({num_filtrado_cero / num_items_procesados if num_items_procesados else 0:.1%})"
 )
 
-# Total búsquedas que terminaron sin PMIDs (inicial sin reintento O reintento fallido)
 total_busquedas_sin_pmids = num_busqueda_cero_pmids + num_reintentos_llm_fallidos_output
 print(
     f"Items Resultando en Cero PMIDs Tras Búsqueda(s): {total_busquedas_sin_pmids} ({total_busquedas_sin_pmids / num_items_procesados if num_items_procesados else 0:.1%})"
 )
 print("-" * 20)
-print(f"Reintentos de Búsqueda con LLM Iniciados: {num_reintentos_llm_iniciados}")
+print(f"Reintentos de Búsqueda con LLM ({PUBMED_RESTRUCTURE_METHOD if USAR_REINTENTO_LLM else 'Ninguno'}) Iniciados: {num_reintentos_llm_iniciados}") # MODIFICADO
 print(
-    f"Reintentos LLM Fallidos (No generó consulta o no encontró PMIDs): {num_reintentos_llm_fallidos_output}"
+    f"Reintentos LLM ({PUBMED_RESTRUCTURE_METHOD if USAR_REINTENTO_LLM else 'Ninguno'}) Fallidos (No generó consulta o no encontró PMIDs): {num_reintentos_llm_fallidos_output}" # MODIFICADO
 )
 print(
     f"Items con Fallos Parciales en EFetch (No todos los detalles recuperados): {num_efetch_fallidos_parcial}"
@@ -727,10 +605,8 @@ if tiempos_totales:
 else:
     print("No se procesaron items completos para calcular tiempo promedio.")
 
-# Imprimir muestra del primer resultado generado (si existe)
 if resultados_finales_json["questions"]:
     print("\n--- Muestra del primer resultado generado: ---")
-    # Usar json.dumps para pretty print en consola
     print(
         json.dumps(
             resultados_finales_json["questions"][0], indent=2, ensure_ascii=False
@@ -738,6 +614,7 @@ if resultados_finales_json["questions"]:
     )
 else:
     print("\nNo se generaron resultados para mostrar una muestra.")
+
 
 # --- Bucle de evaluacion de resultados ---
 if TYPE_EVALUATION == "TRAIN":
@@ -749,20 +626,15 @@ if TYPE_EVALUATION == "TRAIN":
     # Metricas generales obtenidas
     metrics = {
         "questions": [],
-        "keywords_stract": "LLM Gemini",
+        "keywords_stract": METODO_EXTRACCION, # MODIFICADO: Usar la variable de entorno
+        "query_restructure_method": PUBMED_RESTRUCTURE_METHOD if USAR_REINTENTO_LLM else "None", # NUEVO
         "Ranked": RERANKER_TYPE,
         "Query_ranked": RERANKER_QUERY,
         "metrics": {
-            "S@10": 0,
-            "P@10": 0,
-            "R@10": 0,
-            "F1@10": 0,
-            "MAP@10": 0,
-            "MRR": 0,
-            "NDCG@10": 0,
+            "S@10": 0, "P@10": 0, "R@10": 0, "F1@10": 0,
+            "MAP@10": 0, "MRR": 0, "NDCG@10": 0,
         },
     }
-
     # recorrer los resultsos e ir comparando con lo esperado de las preguntas
     for i, item in df_resultados.iterrows():
         # Obtener el ID de la pregunta
@@ -836,7 +708,17 @@ if TYPE_EVALUATION == "TRAIN":
 
     # Guardado de resultados
     FOLDER_METRICS = "data/result_data/metrics"
-    ruta_guardado = f"{FOLDER_METRICS}/{TYPE_EVALUATION}_metrics_{RERANKER_TYPE}_{fecha_hora_actual}.json"
+    metric_filename_parts = [
+        TYPE_EVALUATION,
+        "metrics",
+        METODO_EXTRACCION,
+        f"Restruct-{PUBMED_RESTRUCTURE_METHOD}" if USAR_REINTENTO_LLM else "Restruct-None",
+        RERANKER_TYPE,
+        fecha_hora_actual
+    ]
+    ruta_guardado = f"{FOLDER_METRICS}/{'_'.join(metric_filename_parts)}.json"
+
+    print(f"Gráfica de métricas guardada en {ruta_guardado}")
     with open(ruta_guardado, "w") as archivo:
         json.dump(metrics, archivo, indent=2)
 
@@ -845,20 +727,33 @@ if TYPE_EVALUATION == "TRAIN":
     print("--- Evaluación Completada ---")
 
 # mostrar graficos de metricas --------------------
-
-# Extraer métricas generales
 metricas_generales = metrics["metrics"]
-
-# Gráfica de barras para métricas generales
-plt.figure(figsize=(10, 6))
-plt.bar(metricas_generales.keys(), metricas_generales.values(), color="skyblue")
-plt.xlabel("Métrica")
-plt.ylabel("Valor")
-plt.title("Desempeño General del Modelo")
-plt.xticks(rotation=45)
-plt.ylim(0, 1)
-plt.grid(axis="y", linestyle="--", alpha=0.7)
-# gyardar la grafica
-plt.savefig(
-    f"{FOLDER_METRICS}/{TYPE_EVALUATION}_metrics_{RERANKER_TYPE}_{fecha_hora_actual}.png"
-)
+if metricas_generales: # Solo graficar si hay métricas
+    plt.figure(figsize=(12, 7)) # Ajustado tamaño
+    plt.bar(metricas_generales.keys(), metricas_generales.values(), color="skyblue")
+    plt.xlabel("Métrica")
+    plt.ylabel("Valor Promedio")
+    title_parts = [
+        f"Desempeño General ({TYPE_EVALUATION})",
+        f"Extr: {METODO_EXTRACCION}",
+        f"Restr: {PUBMED_RESTRUCTURE_METHOD if USAR_REINTENTO_LLM else 'None'}",
+        f"Rank: {RERANKER_TYPE} ({RERANKER_QUERY})"
+    ]
+    plt.title("\n".join(title_parts), fontsize=10) # Título más descriptivo
+    plt.xticks(rotation=45, ha="right") # Ajuste para mejor visualización
+    plt.ylim(0, 1)
+    plt.grid(axis="y", linestyle="--", alpha=0.7)
+    plt.tight_layout() # Ajustar layout
+    
+    # MODIFICADO: Nombre de archivo de gráfica más descriptivo
+    graph_filename_parts = [
+        TYPE_EVALUATION,
+        "metrics_graph",
+        METODO_EXTRACCION,
+        f"Restruct-{PUBMED_RESTRUCTURE_METHOD}" if USAR_REINTENTO_LLM else "Restruct-None",
+        RERANKER_TYPE,
+        fecha_hora_actual
+    ]
+    ruta_guardado_grafica = f"{FOLDER_METRICS}/{'_'.join(graph_filename_parts)}.png"
+    plt.savefig(ruta_guardado_grafica)
+    print(f"Gráfica de métricas guardada en {ruta_guardado_grafica}")
