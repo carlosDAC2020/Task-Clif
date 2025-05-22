@@ -8,3 +8,5 @@ __pycache__/
 # Ignorar resultados y métricas generadas
 
 # Ignorar otros archivos temporales
+.env.base
+.env.base
