@@ -17,19 +17,37 @@ from processing import metrics as mtrs
 # Importaciones de configuración y placeholders (ajusta según tu estructura real)
 import google.generativeai as genai
 from datetime import datetime
+import argparse
 
+# Argument parser
+parser = argparse.ArgumentParser(description='Run search engine with custom settings')
+parser.add_argument('--type-evaluation', type=str, default='TRAIN', 
+                    choices=['TRAIN', 'TEST'], help='Evaluation type')
+parser.add_argument('--reranker-type', type=str, default='BM25',
+                    choices=['TF-IDF', 'BM25', 'PubMedBERT'], help='Reranker type')
+parser.add_argument('--reranker-query', type=str, default='BODY',
+                    choices=['BODY', 'BODY + KEYWORDS', 'KEYWORDS'], help='Query type for reranking')
+parser.add_argument('--metodo-extraccion', type=str, default='WEIRD',
+                    choices=['LLM', 'WEIRD'], help='Keyword extraction method')
+args = parser.parse_args()
 
-load_dotenv()  # Carga las variables desde el archivo .env
+# Use the arguments instead of environment variables
+TYPE_EVALUATION = args.type_evaluation
+RERANKER_TYPE = args.reranker_type
+RERANKER_QUERY = args.reranker_query
+METODO_EXTRACCION = args.metodo_extraccion
 
-# Configuracion de parameyros generales de evaluacion ------------
-# Cambia a "TRAIN" o "TEST" según sea necesario en el .env
-TYPE_EVALUATION = os.getenv("TYPE_EVALUATION")
-# Tipo de re-ranking a usar (ej: TF-IDF,  BM25  o PubMedBERT)
-RERANKER_TYPE = os.getenv("RERANKER_TYPE")  
-# Campo deL tipo de query a usar para el re-ranking el cual puede ser BODY, BODY + KEYWORDS o KEYWORDS
-RERANKER_QUERY = os.getenv("RERANKER_QUERY")  
-# Método de extracción inicial de keywords (LLM o WEIRD)
-METODO_EXTRACCION = os.getenv("METODO_EXTRACCION") 
+# load_dotenv()  # Carga las variables desde el archivo .env
+
+# # Configuracion de parameyros generales de evaluacion ------------
+# # Cambia a "TRAIN" o "TEST" según sea necesario en el .env
+# TYPE_EVALUATION = os.getenv("TYPE_EVALUATION")
+# # Tipo de re-ranking a usar (ej: TF-IDF,  BM25  o PubMedBERT)
+# RERANKER_TYPE = os.getenv("RERANKER_TYPE")
+# # Campo deL tipo de query a usar para el re-ranking el cual puede ser BODY, BODY + KEYWORDS o KEYWORDS
+# RERANKER_QUERY = os.getenv("RERANKER_QUERY")
+# # Método de extracción inicial de keywords (LLM o WEIRD)
+# METODO_EXTRACCION = os.getenv("METODO_EXTRACCION")
 
 # --- Configuración API Keys ---
 print("--- Configurando API Keys ---")
@@ -271,7 +289,7 @@ print(f"Total de preguntas: {len(todas_las_preguntas)}")
 
 # --- Bucle Principal de evaluacion ---
 # === CONFIGURACIÓN ===
-limite = 10 # len(todas_las_preguntas) # Procesar todo por defecto
+limite = len(todas_las_preguntas)  # Procesar todo por defecto
 USAR_FALLBACK_LOCAL = True  # ¿Intentar clasificador local si LLM falla?
 USAR_REINTENTO_LLM = (
     True if gemini_service.llm_model else False
@@ -330,9 +348,7 @@ for i, item_original in enumerate(todas_las_preguntas):
     start_extr = time.time()
     if METODO_EXTRACCION == "LLM":
         # Usar el servicio Gemini
-        keywords_llm = gemini_service.extract_keywords(
-            item_body
-        )
+        keywords_llm = gemini_service.extract_keywords(item_body)
         print(keywords_llm)
         if keywords_llm:
             keywords_para_filtrar = keywords_llm
@@ -349,7 +365,9 @@ for i, item_original in enumerate(todas_las_preguntas):
     if METODO_EXTRACCION == "WEIRD":
         extractor = WordListExtractor()
         sentence = item_body
-        keywords_llm = extractor.extract_word_list_from_sentence(sentence, weirdness_threshold=10)
+        keywords_llm = extractor.extract_word_list_from_sentence(
+            sentence, weirdness_threshold=10
+        )
         print(keywords_llm)
         if keywords_llm:
             keywords_para_filtrar = keywords_llm
@@ -568,15 +586,15 @@ for i, item_original in enumerate(todas_las_preguntas):
             # Usar el servicio Reranker
             if RERANKER_TYPE == "TF-IDF":
                 pmids_finales_reranked, pmid_scores_map = reranker.rerank_TF_IDF(
-                    original_question= query_rerank, pmid_details_map=pmid_details
+                    original_question=query_rerank, pmid_details_map=pmid_details
                 )
             elif RERANKER_TYPE == "BM25":
                 pmids_finales_reranked, pmid_scores_map = reranker.rerank_bm25(
-                    original_question= query_rerank, pmid_details_map=pmid_details
+                    original_question=query_rerank, pmid_details_map=pmid_details
                 )
             elif RERANKER_TYPE == "PubMedBERT":
                 pmids_finales_reranked, pmid_scores_map = reranker.rerank_pubmedbert(
-                    original_question= query_rerank, pmid_details_map=pmid_details
+                    original_question=query_rerank, pmid_details_map=pmid_details
                 )
         else:
             print(
@@ -671,7 +689,7 @@ for i, item_original in enumerate(todas_las_preguntas):
         time.sleep(PAUSA_ENTRE_ITEMS)
 
     # Limpiar output si estás en notebook para mejor visualización
-    #os.system("cls" if os.name == "nt" else "clear")  # Limpiar consola (opcional)
+    # os.system("cls" if os.name == "nt" else "clear")  # Limpiar consola (opcional)
 
 # --- Guardar el JSON Final ---
 # Obtener la fecha y hora actual para agregar al nombre del archivo
@@ -826,7 +844,7 @@ if TYPE_EVALUATION == "TRAIN":
             metrics["metrics"]["MRR"] += mrr
             metrics["metrics"]["NDCG@10"] += ndcg_10
 
-            #os.system("cls" if os.name == "nt" else "clear")
+            # os.system("cls" if os.name == "nt" else "clear")
 
     # Cálculo de métricas generales evitando la división por cero
     total_queries = len(metrics["questions"])
