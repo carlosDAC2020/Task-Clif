@@ -17,7 +17,7 @@
           "endSection": "title",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 176,
-          "rerank_score": 0.4333670139312744,
+          "rerank_score": 0.4333670735359192,
           "rerank_position": 1
         },
         {
@@ -169,13 +169,13 @@
         "http://www.ncbi.nlm.nih.gov/pubmed/31784955",
         "http://www.ncbi.nlm.nih.gov/pubmed/22507593",
         "http://www.ncbi.nlm.nih.gov/pubmed/35039676",
-        "http://www.ncbi.nlm.nih.gov/pubmed/40076986",
         "http://www.ncbi.nlm.nih.gov/pubmed/39072563",
         "http://www.ncbi.nlm.nih.gov/pubmed/26432926",
         "http://www.ncbi.nlm.nih.gov/pubmed/10442178",
         "http://www.ncbi.nlm.nih.gov/pubmed/25539873",
         "http://www.ncbi.nlm.nih.gov/pubmed/1807963",
-        "http://www.ncbi.nlm.nih.gov/pubmed/27456240"
+        "http://www.ncbi.nlm.nih.gov/pubmed/27456240",
+        "http://www.ncbi.nlm.nih.gov/pubmed/10483048"
       ],
       "snippets": [
         {
@@ -209,16 +209,6 @@
           "rerank_position": 3
         },
         {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/40076986",
-          "text": "The Potential of Selected Plants and Their Biologically Active Molecules in the Treatment of Depression and Anxiety Disorders.. The incidence of anxiety and depression disorders is increasing worldwide. There is an increasing incidence of hard-to-...",
-          "beginSection": "abstract",
-          "endSection": "abstract",
-          "offsetInBeginSection": 0,
-          "offsetInEndSection": 250,
-          "rerank_score": 0.48160094022750854,
-          "rerank_position": 4
-        },
-        {
           "document": "http://www.ncbi.nlm.nih.gov/pubmed/39072563",
           "text": "[Pharmacogenomic and pharmacometabolomic biomarkers of the efficacy and safety of antidepressants: focus on selective serotonin reuptake inhibitors].. The efficacy and safety of psychopharmacotherapy with antidepressants is of great medical import...",
           "beginSection": "abstract",
@@ -226,7 +216,7 @@
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
           "rerank_score": 0.47802305221557617,
-          "rerank_position": 5
+          "rerank_position": 4
         },
         {
           "document": "http://www.ncbi.nlm.nih.gov/pubmed/26432926",
@@ -236,7 +226,7 @@
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
           "rerank_score": 0.4760421812534332,
-          "rerank_position": 6
+          "rerank_position": 5
         },
         {
           "document": "http://www.ncbi.nlm.nih.gov/pubmed/10442178",
@@ -246,7 +236,7 @@
           "offsetInBeginSection": 0,
           "offsetInEndSection": 75,
           "rerank_score": 0.46938908100128174,
-          "rerank_position": 7
+          "rerank_position": 6
         },
         {
           "document": "http://www.ncbi.nlm.nih.gov/pubmed/25539873",
@@ -256,7 +246,7 @@
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
           "rerank_score": 0.4665682315826416,
-          "rerank_position": 8
+          "rerank_position": 7
         },
         {
           "document": "http://www.ncbi.nlm.nih.gov/pubmed/1807963",
@@ -266,7 +256,7 @@
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
           "rerank_score": 0.4606180191040039,
-          "rerank_position": 9
+          "rerank_position": 8
         },
         {
           "document": "http://www.ncbi.nlm.nih.gov/pubmed/27456240",
@@ -276,6 +266,16 @@
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
           "rerank_score": 0.45891907811164856,
+          "rerank_position": 9
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/10483048",
+          "text": "Cytokines and depression: fortuitous or causative association?. There is an increasingly impressive database concerning the possible involvement of cytokines in depression and their role in the therapeutic effects of antidepressants. Based on the ...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.44473278522491455,
           "rerank_position": 10
         }
       ]
@@ -503,7 +503,7 @@
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": 0.1719009280204773,
+          "rerank_score": 0.1719008982181549,
           "rerank_position": 9
         },
         {
@@ -1377,7 +1377,7 @@
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": 0.5283694267272949,
+          "rerank_score": 0.5283693671226501,
           "rerank_position": 10
         }
       ]
@@ -1823,7 +1823,7 @@
           "endSection": "title",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 91,
-          "rerank_score": 0.6795129776000977,
+          "rerank_score": 0.6795128583908081,
           "rerank_position": 7
         },
         {
@@ -2610,7 +2610,7 @@
           "endSection": "title",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 80,
-          "rerank_score": 0.5571736097335815,
+          "rerank_score": 0.557173490524292,
           "rerank_position": 1
         },
         {
@@ -2630,7 +2630,7 @@
           "endSection": "title",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 80,
-          "rerank_score": 0.49693867564201355,
+          "rerank_score": 0.49693894386291504,
           "rerank_position": 3
         },
         {
@@ -2716,8 +2716,8 @@
         "http://www.ncbi.nlm.nih.gov/pubmed/15334022",
         "http://www.ncbi.nlm.nih.gov/pubmed/35483872",
         "http://www.ncbi.nlm.nih.gov/pubmed/17316342",
-        "http://www.ncbi.nlm.nih.gov/pubmed/17845676",
         "http://www.ncbi.nlm.nih.gov/pubmed/24955046",
+        "http://www.ncbi.nlm.nih.gov/pubmed/17845676",
         "http://www.ncbi.nlm.nih.gov/pubmed/25708969",
         "http://www.ncbi.nlm.nih.gov/pubmed/29242100"
       ],
@@ -2783,7 +2783,7 @@
           "rerank_position": 6
         },
         {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/17845676",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/24955046",
           "text": "Takotsubo cardiomyopathy.",
           "beginSection": "title",
           "endSection": "title",
@@ -2793,7 +2793,7 @@
           "rerank_position": 7
         },
         {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/24955046",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/17845676",
           "text": "Takotsubo cardiomyopathy.",
           "beginSection": "title",
           "endSection": "title",
@@ -3195,7 +3195,7 @@
         "http://www.ncbi.nlm.nih.gov/pubmed/31470787",
         "http://www.ncbi.nlm.nih.gov/pubmed/9566616",
         "http://www.ncbi.nlm.nih.gov/pubmed/8203078",
-        "http://www.ncbi.nlm.nih.gov/pubmed/19204050"
+        "http://www.ncbi.nlm.nih.gov/pubmed/7787760"
       ],
       "snippets": [
         {
@@ -3289,13 +3289,13 @@
           "rerank_position": 9
         },
         {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/19204050",
-          "text": "Astrocytes going live: advances and challenges.. Astrocytes are one of the most numerous cell types in the CNS. They have emerged as sophisticated cells participating in a large and diverse variety of functions vital for normal brain development, ...",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/7787760",
+          "text": "Receptors on astrocytes--what possible functions?. Receptors for transmitters, as varied as those expressed by neurons, have been described on primary astrocyte cultures prepared from new-born rats and mice. A variety of functional effects and con...",
           "beginSection": "abstract",
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": 0.6914671659469604,
+          "rerank_score": 0.6839208602905273,
           "rerank_position": 10
         }
       ]
@@ -3314,7 +3314,7 @@
         "http://www.ncbi.nlm.nih.gov/pubmed/34870544",
         "http://www.ncbi.nlm.nih.gov/pubmed/39412638",
         "http://www.ncbi.nlm.nih.gov/pubmed/21030283",
-        "http://www.ncbi.nlm.nih.gov/pubmed/28334492"
+        "http://www.ncbi.nlm.nih.gov/pubmed/25586903"
       ],
       "snippets": [
         {
@@ -3408,13 +3408,13 @@
           "rerank_position": 9
         },
         {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/28334492",
-          "text": "Opportunistic salpingectomy for prevention of ovarian cancer.",
-          "beginSection": "title",
-          "endSection": "title",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/25586903",
+          "text": "Salpingectomy as a means to reduce ovarian cancer risk.. Bilateral salpingo-oophorectomy (BSO) has become the standard-of-care for risk reduction in women at hereditary risk of ovarian cancer. Although this procedure significantly decreases both t...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
           "offsetInBeginSection": 0,
-          "offsetInEndSection": 61,
-          "rerank_score": 0.5624685883522034,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.5581477284431458,
           "rerank_position": 10
         }
       ]
@@ -3711,7 +3711,7 @@
           "endSection": "title",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 143,
-          "rerank_score": 0.7349430918693542,
+          "rerank_score": 0.7349430322647095,
           "rerank_position": 4
         },
         {
@@ -3721,7 +3721,7 @@
           "endSection": "title",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 109,
-          "rerank_score": 0.7317894101142883,
+          "rerank_score": 0.7317893505096436,
           "rerank_position": 5
         },
         {
@@ -3741,7 +3741,7 @@
           "endSection": "title",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 118,
-          "rerank_score": 0.7300589084625244,
+          "rerank_score": 0.7300587892532349,
           "rerank_position": 7
         },
         {
@@ -3761,7 +3761,7 @@
           "endSection": "title",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 116,
-          "rerank_score": 0.7277504205703735,
+          "rerank_score": 0.7277503609657288,
           "rerank_position": 9
         },
         {
@@ -3870,7 +3870,7 @@
           "endSection": "title",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 92,
-          "rerank_score": 0.6556493639945984,
+          "rerank_score": 0.6556494235992432,
           "rerank_position": 8
         },
         {
@@ -4378,9 +4378,9 @@
       "documents": [
         "http://www.ncbi.nlm.nih.gov/pubmed/13262608",
         "http://www.ncbi.nlm.nih.gov/pubmed/15001126",
-        "http://www.ncbi.nlm.nih.gov/pubmed/13690130",
         "http://www.ncbi.nlm.nih.gov/pubmed/18107027",
         "http://www.ncbi.nlm.nih.gov/pubmed/13334985",
+        "http://www.ncbi.nlm.nih.gov/pubmed/13690130",
         "http://www.ncbi.nlm.nih.gov/pubmed/13916964",
         "http://www.ncbi.nlm.nih.gov/pubmed/3052366",
         "http://www.ncbi.nlm.nih.gov/pubmed/13370883",
@@ -4409,7 +4409,7 @@
           "rerank_position": 2
         },
         {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/13690130",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/18107027",
           "text": "Congenital biliary atresia.",
           "beginSection": "title",
           "endSection": "title",
@@ -4419,7 +4419,7 @@
           "rerank_position": 3
         },
         {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/18107027",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/13334985",
           "text": "Congenital biliary atresia.",
           "beginSection": "title",
           "endSection": "title",
@@ -4429,7 +4429,7 @@
           "rerank_position": 4
         },
         {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/13334985",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/13690130",
           "text": "Congenital biliary atresia.",
           "beginSection": "title",
           "endSection": "title",
@@ -4742,7 +4742,7 @@
         "http://www.ncbi.nlm.nih.gov/pubmed/20997099",
         "http://www.ncbi.nlm.nih.gov/pubmed/18898739",
         "http://www.ncbi.nlm.nih.gov/pubmed/20263482",
-        "http://www.ncbi.nlm.nih.gov/pubmed/14393160"
+        "http://www.ncbi.nlm.nih.gov/pubmed/21010190"
       ],
       "snippets": [
         {
@@ -4836,7 +4836,7 @@
           "rerank_position": 9
         },
         {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/14393160",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/21010190",
           "text": "Nephrolithiasis.",
           "beginSection": "title",
           "endSection": "title",
@@ -4961,7 +4961,7 @@
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": 0.5405007004737854,
+          "rerank_score": 0.5405006408691406,
           "rerank_position": 10
         }
       ]
@@ -5040,7 +5040,7 @@
           "endSection": "title",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 55,
-          "rerank_score": 0.3699142634868622,
+          "rerank_score": 0.36991435289382935,
           "rerank_position": 6
         },
         {
@@ -5199,7 +5199,7 @@
           "endSection": "title",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 71,
-          "rerank_score": 0.5875195264816284,
+          "rerank_score": 0.5875194668769836,
           "rerank_position": 10
         }
       ]
@@ -5334,10 +5334,10 @@
         "http://www.ncbi.nlm.nih.gov/pubmed/32259484",
         "http://www.ncbi.nlm.nih.gov/pubmed/17920538",
         "http://www.ncbi.nlm.nih.gov/pubmed/18396103",
+        "http://www.ncbi.nlm.nih.gov/pubmed/40311613",
         "http://www.ncbi.nlm.nih.gov/pubmed/27377535",
         "http://www.ncbi.nlm.nih.gov/pubmed/31792468",
-        "http://www.ncbi.nlm.nih.gov/pubmed/35444273",
-        "http://www.ncbi.nlm.nih.gov/pubmed/21125659"
+        "http://www.ncbi.nlm.nih.gov/pubmed/35444273"
       ],
       "snippets": [
         {
@@ -5401,6 +5401,16 @@
           "rerank_position": 6
         },
         {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/40311613",
+          "text": "Monocytes can efficiently replace all brain macrophages and fetal liver monocytes can generate bona fide SALL1+ microglia.. Microglia and border-associated macrophages (BAMs) are critical for brain health, and their dysfunction is associated to di...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.6572286486625671,
+          "rerank_position": 7
+        },
+        {
           "document": "http://www.ncbi.nlm.nih.gov/pubmed/27377535",
           "text": "Distinct origins, gene expression and function of microglia and monocyte-derived macrophages in CNS myelin injury and regeneration.. Central nervous system (CNS) injury incurs a rapid innate immune response, including that from macrophages derived...",
           "beginSection": "abstract",
@@ -5408,7 +5418,7 @@
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
           "rerank_score": 0.656491756439209,
-          "rerank_position": 7
+          "rerank_position": 8
         },
         {
           "document": "http://www.ncbi.nlm.nih.gov/pubmed/31792468",
@@ -5418,7 +5428,7 @@
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
           "rerank_score": 0.6403565406799316,
-          "rerank_position": 8
+          "rerank_position": 9
         },
         {
           "document": "http://www.ncbi.nlm.nih.gov/pubmed/35444273",
@@ -5428,16 +5438,6 @@
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
           "rerank_score": 0.6384681463241577,
-          "rerank_position": 9
-        },
-        {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/21125659",
-          "text": "Microglia in the CNS: immigrants from another world.. Microglia are immunocompetent cells of the brain that continuously survey their environment with highly motile extensions. Although first described almost a century ago, the developmental origi...",
-          "beginSection": "abstract",
-          "endSection": "abstract",
-          "offsetInBeginSection": 0,
-          "offsetInEndSection": 250,
-          "rerank_score": 0.6351855993270874,
           "rerank_position": 10
         }
       ]
@@ -5573,9 +5573,9 @@
         "http://www.ncbi.nlm.nih.gov/pubmed/18152347",
         "http://www.ncbi.nlm.nih.gov/pubmed/27911017",
         "http://www.ncbi.nlm.nih.gov/pubmed/3128592",
-        "http://www.ncbi.nlm.nih.gov/pubmed/659812",
+        "http://www.ncbi.nlm.nih.gov/pubmed/3234559",
         "http://www.ncbi.nlm.nih.gov/pubmed/5959554",
-        "http://www.ncbi.nlm.nih.gov/pubmed/5612723"
+        "http://www.ncbi.nlm.nih.gov/pubmed/6679707"
       ],
       "snippets": [
         {
@@ -5649,7 +5649,7 @@
           "rerank_position": 7
         },
         {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/659812",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/3234559",
           "text": "[Congenital glaucoma].",
           "beginSection": "title",
           "endSection": "title",
@@ -5669,7 +5669,7 @@
           "rerank_position": 9
         },
         {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/5612723",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/6679707",
           "text": "[Congenital glaucoma].",
           "beginSection": "title",
           "endSection": "title",
@@ -6288,8 +6288,8 @@
         "http://www.ncbi.nlm.nih.gov/pubmed/34030748",
         "http://www.ncbi.nlm.nih.gov/pubmed/21649447",
         "http://www.ncbi.nlm.nih.gov/pubmed/36892557",
-        "http://www.ncbi.nlm.nih.gov/pubmed/34082673",
-        "http://www.ncbi.nlm.nih.gov/pubmed/2265540"
+        "http://www.ncbi.nlm.nih.gov/pubmed/40348426",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34082673"
       ],
       "snippets": [
         {
@@ -6373,6 +6373,16 @@
           "rerank_position": 8
         },
         {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/40348426",
+          "text": "Genomics of Suicidal Behaviors: What Can We Learn from Polygenic Scores?. Substantial evidence supports the role of genetic factors in suicide behaviors (SBs). The most recent and powered genome-wide association studies identified significant loci...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.5802639722824097,
+          "rerank_position": 9
+        },
+        {
           "document": "http://www.ncbi.nlm.nih.gov/pubmed/34082673",
           "text": "Suicide and Genetic Biomarkers: Toward Personalized Tailored-treatment with Lithium and Clozapine.. BACKGROUND: Suicide is a major public health problem on a global scale, with about 800.000 deaths every year. In particular, it represents one of t...",
           "beginSection": "abstract",
@@ -6380,16 +6390,6 @@
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
           "rerank_score": 0.5799835920333862,
-          "rerank_position": 9
-        },
-        {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/2265540",
-          "text": "A contribution to the discussion of the role of the genetic factor in suicide, based on five studies in an epidemiologically defined area (Province of Salzburg, Austria).. The question of what role genetic factors have in the transmission of suici...",
-          "beginSection": "abstract",
-          "endSection": "abstract",
-          "offsetInBeginSection": 0,
-          "offsetInEndSection": 250,
-          "rerank_score": 0.578994870185852,
           "rerank_position": 10
         }
       ]
@@ -6458,7 +6458,7 @@
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": 0.595997154712677,
+          "rerank_score": 0.5959972143173218,
           "rerank_position": 5
         },
         {
@@ -6891,7 +6891,7 @@
           "endSection": "title",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 27,
-          "rerank_score": 0.10298874974250793,
+          "rerank_score": 0.10298875719308853,
           "rerank_position": 1
         },
         {
@@ -6901,7 +6901,7 @@
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": 0.08010910451412201,
+          "rerank_score": 0.0801091194152832,
           "rerank_position": 2
         },
         {
@@ -6941,7 +6941,7 @@
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": -0.07809872180223465,
+          "rerank_score": -0.07809871435165405,
           "rerank_position": 6
         },
         {
@@ -7000,7 +7000,7 @@
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": 0.6675337553024292,
+          "rerank_score": 0.6675339937210083,
           "rerank_position": 3
         },
         {
@@ -7323,8 +7323,8 @@
         "http://www.ncbi.nlm.nih.gov/pubmed/10604006",
         "http://www.ncbi.nlm.nih.gov/pubmed/8519619",
         "http://www.ncbi.nlm.nih.gov/pubmed/3532005",
-        "http://www.ncbi.nlm.nih.gov/pubmed/263911",
         "http://www.ncbi.nlm.nih.gov/pubmed/8076269",
+        "http://www.ncbi.nlm.nih.gov/pubmed/263911",
         "http://www.ncbi.nlm.nih.gov/pubmed/7877909",
         "http://www.ncbi.nlm.nih.gov/pubmed/20884657",
         "http://www.ncbi.nlm.nih.gov/pubmed/7955633"
@@ -7367,7 +7367,7 @@
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": 0.6581822633743286,
+          "rerank_score": 0.6581823229789734,
           "rerank_position": 4
         },
         {
@@ -7381,7 +7381,7 @@
           "rerank_position": 5
         },
         {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/263911",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/8076269",
           "text": "Scleroderma in childhood.",
           "beginSection": "title",
           "endSection": "title",
@@ -7391,7 +7391,7 @@
           "rerank_position": 6
         },
         {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/8076269",
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/263911",
           "text": "Scleroderma in childhood.",
           "beginSection": "title",
           "endSection": "title",
@@ -7665,7 +7665,7 @@
           "endSection": "title",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 69,
-          "rerank_score": 0.1022607609629631,
+          "rerank_score": 0.10226073861122131,
           "rerank_position": 10
         }
       ]
@@ -7921,8 +7921,8 @@
         "http://www.ncbi.nlm.nih.gov/pubmed/39146748",
         "http://www.ncbi.nlm.nih.gov/pubmed/37276871",
         "http://www.ncbi.nlm.nih.gov/pubmed/37952913",
-        "http://www.ncbi.nlm.nih.gov/pubmed/36000541",
-        "http://www.ncbi.nlm.nih.gov/pubmed/40319675"
+        "http://www.ncbi.nlm.nih.gov/pubmed/40341383",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36000541"
       ],
       "snippets": [
         {
@@ -7932,7 +7932,7 @@
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": 0.43941155076026917,
+          "rerank_score": 0.4394115209579468,
           "rerank_position": 1
         },
         {
@@ -7942,7 +7942,7 @@
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": 0.4179621934890747,
+          "rerank_score": 0.4179622530937195,
           "rerank_position": 2
         },
         {
@@ -7952,7 +7952,7 @@
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": 0.36008867621421814,
+          "rerank_score": 0.3600887358188629,
           "rerank_position": 3
         },
         {
@@ -7972,7 +7972,7 @@
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": 0.3176577389240265,
+          "rerank_score": 0.3176577091217041,
           "rerank_position": 5
         },
         {
@@ -7982,7 +7982,7 @@
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": 0.27563339471817017,
+          "rerank_score": 0.2756335139274597,
           "rerank_position": 6
         },
         {
@@ -8002,8 +8002,18 @@
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": 0.25422203540802,
+          "rerank_score": 0.2542220950126648,
           "rerank_position": 8
+        },
+        {
+          "document": "http://www.ncbi.nlm.nih.gov/pubmed/40341383",
+          "text": "Zanidatamab monotherapy or combined with chemotherapy in HER2-expressing gastroesophageal adenocarcinoma: a phase 1 trial.. There is a need for novel therapies for patients with previously treated HER2-positive gastroesophageal adenocarcinoma (GEA...",
+          "beginSection": "abstract",
+          "endSection": "abstract",
+          "offsetInBeginSection": 0,
+          "offsetInEndSection": 250,
+          "rerank_score": 0.23998112976551056,
+          "rerank_position": 9
         },
         {
           "document": "http://www.ncbi.nlm.nih.gov/pubmed/36000541",
@@ -8012,17 +8022,7 @@
           "endSection": "abstract",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 250,
-          "rerank_score": 0.234678715467453,
-          "rerank_position": 9
-        },
-        {
-          "document": "http://www.ncbi.nlm.nih.gov/pubmed/40319675",
-          "text": "Real-world efficacy of zanidatamab in patients with HER2 positive advanced biliary tract cancers.. INTRODUCTION: In the HERIZON BTC 01 trial for patients with HER2-positive biliary tract cancer (BTC) previously treated with systemic therapy, zanid...",
-          "beginSection": "abstract",
-          "endSection": "abstract",
-          "offsetInBeginSection": 0,
-          "offsetInEndSection": 250,
-          "rerank_score": 0.22701509296894073,
+          "rerank_score": 0.23467865586280823,
           "rerank_position": 10
         }
       ]
@@ -8498,7 +8498,7 @@
           "endSection": "title",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 11,
-          "rerank_score": 0.6725838780403137,
+          "rerank_score": 0.672583818435669,
           "rerank_position": 10
         }
       ]
@@ -9539,7 +9539,7 @@
           "endSection": "title",
           "offsetInBeginSection": 0,
           "offsetInEndSection": 73,
-          "rerank_score": 0.7051899433135986,
+          "rerank_score": 0.7051902413368225,
           "rerank_position": 7
         },
         {

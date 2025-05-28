@@ -1,0 +1,27 @@
+# Commands for TRAIN evaluation with different combinations
+# Format: python main.py --type-evaluation TRAIN --reranker-type [TYPE] --reranker-query [QUERY] --metodo-extraccion [METHOD]
+
+# TF-IDF Combinations
+python main.py --type-evaluation TEST --reranker-type TF-IDF --reranker-query "BODY" --metodo-extraccion LLM
+python main.py --type-evaluation TEST --reranker-type TF-IDF --reranker-query "BODY + KEYWORDS" --metodo-extraccion LLM
+python main.py --type-evaluation TEST --reranker-type TF-IDF --reranker-query "KEYWORDS" --metodo-extraccion LLM
+python main.py --type-evaluation TEST --reranker-type TF-IDF --reranker-query "BODY" --metodo-extraccion WEIRD
+python main.py --type-evaluation TEST --reranker-type TF-IDF --reranker-query "BODY + KEYWORDS" --metodo-extraccion WEIRD
+python main.py --type-evaluation TEST --reranker-type TF-IDF --reranker-query "KEYWORDS" --metodo-extraccion WEIRD
+
+# BM25 Combinations
+python main.py --type-evaluation TEST --reranker-type BM25 --reranker-query "BODY" --metodo-extraccion LLM
+python main.py --type-evaluation TEST --reranker-type BM25 --reranker-query "BODY + KEYWORDS" --metodo-extraccion LLM
+python main.py --type-evaluation TEST --reranker-type BM25 --reranker-query "KEYWORDS" --metodo-extraccion LLM
+python main.py --type-evaluation TEST --reranker-type BM25 --reranker-query "BODY" --metodo-extraccion WEIRD
+python main.py --type-evaluation TEST --reranker-type BM25 --reranker-query "BODY + KEYWORDS" --metodo-extraccion WEIRD
+python main.py --type-evaluation TEST --reranker-type BM25 --reranker-query "KEYWORDS" --metodo-extraccion WEIRD
+
+# PubMedBERT Combinations
+python main.py --type-evaluation TEST --reranker-type PubMedBERT --reranker-query "BODY" --metodo-extraccion LLM
+python main.py --type-evaluation TEST --reranker-type PubMedBERT --reranker-query "BODY" --metodo-extraccion WEIRD
+python main.py --type-evaluation TEST --reranker-type PubMedBERT --reranker-query "KEYWORDS" --metodo-extraccion WEIRD 
+python main.py --type-evaluation TEST --reranker-type PubMedBERT --reranker-query "KEYWORDS" --metodo-extraccion LLM
+
+python main.py --type-evaluation TEST --reranker-type PubMedBERT --reranker-query "BODY + KEYWORDS" --metodo-extraccion WEIRD
+python main.py --type-evaluation TEST --reranker-type PubMedBERT --reranker-query "BODY + KEYWORDS" --metodo-extraccion LLM

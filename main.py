@@ -695,7 +695,7 @@ for i, item_original in enumerate(todas_las_preguntas):
 # Obtener la fecha y hora actual para agregar al nombre del archivo
 fecha_hora_actual = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 # Actualizar el nombre del archivo de salida con la fecha y hora
-output_filename = f"{OUTPUT_DATA_FOLDER}/{TYPE_EVALUATION}_results_{RERANKER_TYPE}_{fecha_hora_actual}.json"
+output_filename = f"{OUTPUT_DATA_FOLDER}/{TYPE_EVALUATION}_results_{RERANKER_TYPE}_{METODO_EXTRACCION}_{RERANKER_QUERY}{fecha_hora_actual}.json"
 # Guardar el archivo JSON final
 try:
     output_dir = os.path.dirname(output_filename)
@@ -854,7 +854,7 @@ if TYPE_EVALUATION == "TRAIN":
 
     # Guardado de resultados
     FOLDER_METRICS = "data/result_data/metrics"
-    ruta_guardado = f"{FOLDER_METRICS}/{TYPE_EVALUATION}_metrics_{RERANKER_TYPE}_{fecha_hora_actual}.json"
+    ruta_guardado = f"{FOLDER_METRICS}/{TYPE_EVALUATION}_metrics_{RERANKER_TYPE}_{RERANKER_QUERY}_{METODO_EXTRACCION}.json"
     with open(ruta_guardado, "w") as archivo:
         json.dump(metrics, archivo, indent=2)
 
@@ -864,19 +864,19 @@ if TYPE_EVALUATION == "TRAIN":
 
 # mostrar graficos de metricas --------------------
 
-# Extraer métricas generales
-metricas_generales = metrics["metrics"]
+    # Extraer métricas generales
+    metricas_generales = metrics["metrics"]
 
-# Gráfica de barras para métricas generales
-plt.figure(figsize=(10, 6))
-plt.bar(metricas_generales.keys(), metricas_generales.values(), color="skyblue")
-plt.xlabel("Métrica")
-plt.ylabel("Valor")
-plt.title("Desempeño General del Modelo")
-plt.xticks(rotation=45)
-plt.ylim(0, 1)
-plt.grid(axis="y", linestyle="--", alpha=0.7)
-# gyardar la grafica
-plt.savefig(
-    f"{FOLDER_METRICS}/{TYPE_EVALUATION}_metrics_{RERANKER_TYPE}_{fecha_hora_actual}.png"
-)
+    # Gráfica de barras para métricas generales
+    plt.figure(figsize=(10, 6))
+    plt.bar(metricas_generales.keys(), metricas_generales.values(), color="skyblue")
+    plt.xlabel("Métrica")
+    plt.ylabel("Valor")
+    plt.title("Desempeño General del Modelo")
+    plt.xticks(rotation=45)
+    plt.ylim(0, 1)
+    plt.grid(axis="y", linestyle="--", alpha=0.7)
+    # gyardar la grafica
+    plt.savefig(
+        f"{FOLDER_METRICS}/{TYPE_EVALUATION}_metrics_{RERANKER_TYPE}_{fecha_hora_actual}.png"
+    )
